@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2267287433
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5d2d1fdedb797c21b9ca40c9a270e0a1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a31e1505e189a9885bcbe2bbbab40e9b
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stories/teststory/languages/english/2 anotherone/2 Blue cube gone/Lit_S38-02_es
+  1.txt
+- Assets/Stories/teststory/languages/english/1 firstpage/2/RedCube.wav
+- Assets/Stories/teststory/languages/english/2 anotherone/The end/End.wav
+- Assets/Stories/teststory/languages/english/1 firstpage/3/Lit_S38-02_es 1.txt
+- Assets/Stories/teststory/languages/english/2 anotherone/5 Red cube small/RedCubeSmall.wav
+- Assets/Stories/teststory/languages/english/1 firstpage/1/SomeText.txt
+- Assets/Stories/teststory/languages/english/2 anotherone/The end/Lit_S38-02_es 1.txt
+- Assets/Stories/teststory/languages/english/2 anotherone/5 Red cube small/Lit_S38-02_es
+  1.txt
+- Assets/Stories/teststory/languages/english/1 firstpage/3/BlueCube.wav
+- Assets/Stories/teststory/languages/english/2 anotherone/2 Blue cube gone/BlueCubeGone.wav
+- Assets/Stories/teststory/languages/english/2 anotherone/1 They like dance/Lit_S38-02_es.txt
+- Assets/Stories/teststory/languages/english/2 anotherone/1 They like dance/Dancing.wav
+- Assets/Stories/teststory/languages/english/1 firstpage/1/TwoCubes.wav
+- Assets/Stories/teststory/languages/english/1 firstpage/2/Lit_S38-02_es 1.txt
+Dependencies: []

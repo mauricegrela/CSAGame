@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2997900552
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: littlepeople
+      Dependencies: {}
+    Info_1:
+      Name: sasquatch/french_0
+      Dependencies: {}
+    Info_2:
+      Name: sasquatch/english_0
+      Dependencies: {}

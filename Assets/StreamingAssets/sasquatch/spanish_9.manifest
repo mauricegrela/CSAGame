@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1447202837
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4d1816dfc1e8033dbb13e3263242a140
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a31e1505e189a9885bcbe2bbbab40e9b
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_01/Squ_S28-01_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_06/Squ_S28-06_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_03/Squ_S28-03_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_02/Squ_S28-03_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_05/Squ_S28-05_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_06/Squ_S28-06_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_03/Squ_S28-03_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_01/Squ_S28-02_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_02/Squ_S28-02_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S27_02/Squ_S28-01_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_04/Squ_S28-04_es.txt
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_04/Squ_S28-04_es.wav
+- Assets/Stories/sasquatch/languages/spanish/Page 1/S28_05/Squ_S28-05_es.txt
+Dependencies: []

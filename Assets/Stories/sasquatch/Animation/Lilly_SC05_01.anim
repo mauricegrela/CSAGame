@@ -1,0 +1,1879 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Lilly_SC05_01
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 51.980003, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -1.8750001, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -154.45, y: -0.000015258789, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -2.3920002, y: 1.738, z: 3.3590002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -11.008, y: -0.365, z: 34.139}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 29.006, y: 39.206, z: -9.234}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -8.787001, y: -48.615, z: -7.6670003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -13.910001, y: -1.6750001, z: 58.846004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -4.8120003, y: 84.503006, z: 51.071003}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 27.311, y: 10.048, z: -1.7580001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1.2570001, y: 40.296, z: 13.249001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.559, y: 0, z: -0.871}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.010291575, y: -0.0039509237, z: -0.000000030500814}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.0102915475, y: -0.0039508827, z: 0.00000009057112}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000000015133992, y: 0.010593825, z: 0.000000017229468}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.006746998, y: 0.00000009429641, z: -0.00000004307367}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.017206062, y: 0.000000008032657, z: 0.000000019324943}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0000000012805685, y: 0.010593812, z: 0.00000003981404}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.006746888, y: -0.00000009825453, z: 0.000000041211024}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.017206108, y: -0.000000010244548, z: -0.000000002561137}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0.0044109225, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.000000022468157, y: 0.010593815, z: 0.000000015454134}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2862208629
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3893402987
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 723108647
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2885230726
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1535322795
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4280328424
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3093719350
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1057860620
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3363712631
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3026784905
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2862208629
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3893402987
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 723108647
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2885230726
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1535322795
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4280328424
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3093719350
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1057860620
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3363712631
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3026784905
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.559
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.871
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 51.980003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.010291575
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0039509237
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000000030500814
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.8750001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0102915475
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0039508827
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.00000009057112
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -154.45
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000015258789
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000000015133992
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.010593825
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.000000017229468
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -2.3920002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.738
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.3590002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.006746998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.00000009429641
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00000004307367
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -11.008
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.365
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 34.139
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.017206062
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.000000008032657
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.000000019324943
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 29.006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 39.206
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -9.234
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0000000012805685
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.010593812
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.00000003981404
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -8.787001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -48.615
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -7.6670003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.006746888
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00000009825453
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.000000041211024
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -13.910001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.6750001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 58.846004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.017206108
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000000010244548
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000000002561137
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.8120003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 84.503006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 51.071003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 27.311
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 10.048
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.7580001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0044109225
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.2570001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 40.296
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 13.249001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.000000022468157
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.010593815
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.000000015454134
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm/bind_JNT_Lilly_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_LeftShoulder/bind_JNT_Lilly_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Lilly_JNT_GRP/bind_JNT_Lilly_Hips/bind_JNT_Lilly_Spine/bind_JNT_Lilly_Spine1/bind_JNT_Lilly_Spine2/bind_JNT_Lilly_RightShoulder/bind_JNT_Lilly_RightArm/bind_JNT_Lilly_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

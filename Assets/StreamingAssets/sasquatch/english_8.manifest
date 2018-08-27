@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 687461065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9a505201168ce0297feda6070c45f31c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a31e1505e189a9885bcbe2bbbab40e9b
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stories/sasquatch/languages/english/Page 1/S27_02/Squ_S27_02_en.txt
+- Assets/Stories/sasquatch/languages/english/Page 1/S27_01/Squ_S27_01_en.txt
+- Assets/Stories/sasquatch/languages/english/Page 1/S27_01/Squ_S27_01_en.wav
+- Assets/Stories/sasquatch/languages/english/Page 1/S27_02/Squ_S27_02_en.wav
+Dependencies: []

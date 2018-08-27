@@ -1,0 +1,2111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: S03_06
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.24400002, y: 43.837, z: -0.006}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -9.2890005, y: -19.135, z: -1.8260001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.99500006, y: 0, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -184.127, y: 15.906998, z: -0.08099365}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -1.9070001, y: 0.001, z: -0.001}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 8.1380005, y: -67.699005, z: -4.1260004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -4.61, y: 53.565002, z: 8.425}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 3.259, y: -24.987001, z: 6.6940002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 11.863001, y: -40.217003, z: 3.3290002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 7.3430004, y: 50.284004, z: 19.382}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -20.713001, y: 69.355, z: 34.004}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 15.682001, y: 16.665, z: -2.801}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 7.5320005, y: -7.3220005, z: -2.032}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -5.004, y: 164.468, z: -140.49}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 19.429, y: -23.213001, z: 9.842}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -45.869003, y: -8.819, z: 97.343}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 55.033, y: 40.102, z: 25.236002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 2.716, y: -1.031, z: -25.351002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 0, z: 7.9440002}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -10.019, y: -114.38801, z: 145.541}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.1073, y: 0.1395, z: -1.076}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: 
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    attribute: anim
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: f800fbff508da422b930073828e7a109, type: 3}
+  - curve:
+    - time: 0
+      value: {fileID: 0}
+    attribute: anim
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: b0d92e4e3ce4b412cb9913837ec59eff, type: 3}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 1739285595
+      script: {fileID: 11500000, guid: f800fbff508da422b930073828e7a109, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 0
+      attribute: 1739285595
+      script: {fileID: 11500000, guid: b0d92e4e3ce4b412cb9913837ec59eff, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 0
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2424725401
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 444367716
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1100360881
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3802998824
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1971442026
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1808055967
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2057078324
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 546078662
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 909752945
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2039311961
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1210421750
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 942558255
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1543618981
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 611727878
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2386951204
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3143879900
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2005307307
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3038274769
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2191361251
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    pptrCurveMapping:
+    - {fileID: 0}
+    - {fileID: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.016666668
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.1073
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1395
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.076
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.24400002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 43.837
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -9.2890005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -19.135
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.8260001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.99500006
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -184.127
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 15.906998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.08099365
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.9070001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 8.1380005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -67.699005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.1260004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.61
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 53.565002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 8.425
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.259
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -24.987001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.6940002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 11.863001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -40.217003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.3290002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 7.3430004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 50.284004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 19.382
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -20.713001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 69.355
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 34.004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 15.682001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 16.665
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -2.801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 7.5320005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -7.3220005
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -2.032
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.004
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 164.468
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -140.49
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 19.429
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -23.213001
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 9.842
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -45.869003
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -8.819
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 97.343
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 55.033
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 40.102
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 25.236002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.716
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -1.031
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -25.351002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 7.9440002
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -10.019
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -114.38801
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 145.541
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_LeftUpLeg/bind_JNT_Thomas_LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_RightUpLeg/bind_JNT_Thomas_RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_RightShoulder/bind_JNT_Thomas_RightArm/bind_JNT_Thomas_RightForeArm/bind_JNT_Thomas_RightHand/bind_JNT_Thomas_RightHandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: template_bind/bind_JNT_Thomas_Hips1/bind_JNT_Thomas_Spine/bind_JNT_Thomas_Spine1/bind_JNT_Thomas_Spine2/bind_JNT_Thomas_LeftShoulder/bind_JNT_Thomas_LeftArm/bind_JNT_Thomas_LeftForeArm/bind_JNT_Thomas_LeftHand
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

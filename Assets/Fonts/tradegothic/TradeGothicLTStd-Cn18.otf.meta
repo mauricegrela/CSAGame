@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 9fc79b1508fad498fbd5604c69990359
+timeCreated: 1491504383
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Trade Gothic LT Std
+  fontNames:
+  - Trade Gothic LT Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8a4bda805d0444c38af0c23ca170ab2a, type: 3}
+  - {fileID: 12800000, guid: 8960bb137478049c28d2c9a4e7d23f68, type: 3}
+  - {fileID: 12800000, guid: 534157430bdd2481da25229badaa7b62, type: 3}
+  - {fileID: 12800000, guid: 42b67a077559a4caab692181f32cd5a2, type: 3}
+  - {fileID: 12800000, guid: 965977a79324141a7bc4eda294fcf3e8, type: 3}
+  - {fileID: 12800000, guid: 2c20ac6847532478db0166c5cd2345af, type: 3}
+  - {fileID: 12800000, guid: 5b67e46c69fda438fad00898bfdff62b, type: 3}
+  - {fileID: 12800000, guid: 20b6ac8d89456491987868d85a307c10, type: 3}
+  - {fileID: 12800000, guid: 64b3cdcdb61c34f88a54454551afa162, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

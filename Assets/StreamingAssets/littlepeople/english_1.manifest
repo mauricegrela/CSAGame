@@ -1,0 +1,127 @@
+ManifestFileVersion: 0
+CRC: 3563419635
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5ac038e64c924e8d323405606186916e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a31e1505e189a9885bcbe2bbbab40e9b
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stories/Littlepeople/languages/english/Page 1/S33_02/Lit_S33_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S32_02/Lit_S32_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_03/Lit_S29_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_05/Lit_S24_05.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_05/Lit_S20_05_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_01/Lit_S22_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_01/Lit_S23_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S32_01/Lit_S32_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_02/Lit_S23_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_01/Lit_S27_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_01/Lit_S20_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_02/Lit_S24_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_01/Lit_S29_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S28_01/Lit_S28_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S26_01/Lit_S26_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S28_01/Lit_S28_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_02/Lit_S24_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_02/Lit_S27_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_02/Lit_S21_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_01/Lit_S21_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S34_01/Lit_S34_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_06/Lit_S20_06.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S35_01/Lit_S35_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S32_01/Lit_S32_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_03/Lit_S20_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_02/Lit_S20_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_02/Lit_S22_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S25_01/Lit_S25_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_01/Lit_S24_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S31_01/Lit_S31_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_02/Lit_S20_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_08/Lit_S20_08.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_05/Lit_S20_05.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_01/Lit_S24_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S25_01/Lit_S25_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_03/Lit_S22_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_03/Lit_S24_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S26_01/Lit_S26_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S38_01/Lit_S38_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_01/Lit_S20_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_02/Lit_S36_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_03/Lit_S24_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_04/Lit_S20_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_07/Lit_S20_07_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_03/Lit_S36_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_04/Lit_S22_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S34_01/Lit_S34_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S19_04/Lit_S19_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_04/Lit_S20_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_01/Lit_S22_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S32_02/Lit_S32_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_03/Lit_S27_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_01/Lit_S30_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_02/Lit_S30_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_02/Lit_S23_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S38_02/Lit_S38_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_03/Lit_S23_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S28_02/Lit_S28_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_03/Lit_S21_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_01/Lit_S30_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_04/Lit_S29_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_02/Lit_S22_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_01/Lit_S36_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S38_01/Lit_S38_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_07/Lit_S20_07.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_02/Lit_S29_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_04/Lit_S23_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S31_01/Lit_S31_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_04/Lit_S24_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S28_02/Lit_S28_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_03/Lit_S29_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S31_02/Lit_S31_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_02/Lit_S21_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_01/Lit_S21_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_03/Lit_S30_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_06/Lit_S24_06.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_03/Lit_S30_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S33_02/Lit_S33_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_01/Lit_S36_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_04/Lit_S22_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_04/Lit_S27_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S37_01/Lit_S37_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S30_02/Lit_S30_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S35_01/Lit_S35_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_03/Lit_S20_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S19_04/Lit_S19_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_05/Lit_S24_05_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_01/Lit_S23_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_06/Lit_S20_06_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_03/Lit_S27_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_01/Lit_S29_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_02/Lit_S29_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S21_03/Lit_S21_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S29_04/Lit_S29_04.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S33_01/Lit_S33_01_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_04/Lit_S27_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_02/Lit_S27_02_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S27_01/Lit_S27_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S31_02/Lit_S31_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S37_01/Lit_S37_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_03/Lit_S23_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S38_02/Lit_S38_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S33_01/Lit_S33_01.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_06/Lit_S24_06_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S24_04/Lit_S24_04_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_02/Lit_S36_02.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S22_03/Lit_S22_03.wav
+- Assets/Stories/Littlepeople/languages/english/Page 1/S36_03/Lit_S36_03_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S20_08/Lit_S20_08_en.txt
+- Assets/Stories/Littlepeople/languages/english/Page 1/S23_04/Lit_S23_04.wav
+Dependencies: []

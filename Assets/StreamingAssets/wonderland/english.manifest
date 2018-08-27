@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 2240349039
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b4a0fbc72f7a449c1719e4277ab03a48
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 527606b32568196eafb9996a87c8a8e0
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Stories/wonderland/languages/english/ExamplePage1/1/SomeText.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage1/3/BlueCube.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage1/2/Lit_S38-02_es 1.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage1/3/Lit_S38-02_es 1.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage1/2/RedCube.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage1/1/TwoCubes.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage2/1 They like dance/Lit_S38-02_es.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage2/The end/Lit_S38-02_es 1.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage2/2 Blue cube gone/BlueCubeGone.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage2/5 Red cube small/Lit_S38-02_es
+  1.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage2/2 Blue cube gone/Lit_S38-02_es
+  1.txt
+- Assets/Stories/wonderland/languages/english/ExamplePage2/5 Red cube small/RedCubeSmall.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage2/The end/End.wav
+- Assets/Stories/wonderland/languages/english/ExamplePage2/1 They like dance/Dancing.wav
+Dependencies: []

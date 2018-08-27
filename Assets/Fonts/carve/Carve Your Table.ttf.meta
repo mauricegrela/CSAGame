@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: aca789c9d8bfc448baaedad218b7807f
+timeCreated: 1495559521
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Carve Your Table
+  fontNames:
+  - Carve Your Table
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
