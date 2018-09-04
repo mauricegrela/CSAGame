@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Purchasing;
 using UnityEngine.UI;
 using DG.Tweening.Plugins.Options;
 
@@ -46,48 +45,9 @@ public class MenuUI : MonoBehaviour
 
     void Start()
     {
-        // - After 0 seconds, prints "Starting 0.0"
-        // - After 0 seconds, prints "Before WaitAndPrint Finishes 0.0"
-        // - After 2 seconds, prints "WaitAndPrint 2.0"
-        //print("Starting " + Time.time);
 
-        // Start function WaitAndPrint as a coroutine.
-
-        //coroutine = WaitAndPrint(2.0f);
-        //StartCoroutine(coroutine);
-
-        //print("Before WaitAndPrint Finishes " + Time.time);
     }
 
-    // every 2 seconds perform the print()
-    private IEnumerator WaitAndPrint(float waitTime)
-    {
-        while (true)
-        {
-            yield return new WaitForSeconds(waitTime);
-            //print("WaitAndPrint " + Time.time);
-
-            if(Counter == 0)
-            {
-                print("WorkOne");
-            }
-                else if (Counter == 1)
-                {
-                    print("WorkOne");
-                }
-                    else if (Counter == 2)
-                    {
-                        print("WorkDone");
-                        StopCoroutine(coroutine);
-                    }
-                        else
-                        {
-
-                            print("error");
-                        }
-            Counter++;
-        }
-    }
 
 
     void OnLanguageDropdownChanged(int i)
@@ -108,13 +68,5 @@ public class MenuUI : MonoBehaviour
         SceneManager.LoadScene("MainStory");
     }
 
-    public void OnPurchaseSuccess(Product p)
-    {
-        Debug.LogFormat("Yayyy. You just purchased {0}", p.definition.id);
-    }
-
-    public void OnPurchaseFailed(Product p, PurchaseFailureReason failReason)
-    {
-        Debug.LogFormat("Failed to purchase {0}. Reason: {1}", p.definition.id, failReason);
-    }
+  
 }

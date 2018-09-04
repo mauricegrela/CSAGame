@@ -114,10 +114,10 @@ public class PageManager : Singleton<PageManager>
         {//Find the first camera and store its transform info 
             if (obj.GetComponent<Camera>() != null)
             {
-                cameraTransformTracker = obj.transform;
+                //cameraTransformTracker = obj.transform;
             }
         }
-        cameraPreviousPosition = cameraTransformTracker.position;
+        //cameraPreviousPosition = cameraTransformTracker.position;
         transform.hasChanged = false;
 
         if (isGoingBack == true)
