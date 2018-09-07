@@ -241,7 +241,7 @@ public class PageManager : Singleton<PageManager>
 
         foreach (GameObject item in StoryManager.GetComponent<StoryManager>().TextPositions)
         {
-            StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(false);
+            item.SetActive(false);
         }
 
         StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(true);

@@ -27,10 +27,14 @@ public class SentenceRow : MonoBehaviour
 		wordClone = Instantiate(wordPrefab, wordPrefab.transform.parent);	
 		}
         
-
+        //Debug.Log(wordClone.text.text);
+        //Debug.Log(word);
 
         wordClone.gameObject.SetActive(true);
         wordClone.text.text = word;
+
+
+
 
 		if (wordClone.text.text.Substring(0, 1) == "#") {
 			//Debug.Log (wordClone.text.text);
