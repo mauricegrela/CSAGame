@@ -81,7 +81,8 @@ public class PageManager : Singleton<PageManager>
     //Debuging Vars
     public GameObject Scenetext;
 
-
+    [SerializeField]
+    private GameObject ScenetextContainer;
 
     protected override void Awake()
     {
@@ -174,6 +175,10 @@ public class PageManager : Singleton<PageManager>
 
     public void GotoNext()
     {
+
+
+
+
         sceneindex++;
         bool isloadingScene;
 
@@ -230,6 +235,21 @@ public class PageManager : Singleton<PageManager>
             }
         }
         CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
+
+        //sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene
+
+
+        foreach (GameObject item in StoryManager.GetComponent<StoryManager>().TextPositions)
+        {
+            StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(false);
+        }
+
+        StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(true);
+        GameObject TextPositionref;
+        TextPositionref = GameObject.FindWithTag("TextPlacement");
+
+        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
+        TextPositionref.SetActive(false);
     }
 
     public void GotoPrevious()

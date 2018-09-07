@@ -16,6 +16,8 @@ public class StoryManager : MonoBehaviour {
 	public int StreamingAssetsCounter;
 	public GameObject PageManager;
 	private GameObject Canvas;
+
+    public GameObject[] TextPositions;
     //CoRoutine Loading
 
     private IEnumerator coroutine;
