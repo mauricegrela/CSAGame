@@ -643,7 +643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &100917805
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1380,8 +1380,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 69.7, y: -220.6}
-  m_SizeDelta: {x: 635.2, y: 111.3}
+  m_AnchoredPosition: {x: -167, y: 49}
+  m_SizeDelta: {x: 256.9, y: 208.1}
   m_Pivot: {x: 0.5, y: -0.00000016018748}
 --- !u!114 &145263467
 MonoBehaviour:
@@ -7250,7 +7250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &926431806
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9711,27 +9711,27 @@ MonoBehaviour:
     sleep very easily, especially Lily and Thomas. Sometimes, I have to read a little
     bedtime story so they can fall asleep."
   def_WordSas_Audio:
-  - {fileID: 8300000, guid: d3ed43e60c1304e71815402e3f9ff5fd, type: 3}
-  - {fileID: 8300000, guid: aa032294a48304fceaf3a0453cd81193, type: 3}
-  - {fileID: 8300000, guid: 9fe0a99257c404d0b81ea055d36e299a, type: 3}
-  - {fileID: 8300000, guid: bf1c29d3d9526422495c2ec7629421cd, type: 3}
-  - {fileID: 8300000, guid: a11224a2db96d4c0fa867c86cf233fa7, type: 3}
-  - {fileID: 8300000, guid: 76797286af41e4f36be529024e230660, type: 3}
-  - {fileID: 8300000, guid: b8064edd6be0f44faa74876a97cebdb6, type: 3}
-  - {fileID: 8300000, guid: 3b9acc2aa18594872a21f32b79927532, type: 3}
-  - {fileID: 8300000, guid: 4699ae743990642f4834c79afd686c31, type: 3}
-  - {fileID: 8300000, guid: 5b044a28f063348d98ef1549ea456689, type: 3}
-  - {fileID: 8300000, guid: 8ec180d5f58214b949bd42991739a4fa, type: 3}
-  - {fileID: 8300000, guid: 653ba58dcee7c473caa6f0719f8b06fa, type: 3}
-  - {fileID: 8300000, guid: 59b2b07efad864d2bad8f01c83f1db15, type: 3}
-  - {fileID: 8300000, guid: bf5f58d7649c34172b184510719bef28, type: 3}
-  - {fileID: 8300000, guid: 5dee80a4e91cb4b879f20f268e4052b1, type: 3}
-  - {fileID: 8300000, guid: 22681d1510f1445b28d65ddb6f275fc1, type: 3}
-  - {fileID: 8300000, guid: c2adf87f604974dee8c3a120d9c46864, type: 3}
-  - {fileID: 8300000, guid: 31c468a141d264e29929ea1e3a0eaa5f, type: 3}
-  - {fileID: 8300000, guid: fdfb89369550e477eb637cba60101481, type: 3}
-  - {fileID: 8300000, guid: 05d8006b3e8de4b56bde897a02b1d27d, type: 3}
-  - {fileID: 8300000, guid: 008721e56b368402cbf9748fb34d14a4, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   def_wordLilPpl:
   - Birds
   - sister
@@ -10273,7 +10273,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1313913500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10337,12 +10337,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingscreens:
-  - {fileID: 21300000, guid: 6aa61fd9aa7ae421eb8605c8dbe43a2b, type: 3}
-  - {fileID: 21300000, guid: 5c7d4a8a9c8ea4e59a881d55cbbc1222, type: 3}
-  - {fileID: 21300000, guid: 038876db5283848ea83d3f7fc1397614, type: 3}
-  - {fileID: 21300000, guid: 4bc07a2a6fb7b4cda97aefc785e0be10, type: 3}
-  - {fileID: 21300000, guid: b972012cfc3ba4ca9a284196d837906e, type: 3}
-  - {fileID: 21300000, guid: c2403d4d1093b4c2f8c66313e0f7cd7d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1319435288
 GameObject:
   m_ObjectHideFlags: 0
@@ -14795,6 +14795,7 @@ MonoBehaviour:
   ScentenceContainer: {fileID: 145263465}
   LoadingScreen: {fileID: 1313913501}
   Scenetext: {fileID: 2139804641}
+  ScenetextContainer: {fileID: 145263465}
 --- !u!4 &2054599092
 Transform:
   m_ObjectHideFlags: 0
