@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stories/sasquatch/scenes/Sasquatch_start.unity
     guid: 913803d65595f499f847d3e4cb9919a1
+  - enabled: 1
+    path: Assets/Scenes/MainStory.unity
+    guid: 1b0e5eff3328ab84484abc28c0aea92c
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ad4d2e7632af33047b1a97d3b1a14e6b
   m_configObjects: {}
