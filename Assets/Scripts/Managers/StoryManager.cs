@@ -23,6 +23,11 @@ public class StoryManager : MonoBehaviour {
     private IEnumerator coroutine;
     private int Counter = 0;
 
+    //Panning Variable
+    private bool isPanningLeft = false;
+    private bool isPanningRight = false;
+    private float PanningCounter;
+
     void Awake()
     {
         //Set references 
@@ -45,7 +50,14 @@ public class StoryManager : MonoBehaviour {
 	void Start () {
 
 
+        for (int i = 0; i <= TextPositions.Length - 1; i++)
+        {////Set the children to be a carousel 
+            TextPositions[i].GetComponent<RectTransform>().localPosition = new Vector3(
+                TextPositions[i].GetComponent<RectTransform>().localPosition.x+(800*i),
+                TextPositions[i].GetComponent<RectTransform>().localPosition.y,
+                TextPositions[i].GetComponent<RectTransform>().localPosition.z);
 
+        }
         //Debug.Log(StreamingAssetsCounter.ToString() + "////" + DataManager.CurrentAssetPackage.ToString());
 
 
@@ -138,8 +150,36 @@ public class StoryManager : MonoBehaviour {
         }
     }
 
+    public void PanRight()
+    {
+        isPanningRight = true;
+    }
+
 	// Update is called once per frame
 	void Update () {
-		
+        
+        if(isPanningRight == true)
+        {
+                
+            if(PanningCounter*-1 <=800)
+            {
+                for (int i = 0; i <= TextPositions.Length - 1; i++)
+                {////Set the children to be a carousel 
+                    TextPositions[i].GetComponent<RectTransform>().localPosition -= Vector3.right * (Time.deltaTime * 240);
+                }
+            PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<RectTransform>().localPosition 
+            -= Vector3.right * (Time.deltaTime * 240);
+            
+                PanningCounter -= Vector3.right.x * (Time.deltaTime * 240);
+                Debug.Log(PanningCounter);
+            }
+            else
+            {
+                isPanningRight = false;
+                PageManager.GetComponent<PageManager>().SetUpNewText();
+            }
+        
+        }
+
 	}
 }

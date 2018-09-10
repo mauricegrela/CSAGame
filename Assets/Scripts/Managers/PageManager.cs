@@ -81,8 +81,10 @@ public class PageManager : Singleton<PageManager>
     //Debuging Vars
     public GameObject Scenetext;
 
+    private GameObject TextPositionref;
+
     [SerializeField]
-    private GameObject ScenetextContainer;
+    public GameObject ScenetextContainer;
 
     protected override void Awake()
     {
@@ -204,26 +206,9 @@ public class PageManager : Singleton<PageManager>
         }
         else
         {// is the scene has a pages it can show.
-            isloadingScene = false;
-            NextSentence(isForward);
-            isGoingBack = false;
-            isForward = true;
-            transform.hasChanged = false;
-            foreach (GameObject Mesh in DynamicProps)
-            {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
-                Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshForward();
-            }
-
-            foreach (GameObject Child in Characters)
-            {//Play the next animation on all the characters
-                if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
-                {
-                    Child.GetComponent<CharacterAnimationSystems>().InvokeNextAnimation(Scenetext.GetComponent<Text>().text);
-                }
-            }
-            UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
+           
         }
-        if (isloadingScene == false)
+        /*if (isloadingScene == false)
         {
             if (sceneindex == StoryManager.GetComponent<StoryManager>().pagesPerScene - 1
                 && StoryManager.GetComponent<StoryManager>().isLastscene == true)
@@ -233,23 +218,63 @@ public class PageManager : Singleton<PageManager>
                 EndindCard.GetComponentInChildren<FadeScript>().enabled = true;
                 EndindCard.GetComponentInChildren<Image>().raycastTarget = true;
             }
-        }
+        }*/
         CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
 
         //sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene
 
 
+        StoryManager.GetComponent<StoryManager>().PanRight();
+    }
+
+    public void SetUpNewText()
+    {
+        //isloadingScene = false;
+        NextSentence(isForward);
+        isGoingBack = false;
+        isForward = true;
+        transform.hasChanged = false;
+        foreach (GameObject Mesh in DynamicProps)
+        {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
+            Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshForward();
+        }
+
+        foreach (GameObject Child in Characters)
+        {//Play the next animation on all the characters
+            if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
+            {
+                Child.GetComponent<CharacterAnimationSystems>().InvokeNextAnimation(Scenetext.GetComponent<Text>().text);
+            }
+        }
+        UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
+
+
+        //GameObject TextPositionref;
+        foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
+        {
+            // do whatever you want with child transform object here
+            if(child.gameObject.tag == "TextPlacement")
+            {
+                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+            }
+        }
+
+        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
+
+        //New art assets 
+        /*
         foreach (GameObject item in StoryManager.GetComponent<StoryManager>().TextPositions)
         {
-            item.SetActive(false);
+            //item.SetActive(false);
         }
 
         StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(true);
+
         GameObject TextPositionref;
         TextPositionref = GameObject.FindWithTag("TextPlacement");
 
         ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
-        TextPositionref.SetActive(false);
+        TextPositionref.SetActive(false);*/
     }
 
     public void GotoPrevious()
