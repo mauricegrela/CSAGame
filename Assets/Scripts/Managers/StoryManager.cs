@@ -155,10 +155,15 @@ public class StoryManager : MonoBehaviour {
         isPanningRight = true;
     }
 
+    public void PanLeft()
+    {
+        isPanningLeft = true;
+    }
+
 	// Update is called once per frame
 	void Update () {
         
-        if(isPanningRight == true)
+        if(isPanningRight == true && isPanningLeft == false)
         {
                 
             if(PanningCounter*-1 <=800)
@@ -175,11 +180,36 @@ public class StoryManager : MonoBehaviour {
             }
             else
             {
+                PanningCounter = 0;
                 isPanningRight = false;
-                PageManager.GetComponent<PageManager>().SetUpNewText();
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
             }
         
         }
 
+
+        if (isPanningRight == false && isPanningLeft == true)
+        {
+            
+            if (PanningCounter  <= 800)
+            {
+                for (int i = 0; i <= TextPositions.Length - 1; i++)
+                {////Set the children to be a carousel 
+                    TextPositions[i].GetComponent<RectTransform>().localPosition += Vector3.right * (Time.deltaTime * 240);
+                }
+                PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<RectTransform>().localPosition
+                += Vector3.right * (Time.deltaTime * 240);
+
+                PanningCounter += Vector3.right.x * (Time.deltaTime * 240);
+                Debug.Log(PanningCounter);
+            }
+            else
+            {
+                PanningCounter = 0;
+                isPanningLeft = false;
+                PageManager.GetComponent<PageManager>().SetUpNewTextBack();
+            }
+
+        }
 	}
 }

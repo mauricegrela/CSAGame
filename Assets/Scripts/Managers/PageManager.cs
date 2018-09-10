@@ -227,7 +227,7 @@ public class PageManager : Singleton<PageManager>
         StoryManager.GetComponent<StoryManager>().PanRight();
     }
 
-    public void SetUpNewText()
+    public void SetUpNewTextFoward()
     {
         //isloadingScene = false;
         NextSentence(isForward);
@@ -261,20 +261,6 @@ public class PageManager : Singleton<PageManager>
 
         ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
 
-        //New art assets 
-        /*
-        foreach (GameObject item in StoryManager.GetComponent<StoryManager>().TextPositions)
-        {
-            //item.SetActive(false);
-        }
-
-        StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].SetActive(true);
-
-        GameObject TextPositionref;
-        TextPositionref = GameObject.FindWithTag("TextPlacement");
-
-        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
-        TextPositionref.SetActive(false);*/
     }
 
     public void GotoPrevious()
@@ -300,7 +286,7 @@ public class PageManager : Singleton<PageManager>
         {//If the player is still working their way backwards through the scene.
             //isForward = false;
             //PreviousSentence(isGoingBack);
-            GetComponent<PageManager>().GoToPage(audioIndex-1);
+            /*GetComponent<PageManager>().GoToPage(audioIndex-1);
             transform.hasChanged = false;
             foreach (GameObject Mesh in DynamicProps)
             {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
@@ -322,9 +308,43 @@ public class PageManager : Singleton<PageManager>
                 isGoingBack = false; 
 
             }*/
-
+        StoryManager.GetComponent<StoryManager>().PanLeft();
         }
         CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
+    }
+
+    public void SetUpNewTextBack()
+    {
+        //PreviousSentence(isGoingBack);
+        GetComponent<PageManager>().GoToPage(audioIndex - 1);
+        transform.hasChanged = false;
+        foreach (GameObject Mesh in DynamicProps)
+        {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
+            Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshBackward();
+        }
+
+        foreach (GameObject Child in Characters)
+        {//Play the next animation on all the characters
+            if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
+            {
+                //Debug.Log("Launching Previous Anim");
+                Child.GetComponent<CharacterAnimationSystems>().InvokePreviousAnimation(Scenetext.GetComponent<Text>().text);
+            }
+        }
+        UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
+
+        //GameObject TextPositionref;
+        foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
+        {
+            // do whatever you want with child transform object here
+            if (child.gameObject.tag == "TextPlacement")
+            {
+                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+            }
+        }
+
+        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
+
     }
 
     public void SetToLastPosition()
