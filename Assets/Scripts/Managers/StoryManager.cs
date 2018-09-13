@@ -176,7 +176,7 @@ public class StoryManager : MonoBehaviour {
             -= Vector3.right * (Time.deltaTime * 240);
             
                 PanningCounter -= Vector3.right.x * (Time.deltaTime * 240);
-                Debug.Log(PanningCounter);
+                //Debug.Log(PanningCounter);
             }
             else
             {
