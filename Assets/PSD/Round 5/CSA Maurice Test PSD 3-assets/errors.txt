@@ -1,0 +1,2 @@
+[9/28/2018, 3:40:01 PM] layer "HOCKEY_STICK.PNG": Duplicate path: HOCKEY_STICK.PNG
+[9/28/2018, 3:40:01 PM] layer "BIKE.PNG": Duplicate path: BIKE.PNG
