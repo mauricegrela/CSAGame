@@ -34,7 +34,7 @@ public class DataManager
 		CurrentAssetPackage = packageToLoad.ToString ();
 
 		//AssetStreamingCounter++;
-		//Debug.Log ((currentLanguage.ToLower()+"_"+packageToLoad.ToString()).ToString());
+		Debug.Log ((currentLanguage.ToLower()+"_"+packageToLoad.ToString()).ToString());
 			
         if (myLoadedAssetBundle == null)
         {
@@ -49,7 +49,7 @@ public class DataManager
 		foreach (string file in files)
         {
             AddFileToStory(story, file); 
-			//.Log (story+"//"+ file);
+            //Debug.Log (story+"//"+ file);
         }
         UnloadAssetBundle();
         currentStory = story;
@@ -96,7 +96,7 @@ public class DataManager
                 string pageName = splitPath[i + pathDepth + 1];
                 //Get the page from the story
                 PageObject page = story.GetPage(pageName);
-				//Debug.Log (pageName);
+				Debug.Log (pageName);
 				//page = null;
                 //If the page wasn't in the story yet, create a new object
                 if (page == null)
@@ -155,7 +155,7 @@ public class DataManager
     {
         SentenceObject so = new SentenceObject();
         string[] lines = Regex.Split(dataString, "\\n");
-		//Debug.Log ("words.Length"+lines.Length);
+		Debug.Log ("words.Length"+lines.Length);
         foreach (string line in lines)
         {
             if (string.IsNullOrEmpty(line))
@@ -167,7 +167,7 @@ public class DataManager
             //This is index 1 or 2 (dependend if the time is defined twice or not)
             obj.text = words[words.Length - 1];
             so.wordGroups.Add(obj);
-			//Debug.Log (line);
+			Debug.Log (line);
         }
         return so;
         //return JsonUtility.FromJson<SentenceObject>(dataString);
