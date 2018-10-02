@@ -1,0 +1,18 @@
+speaker = narrator
+0.000000	The
+0.173988	kids
+0.405972	all
+0.579960	came
+0.811944	out
+0.985932	from
+1.217916	their
+1.507896	hiding
+1.855872	spots
+2.145852	and
+2.319840	gave
+2.551824	their
+2.841804	new
+3.189780	friend
+3.247776	a
+3.421764	big
+3.653748	hug.

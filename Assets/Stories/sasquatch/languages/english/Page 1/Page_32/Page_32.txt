@@ -1,0 +1,5 @@
+speaker = narrator
+0.000000	They
+0.231984	sped
+0.463968	towards
+0.869940	Earth.

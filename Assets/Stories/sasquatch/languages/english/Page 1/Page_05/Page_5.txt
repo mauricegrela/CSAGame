@@ -1,0 +1,7 @@
+speaker = narrator
+0.000000	“DARE
+0.289980	TO
+0.405972	EXPLORE!”
+0.927936	shouted
+1.333908	the
+1.507896	Explorers.

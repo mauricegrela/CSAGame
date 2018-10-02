@@ -1,0 +1,14 @@
+speaker = narrator
+0.000000	“Oh
+0.173988	no,
+0.347976	our
+0.521964	Rocket
+0.869949	Booster
+1.275912	9000
+1.507896	just
+1.739880	broke
+2.029860	off!”
+2.319840	Layla
+2.609820	shouted.
+3.073788	“Niko,
+3.421764	help!”

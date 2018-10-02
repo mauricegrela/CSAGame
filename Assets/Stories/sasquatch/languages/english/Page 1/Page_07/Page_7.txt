@@ -1,0 +1,16 @@
+speaker = narrator
+0.000000	So,
+0.173988	the
+0.347976	kids
+0.579960	got
+0.753948	to
+0.869940	work
+1.101924	building
+1.565892	the
+1.739880	spaciest
+2.203848	spaceship
+2.725812	to
+2.841804	ever
+3.073788	venture
+3.305772	into
+3.653748	space.

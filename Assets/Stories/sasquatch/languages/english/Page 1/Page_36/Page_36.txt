@@ -1,0 +1,16 @@
+speaker = narrator
+0.000000	They
+0.231984	were
+0.463968	back
+0.695952	in
+0.811944	the
+0.985932	treehouse!
+1.565892	The
+1.739880	five
+1.971864	explorers
+2.493828	looked
+2.841804	up
+2.957796	at
+3.073788	the
+3.363768	night
+3.595752	sky,

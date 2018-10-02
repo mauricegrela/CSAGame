@@ -1,0 +1,22 @@
+speaker = narrator
+0.000000	On
+0.115992	this
+0.347976	day,
+0.579960	the
+0.753948	five
+0.985932	explorers
+1.507896	were
+1.739880	hanging
+2.145852	out
+2.319840	in
+2.435832	their
+2.725812	treehouse.
+3.305772	Suddenly,
+3.827736	Niko’s
+4.175712	parents’
+4.639680	broken
+4.987656	old
+5.161644	television
+5.741604	came
+5.973588	to
+6.089580	life!

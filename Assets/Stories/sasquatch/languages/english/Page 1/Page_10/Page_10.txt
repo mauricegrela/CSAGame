@@ -1,0 +1,15 @@
+speaker = narrator
+0.000000	OH
+0.115992	NO!
+0.289980	Chewie
+0.637956	accidentally
+1.333908	hit
+1.507896	a
+1.565892	button
+1.913868	that
+2.145852	BLASTED
+2.551824	him
+2.725812	off
+2.899800	into
+3.131784	outer
+3.479760	space!

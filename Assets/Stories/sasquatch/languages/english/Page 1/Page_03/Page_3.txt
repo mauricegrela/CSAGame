@@ -1,0 +1,27 @@
+speaker = narrator
+0.347976	it
+0.463968	out
+0.637956	everyone!
+1.159920	It’s
+1.391904	David
+1.681884	Saint-Jacques,
+2.493828	the
+2.667816	Canadian
+3.131784	astronaut!”
+3.769740	exclaimed
+4.291704	Layla.
+5.045652	“You’re
+5.335632	right
+5.741604	Layla,”
+6.147576	replied
+6.437556	Niko,
+6.669540	“And
+6.901524	he’s
+7.249500	waving
+7.481484	from
+7.771464	outer
+8.177436	space!”	
+8.525412	“Whoa.
+9.163368	Coooooool!”
+9.395352	said
+9.859320	Mathias.

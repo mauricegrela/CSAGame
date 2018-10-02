@@ -1,0 +1,16 @@
+speaker = narrator
+0.000000	Gemma
+0.289980	pushed
+0.637956	the
+0.811944	thruster
+1.275912	forward,
+1.739880	steered
+2.145852	them
+2.377836	–
+2.435832	WHOOSH
+2.783808	–
+2.841804	straight
+3.305772	into
+3.537756	the
+4.001724	twirling
+4.291704	hole!

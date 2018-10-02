@@ -1,0 +1,11 @@
+speaker = narrator
+0.000000	The
+0.173988	ship
+0.405972	went
+0.637956	zipping
+1.043928	through
+1.449900	space.
+1.797876	///
+1.971864	“Wheee!”
+2.435832	yelled
+2.783808	Mathias.
