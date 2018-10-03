@@ -18,6 +18,7 @@ public class StoryManager : MonoBehaviour {
 	private GameObject Canvas;
 
     public GameObject[] TextPositions;
+    public GameObject InitialTextPosition;
     //CoRoutine Loading
 
     private IEnumerator coroutine;
@@ -27,20 +28,37 @@ public class StoryManager : MonoBehaviour {
     private bool isPanningLeft = false;
     private bool isPanningRight = false;
     private float PanningCounter;
-    private int PanningSpeed = 512;
+    private int PanningSpeed = 8;
+    private int PanningLimit = 20;
+    private float PanningSetUp = 20f;
 
     void Awake()
     {
         TextPositions = new GameObject[transform.childCount];
         pagesPerScene = transform.childCount;
         for (int i = 0; i < transform.childCount; i++)
-        {
+        {//Store all the pages
             TextPositions[i] = transform.GetChild(i).gameObject;
-            Debug.Log(transform.GetChild(i).name);
+            //Debug.Log(transform.GetChild(i).name);
         }
+
+        foreach (Transform child in TextPositions[0].transform)
+        {//Store the First of the Text References 
+            
+            if (child.gameObject.tag == "TextPlacement")
+            {
+                InitialTextPosition = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                Debug.Log("Working");
+            }
+
+
+        }
+
 
         //Set references 
         PageManager = GameObject.FindGameObjectWithTag("PageManager");
+        PageManager.GetComponent<PageManager>().sentenceContainer[0] = InitialTextPosition.GetComponent<SentenceRowContainer>();
+
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = true;
         if (isLoadingLevel == true)
@@ -61,10 +79,10 @@ public class StoryManager : MonoBehaviour {
 
         for (int i = 0; i <= TextPositions.Length - 1; i++)
         {////Set the children to be a carousel 
-            TextPositions[i].GetComponent<RectTransform>().localPosition = new Vector3(
-                TextPositions[i].GetComponent<RectTransform>().localPosition.x+(800*i),
-                TextPositions[i].GetComponent<RectTransform>().localPosition.y,
-                TextPositions[i].GetComponent<RectTransform>().localPosition.z);
+            TextPositions[i].GetComponent<Transform>().localPosition = new Vector3(
+                TextPositions[i].GetComponent<Transform>().localPosition.x+(PanningSetUp*i),
+                TextPositions[i].GetComponent<Transform>().localPosition.y,
+                TextPositions[i].GetComponent<Transform>().localPosition.z);
 
         }
         //Debug.Log(StreamingAssetsCounter.ToString() + "////" + DataManager.CurrentAssetPackage.ToString());
@@ -175,13 +193,13 @@ public class StoryManager : MonoBehaviour {
         if(isPanningRight == true && isPanningLeft == false)
         {
                 
-            if(PanningCounter*-1 <=800)
+            if(PanningCounter*-1 <=PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
                 {////Set the children to be a carousel 
-                    TextPositions[i].GetComponent<RectTransform>().localPosition -= Vector3.right * (Time.deltaTime * PanningSpeed);
+                    TextPositions[i].GetComponent<Transform>().localPosition -= Vector3.right * (Time.deltaTime * PanningSpeed);
                 }
-            PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<RectTransform>().localPosition 
+            PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition 
                        -= Vector3.right * (Time.deltaTime * PanningSpeed);
             
                 PanningCounter -= Vector3.right.x * (Time.deltaTime * PanningSpeed);
@@ -200,13 +218,13 @@ public class StoryManager : MonoBehaviour {
         if (isPanningRight == false && isPanningLeft == true)
         {
             
-            if (PanningCounter  <= 800)
+            if (PanningCounter  <= PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
                 {////Set the children to be a carousel 
-                    TextPositions[i].GetComponent<RectTransform>().localPosition += Vector3.right * (Time.deltaTime * PanningSpeed);
+                    TextPositions[i].GetComponent<Transform>().localPosition += Vector3.right * (Time.deltaTime * PanningSpeed);
                 }
-                PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<RectTransform>().localPosition
+                PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition
                            += Vector3.right * (Time.deltaTime * PanningSpeed);
 
                 PanningCounter += Vector3.right.x * (Time.deltaTime * PanningSpeed);

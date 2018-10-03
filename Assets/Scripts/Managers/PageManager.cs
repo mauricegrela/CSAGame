@@ -39,7 +39,9 @@ public class PageManager : Singleton<PageManager>
 
     //Technicals
     private AudioSource audioSource;
-    private SentenceRowContainer sentenceContainer;
+    [SerializeField]
+    public SentenceRowContainer[] sentenceContainer;
+    private int sentenceContainerCounter;
     private bool isForward = true;
     private List<TweenEvent> tweenEvents = new List<TweenEvent>();
     [SerializeField]
@@ -89,7 +91,7 @@ public class PageManager : Singleton<PageManager>
     protected override void Awake()
     {
         base.Awake();
-        sentenceContainer = FindObjectOfType<SentenceRowContainer>();
+        //sentenceContainer = FindObjectOfType<SentenceRowContainer>();
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -148,7 +150,12 @@ public class PageManager : Singleton<PageManager>
     public void ChapterSkip(String LevelToLoad)
     {//Launches when the player skips to a chapter through clicking on the book mark
         StopAllCoroutines();
-        sentenceContainer.Clear();
+
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if(Child != null)
+            Child.Clear();
+        }
 
         LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
         LoadingScreen.GetComponent<Image>().enabled = true;
@@ -230,7 +237,7 @@ public class PageManager : Singleton<PageManager>
     public void SetUpNewTextFoward()
     {
         //isloadingScene = false;
-        NextSentence(isForward);
+       
         isGoingBack = false;
         isForward = true;
         transform.hasChanged = false;
@@ -248,14 +255,27 @@ public class PageManager : Singleton<PageManager>
         }
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
 
+        //sentenceContainer.gameObject.SetActive(false);
 
+
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.gameObject.SetActive(false);
+        }
+
+        //sentenceContainer.Clear();
+        sentenceContainerCounter = 0;
         //GameObject TextPositionref;
         foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
         {
             // do whatever you want with child transform object here
             if(child.gameObject.tag == "TextPlacement")
             {
-                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+                sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>();;
+                sentenceContainerCounter++;
+                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                Debug.Log("Working");
             }
 
             if (child.gameObject.tag == "SpeechBubble")
@@ -267,8 +287,9 @@ public class PageManager : Singleton<PageManager>
 
         }
 
-        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
-
+        //ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
+        //sentenceContainer = TextPositionref.GetComponent<SentenceRowContainer>();
+        NextSentence(isForward);
     }
 
     public void GotoPrevious()
@@ -412,7 +433,11 @@ public class PageManager : Singleton<PageManager>
     public void ChangeLanguage(string newLanguage)
     {
         StopAllCoroutines();
-        sentenceContainer.Clear();
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.Clear();
+        }
         //Debug.Log(newLanguage);
 
         DataManager.currentLanguage = newLanguage;
@@ -434,21 +459,33 @@ public class PageManager : Singleton<PageManager>
     {
         //isMenuDeployed = true;
         StopAllCoroutines();
-        sentenceContainer.Clear();
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.Clear();
+        }
     }
 
     public void ReactivateCurrentCoroutine()
     {
         //isMenuDeployed = false;
         StopAllCoroutines();
-        sentenceContainer.Clear();
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.Clear();
+        }
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 
     public void GoToPage(int i)
     {
         StopAllCoroutines();
-        sentenceContainer.Clear();
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.Clear();
+        }
         audioIndex = i;
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
@@ -456,7 +493,11 @@ public class PageManager : Singleton<PageManager>
     void PreviousSentence(bool playFromLast)
     {//Turn off the current passage and prep for the next passage
         StopAllCoroutines();
-        sentenceContainer.Clear();
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.Clear();
+        }
 
         if (audioIndex < 1 && pageIndex > 0)
         {//Switch to the previous page if can(OBSELETE)
@@ -492,7 +533,11 @@ public class PageManager : Singleton<PageManager>
     {//Move the narrative forward
      //Debug.Log("working");
         StopAllCoroutines();
-        sentenceContainer.Clear();
+            foreach (SentenceRowContainer Child in sentenceContainer)
+            {
+            if (Child != null)
+                Child.Clear();
+            }
         if (pageIndex >= currentStory.pageObjects.Count)
         {//when the player reaches the end of the narrative
             Debug.Log("Story ended! Back to menu...");
@@ -520,7 +565,7 @@ public class PageManager : Singleton<PageManager>
 
     IEnumerator RunSequence(AudioObject obj)
     {
-        Debug.Log(obj.clip);
+        //Debug.Log(obj.clip);
 
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
         Scenetext.GetComponent<Text>().text = currentAudio.name;
@@ -555,7 +600,12 @@ public class PageManager : Singleton<PageManager>
             else
             {
                 //Debug.Log (wordGroup.text);
-                sentenceContainer.AddText(wordGroup);
+                //sentenceContainer.AddText(wordGroup);
+                foreach (SentenceRowContainer Child in sentenceContainer)
+                {
+                    if (Child != null)
+                    Child.AddText(wordGroup);
+                }
             }
         }
         //highlight the proper wordgroups
@@ -565,7 +615,12 @@ public class PageManager : Singleton<PageManager>
         while (i < obj.sentence.wordGroups.Count)
         {
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
-            sentenceContainer.HighlightWordGroup(wordGroup);
+            //sentenceContainer.HighlightWordGroup(wordGroup);
+                foreach (SentenceRowContainer Child in sentenceContainer)
+                {
+                    if (Child != null)
+                    Child.HighlightWordGroup(wordGroup);
+                }
             i++;
             //We calculate it like this because the times given are actually absolute times, not times per word
             float waitTime = wordGroup.time;
@@ -576,7 +631,12 @@ public class PageManager : Singleton<PageManager>
             yield return new WaitForSeconds(waitTime);
             prevWordGroup = wordGroup;
         }
-        sentenceContainer.HighlightWordGroup(null);
+        //sentenceContainer.HighlightWordGroup(null);
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {
+            if (Child != null)
+            Child.HighlightWordGroup(null);
+        }
     }
 
     public static List<T> FindObjectsOfTypeAll<T>()

@@ -20,7 +20,7 @@ speaker = narrator
 7.249500	waving
 7.481484	from
 7.771464	outer
-8.177436	space!”	
+8.177436	space!”
 8.525412	“Whoa.
 9.163368	Coooooool!”
 9.395352	said
