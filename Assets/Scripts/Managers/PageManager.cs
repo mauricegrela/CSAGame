@@ -42,6 +42,7 @@ public class PageManager : Singleton<PageManager>
     [SerializeField]
     public SentenceRowContainer[] sentenceContainer;
     private int sentenceContainerCounter;
+    private int sentenceContainerCurrent=0;
     private bool isForward = true;
     private List<TweenEvent> tweenEvents = new List<TweenEvent>();
     [SerializeField]
@@ -226,7 +227,7 @@ public class PageManager : Singleton<PageManager>
                 EndindCard.GetComponentInChildren<Image>().raycastTarget = true;
             }
         }*/
-        CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
+        //CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
 
         //sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene
 
@@ -339,7 +340,7 @@ public class PageManager : Singleton<PageManager>
             }*/
         StoryManager.GetComponent<StoryManager>().PanLeft();
         }
-        CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
+        ///CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
     }
 
     public void SetUpNewTextBack()
@@ -591,21 +592,23 @@ public class PageManager : Singleton<PageManager>
         //Displaying all words in the bottom
         foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
-            if (wordGroup.text.Contains("speaker"))
+            if (wordGroup.text.Contains("SpeechBubble"))
             {//Get The Narrator
-                Speaker = wordGroup.text;
-                Speaker = Speaker.Remove(0, 10);
+                //Speaker = wordGroup.text;
+                //Speaker = Speaker.Remove(0, 10);
                 //Debug.Log(Speaker);
+                sentenceContainerCurrent += 1;
             }
             else
             {
                 //Debug.Log (wordGroup.text);
                 //sentenceContainer.AddText(wordGroup);
-                foreach (SentenceRowContainer Child in sentenceContainer)
+                /*foreach (SentenceRowContainer Child in sentenceContainer)
                 {
                     if (Child != null)
                     Child.AddText(wordGroup);
-                }
+                }*/
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
             }
         }
         //highlight the proper wordgroups
