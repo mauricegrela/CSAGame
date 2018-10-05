@@ -18,6 +18,6 @@
 5.954967	from
 6.087299	outer
 6.518521	space!
-SpeechBubble
+///
 7.264603	Whoa.
 8.649532	Coooooool!

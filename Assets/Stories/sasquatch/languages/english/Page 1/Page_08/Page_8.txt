@@ -7,6 +7,6 @@
 1.887854	rocket
 2.323248	for
 2.457480	Chewie.
-SpeechBubble
+///
 3.190594	Arf!
 3.502082	Arf!
