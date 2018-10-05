@@ -598,7 +598,7 @@ public class PageManager : Singleton<PageManager>
         //Displaying all words in the bottom
         foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
-            if (wordGroup.text.Contains("SpeechBubble"))
+			if (wordGroup.text.Contains("///"))
             {//Get The Narrator
                 //Speaker = wordGroup.text;
                 //Speaker = Speaker.Remove(0, 10);
