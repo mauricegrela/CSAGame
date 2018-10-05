@@ -14789,6 +14789,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   Characters: []
   DynamicProps: []
   StoryManager: {fileID: 0}
