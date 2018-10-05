@@ -16,11 +16,12 @@ public class StoryManager : MonoBehaviour {
 	public int StreamingAssetsCounter;
 	public GameObject PageManager;
 	private GameObject Canvas;
-
+    [SerializeField]
+    public GameObject Camera;
     public GameObject[] TextPositions;
     public GameObject InitialTextPosition;
-    //CoRoutine Loading
 
+    //CoRoutine Loading
     private IEnumerator coroutine;
     private int Counter = 0;
 
@@ -28,9 +29,12 @@ public class StoryManager : MonoBehaviour {
     private bool isPanningLeft = false;
     private bool isPanningRight = false;
     private float PanningCounter;
-    private int PanningSpeed = 20;
-    private int PanningLimit = 20;
-    private float PanningSetUp = 20f;
+    private float PanningSpeed = 20.47f;
+    private float PanningLimit = 20.47f;
+    private float PanningSetUp = 20.47f;
+
+    //
+    private Vector3 DistanceCounter;
 
     void Awake()
     {
@@ -192,12 +196,26 @@ public class StoryManager : MonoBehaviour {
         
         if(isPanningRight == true && isPanningLeft == false)
         {
-                
-            if(PanningCounter*-1 <=PanningLimit)
+            int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+            DistanceCounter = new Vector3(TextPositions[CurrentPage].transform.position.x,Camera.transform.position.y,Camera.transform.position.z);
+            if(Vector3.Distance(DistanceCounter, Camera.transform.position)>0) 
+            {//Move if you're not in place
+                Camera.transform.position = DistanceCounter;//Vector3.MoveTowards(DistanceCounter, Camera.transform.position, 0.01f);
+               
+            }
+                else
+                {
+                isPanningRight = false;
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
+                }
+
+            /*if(PanningCounter*-1 <=PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
-                {////Set the children to be a carousel 
-                    TextPositions[i].GetComponent<Transform>().localPosition -= Vector3.right * (Time.deltaTime * PanningSpeed);
+                {//Pan the camera Right
+                    //Camera.transform.position -= Vector3.right * (Time.deltaTime * PanningSpeed);
+                    TextPositions[i].transform.position -= Vector3.right * (Time.deltaTime * PanningSpeed);
+                    /// Camera
                 }
             PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition 
                        -= Vector3.right * (Time.deltaTime * PanningSpeed);
@@ -210,7 +228,7 @@ public class StoryManager : MonoBehaviour {
                 PanningCounter = 0;
                 isPanningRight = false;
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
-            }
+            }*/
         
         }
 
@@ -221,8 +239,8 @@ public class StoryManager : MonoBehaviour {
             if (PanningCounter  <= PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
-                {////Set the children to be a carousel 
-                    TextPositions[i].GetComponent<Transform>().localPosition += Vector3.right * (Time.deltaTime * PanningSpeed);
+                {//Pan the camera Right
+                    //TextPositions[i].transform.position += Vector3.right * (Time.deltaTime * PanningSpeed);
                 }
                 PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition
                            += Vector3.right * (Time.deltaTime * PanningSpeed);

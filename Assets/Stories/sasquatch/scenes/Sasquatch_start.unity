@@ -6779,7 +6779,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411842174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.308, y: 0.323, z: 0}
+  m_LocalPosition: {x: 0.308, y: 0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 403435032}
@@ -11419,6 +11419,7 @@ MonoBehaviour:
   isLoadingLevel: 1
   StreamingAssetsCounter: 0
   PageManager: {fileID: 0}
+  Camera: {fileID: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
 --- !u!1 &664290780
@@ -30278,7 +30279,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1613543076}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.04, y: 0.03, z: -17.27}
+  m_LocalPosition: {x: 0.22, y: 0.16, z: -17.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -30753,7 +30754,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1663293304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.02, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 331344457}
@@ -32310,6 +32311,7 @@ MonoBehaviour:
   isLoadingLevel: 1
   StreamingAssetsCounter: 0
   PageManager: {fileID: 0}
+  Camera: {fileID: 1613543076}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
 --- !u!1 &1759893762
@@ -34794,8 +34796,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1957897812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.308, y: 0.311, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.29, y: 0.301, z: 0}
+  m_LocalScale: {x: 0.9970516, y: 0.9986896, z: 1}
   m_Children: []
   m_Father: {fileID: 987824152}
   m_RootOrder: 0
@@ -34835,7 +34837,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300000, guid: 3f6ee6bafa8bd7b459af06dc3ede6edf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ba53c96733ea5db46b2bdcbdbd6684fb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -34843,7 +34845,7 @@ SpriteRenderer:
   m_Size: {x: 20.48, y: 15.36}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
 --- !u!1 &1965299561
 GameObject:
