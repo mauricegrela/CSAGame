@@ -265,8 +265,14 @@ public class PageManager : Singleton<PageManager>
             Child.gameObject.SetActive(false);
         }
 
+        for (int i = 0; i < sentenceContainer.Length; i++)
+        {
+            sentenceContainer[i] = null;
+        }
+
         //sentenceContainer.Clear();
         sentenceContainerCounter = 0;
+        sentenceContainerCurrent = 0;
         //GameObject TextPositionref;
         foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
         {

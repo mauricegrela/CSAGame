@@ -28,7 +28,7 @@ public class StoryManager : MonoBehaviour {
     private bool isPanningLeft = false;
     private bool isPanningRight = false;
     private float PanningCounter;
-    private int PanningSpeed = 8;
+    private int PanningSpeed = 20;
     private int PanningLimit = 20;
     private float PanningSetUp = 20f;
 
