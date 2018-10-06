@@ -1,11 +1,8 @@
-speaker = narrator
-0.000000	The
-0.173988	ship
-0.405972	went
-0.637956	zipping
-1.043928	through
-1.449900	space.
-1.797876	///
-1.971864	“Wheee!”
-2.435832	yelled
-2.783808	Mathias.
+0.133176	The
+0.255612	ship
+0.635808	went
+0.811944	zipping
+1.56804	through
+1.9332	space.
+///
+2.758032	Wheee!

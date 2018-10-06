@@ -1,10 +1,7 @@
-speaker = narrator
-0.000000	“David,
-0.405972	can
-0.579960	you
-0.753948	give
-0.985932	us
-1.101924	a
-1.159920	push?”
-1.507896	asked
-1.797876	Mathias.
+0.088969	David,
+0.649389	could
+0.794899	you
+0.937082	give
+1.086749	us
+1.189022	a
+1.362802	push?

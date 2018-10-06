@@ -1,13 +1,12 @@
-speaker = narrator
-0.000000	Thinking
-0.463968	quickly,
-0.927936	Niko
-1.159920	grabbed
-1.565892	a
-1.623888	spare
-1.913868	pipe
-2.145852	cleaner
-2.551824	and
-2.725812	fixed
-3.015792	the
-3.189780	spaceship.
+0.183458	Thinking
+0.65186	quickly,
+1.297865	Niko
+1.731138	grabbed
+1.906789	a
+1.990711	spare
+2.386901	pipe
+2.705025	cleaner
+3.101215	and
+3.341271	fixed
+3.616458	the
+3.858466	spaceship.

@@ -1,5 +1,4 @@
-speaker = narrator
-0.000000	They
-0.231984	sped
-0.463968	towards
-0.869940	Earth.
+0.113821	They
+0.487804	sped
+0.58906	towards
+1.093124	Earth.

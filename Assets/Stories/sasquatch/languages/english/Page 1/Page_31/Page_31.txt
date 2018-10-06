@@ -1,10 +1,9 @@
-speaker = narrator
-0.000000	David
-0.289980	used
-0.521964	Canadarm2
-1.043928	to
-1.159920	give
-1.391904	them
-1.623888	a
-1.681884	mighty
-2.029860	push!
+0.185559	David
+0.583702	used
+0.938607	Canadarm2
+1.938466	to
+2.005123	give
+2.217706	them
+2.363631	a
+2.412273	mighty
+3.354483	push!
