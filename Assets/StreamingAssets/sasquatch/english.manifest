@@ -1,16 +1,16 @@
 ManifestFileVersion: 0
-CRC: 3412822629
+CRC: 3516484351
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b397f484e92c0bfc72fb40320600bb2b
+    Hash: 82073e1f90536a40eb0ea7d9ee80b270
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
 HashAppended: 0
 ClassTypes:
-- Class: 83
+- Class: 49
   Script: {instanceID: 0}
 Assets:
-- Assets/Stories/sasquatch/languages/english/Page 1/S03_05/Squ_S03_05_en.wav
+- Assets/Stories/sasquatch/languages/english/Page 1/Page_27_B/Page_27B.txt
 Dependencies: []

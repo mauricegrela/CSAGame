@@ -6180,13 +6180,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImageRef: {fileID: 442674476}
   videoClips:
-  - {fileID: 32900000, guid: f68f9fad0c46a4fb9bb774e570597c49, type: 3}
-  - {fileID: 32900000, guid: c4e693673bee041469c75f0a06f1ac52, type: 3}
-  - {fileID: 32900000, guid: 53f40023690c849ff89d4b51d14b6ec3, type: 3}
-  - {fileID: 32900000, guid: fe873cee6264d4b3482f8b974faf4de4, type: 3}
-  - {fileID: 32900000, guid: 9994276cba3c94921af75129325a4151, type: 3}
-  - {fileID: 32900000, guid: 8baa0e22023394bb9a60dc56fbf083b0, type: 3}
-  - {fileID: 32900000, guid: 6d517295b3e5144c8867088a12c55920, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   vidRef: {fileID: 1726006171}
 --- !u!1 &1753447536
 GameObject:
@@ -6932,8 +6932,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1024, y: 768}
+  m_AnchoredPosition: {x: -49.37, y: 0}
+  m_SizeDelta: {x: 1410, y: 768}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998684050
 MonoBehaviour:
@@ -6954,7 +6954,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5723f57b6ea8d42cb9027e3005bc96f1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d2b70f9a374b24db7af5f09e318020bc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
