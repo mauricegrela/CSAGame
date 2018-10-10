@@ -111,29 +111,13 @@ public class PageManager : Singleton<PageManager>
     {//when ever a level is loaded, this code will run to store all of the relative data
         Resources.UnloadUnusedAssets();
         EnvironmentTracker = CurrentLevel;
-        MountainTest = GameObject.FindGameObjectWithTag("MountainRange");
-        CharacterCoin = GameObject.FindGameObjectWithTag("CharacterCoin");
-        Characters = GameObject.FindGameObjectsWithTag("Characters");//Stores the characters for animation
         StoryManager = GameObject.FindGameObjectWithTag("StoryManager");//Find the story manager found in every level
-        DynamicProps = GameObject.FindGameObjectsWithTag("DynamicProps");
-        foreach (GameObject obj in Characters)
-        {//Find the first camera and store its transform info 
-            if (obj.GetComponent<Camera>() != null)
-            {
-                //cameraTransformTracker = obj.transform;
-            }
-        }
-        //cameraPreviousPosition = cameraTransformTracker.position;
-        transform.hasChanged = false;
 
         if (isGoingBack == true)
         {
             sceneindex = lastPage;
             Debug.Log(sceneindex);
-            ///SetToLastPosition();
-            //GetComponent<PageManager>().GoToPage(sceneindex);
-            //GetComponent<PageManager>().GotoPrevious();
-            //SetToLastPosition();      
+  
         }
     }
 
