@@ -81,14 +81,14 @@ public class StoryManager : MonoBehaviour {
 	void Start () {
 
 
-        for (int i = 0; i <= TextPositions.Length - 1; i++)
+        /*for (int i = 0; i <= TextPositions.Length - 1; i++)
         {////Set the children to be a carousel 
             TextPositions[i].GetComponent<Transform>().localPosition = new Vector3(
                 TextPositions[i].GetComponent<Transform>().localPosition.x+(PanningSetUp*i),
                 TextPositions[i].GetComponent<Transform>().localPosition.y,
                 TextPositions[i].GetComponent<Transform>().localPosition.z);
 
-        }
+        }*/
         //Debug.Log(StreamingAssetsCounter.ToString() + "////" + DataManager.CurrentAssetPackage.ToString());
 
 
@@ -196,7 +196,17 @@ public class StoryManager : MonoBehaviour {
         
         if(isPanningRight == true && isPanningLeft == false)
         {
+
+            foreach (GameObject child in TextPositions)
+            {//Store the First of the Text References                 
+                child.SetActive(false);
+            }
             int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+            TextPositions[CurrentPage].SetActive(true);
+            isPanningRight = false;
+            PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
+
+            /*int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
             DistanceCounter = new Vector3(TextPositions[CurrentPage].transform.position.x,Camera.transform.position.y,Camera.transform.position.z);
             if(Vector3.Distance(DistanceCounter, Camera.transform.position)>0) 
             {//Move if you're not in place
@@ -209,7 +219,7 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
                 }
 
-            /*if(PanningCounter*-1 <=PanningLimit)
+            if(PanningCounter*-1 <=PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
                 {//Pan the camera Right
@@ -235,8 +245,16 @@ public class StoryManager : MonoBehaviour {
 
         if (isPanningRight == false && isPanningLeft == true)
         {
-            
-            if (PanningCounter  <= PanningLimit)
+            foreach (GameObject child in TextPositions)
+            {//Store the First of the Text References                 
+                child.SetActive(false);
+            }
+            int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+            TextPositions[CurrentPage].SetActive(true);
+            isPanningLeft = false;
+            PageManager.GetComponent<PageManager>().SetUpNewTextBack();
+
+            /*if (PanningCounter  <= PanningLimit)
             {
                 for (int i = 0; i <= TextPositions.Length - 1; i++)
                 {//Pan the camera Right
@@ -253,7 +271,7 @@ public class StoryManager : MonoBehaviour {
                 PanningCounter = 0;
                 isPanningLeft = false;
                 PageManager.GetComponent<PageManager>().SetUpNewTextBack();
-            }
+            }*/
 
         }
 	}
