@@ -157,7 +157,28 @@ public class PageManager : Singleton<PageManager>
         Resources.UnloadUnusedAssets();
         SceneManager.UnloadSceneAsync(EnvironmentTracker);
         SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
+        //Resetting logic for finding the 
+        sentenceContainerCounter = 0;
+        sentenceContainerCurrent = 0;
+        //GameObject TextPositionref;
+        foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
+        {
+            // do whatever you want with child transform object here
+            if (child.gameObject.tag == "TextPlacement")
+            {
+                sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
+                sentenceContainerCounter++;
+                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                Debug.Log("Working");
+            }
 
+            if (child.gameObject.tag == "SpeechBubble")
+            {
+                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
+                Debug.Log("working");
+                //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+            }
+        }
     }
 
 
@@ -168,12 +189,7 @@ public class PageManager : Singleton<PageManager>
 
 
     public void GotoNext()
-    {
-
-
-
-
-        sceneindex++;
+    {   sceneindex++;
         bool isloadingScene;
 
         string NextScene;
@@ -194,6 +210,7 @@ public class PageManager : Singleton<PageManager>
             sceneindex = 0;
             LoadingScreen.GetComponent<Image>().enabled = false;
 
+            //Resetting logic for finding the 
             sentenceContainerCounter = 0;
             sentenceContainerCurrent = 0;
             //GameObject TextPositionref;
@@ -207,80 +224,37 @@ public class PageManager : Singleton<PageManager>
                     TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
                     Debug.Log("Working");
                 }
-
-                if (child.gameObject.tag == "SpeechBubble")
-                {
-                    child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
-                    Debug.Log("working");
-                    //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
-                }
-
             }
-
-            //Scenetext.GetComponent<Text>().text = currentPage.audioObjects[audioIndex];
         }
-        else
-        {// is the scene has a pages it can show.
-           
-        }
-        /*if (isloadingScene == false)
-        {
-            if (sceneindex == StoryManager.GetComponent<StoryManager>().pagesPerScene - 1
-                && StoryManager.GetComponent<StoryManager>().isLastscene == true)
-            {//If this is the last scene in the story
-             //Canvas.GetComponent<MainStoryScreen>().OnQuitButton();
-                GameObject EndindCard = GameObject.FindGameObjectWithTag("EndingCard");
-                EndindCard.GetComponentInChildren<FadeScript>().enabled = true;
-                EndindCard.GetComponentInChildren<Image>().raycastTarget = true;
-            }
-        }*/
-        //CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
-
-        //sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene
-
-
         StoryManager.GetComponent<StoryManager>().PanRight();
     }
 
     public void SetUpNewTextFoward()
     {
-        //isloadingScene = false;
-       
+        //Set Story Variables
         isGoingBack = false;
         isForward = true;
         transform.hasChanged = false;
-        foreach (GameObject Mesh in DynamicProps)
-        {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
-            Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshForward();
-        }
-
-        foreach (GameObject Child in Characters)
-        {//Play the next animation on all the characters
-            if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
-            {
-                Child.GetComponent<CharacterAnimationSystems>().InvokeNextAnimation(Scenetext.GetComponent<Text>().text);
-            }
-        }
+        //UI Dots
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
 
-        //sentenceContainer.gameObject.SetActive(false);
-
-
         foreach (SentenceRowContainer Child in sentenceContainer)
-        {
-            if (Child != null)
-            Child.gameObject.SetActive(false);
+        {//Disable all the Text Containers
+            //if (Child != null)
+            //Child.gameObject.SetActive(false);
         }
 
+
+
         for (int i = 0; i < sentenceContainer.Length; i++)
-        {
+        {//Set all the containers back to null
             sentenceContainer[i] = null;
         }
 
-        //sentenceContainer.Clear();
+        
         sentenceContainerCounter = 0;
         sentenceContainerCurrent = 0;
-        //GameObject TextPositionref;
+
         foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
         {
             // do whatever you want with child transform object here
@@ -289,20 +263,18 @@ public class PageManager : Singleton<PageManager>
                 sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>();;
                 sentenceContainerCounter++;
                 TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
-                Debug.Log("Working");
+                //Debug.Log("Working");
             }
 
             if (child.gameObject.tag == "SpeechBubble")
             {
                 child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
-                Debug.Log("working");
+                //Debug.Log("working");
                 //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
             }
 
         }
 
-        //ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
-        //sentenceContainer = TextPositionref.GetComponent<SentenceRowContainer>();
         NextSentence(isForward);
     }
 
@@ -325,85 +297,58 @@ public class PageManager : Singleton<PageManager>
                 Debug.Log("Loading a new Level");
             }
         }
-        else
-        {//If the player is still working their way backwards through the scene.
-            //isForward = false;
-            //PreviousSentence(isGoingBack);
-            /*GetComponent<PageManager>().GoToPage(audioIndex-1);
-            transform.hasChanged = false;
-            foreach (GameObject Mesh in DynamicProps)
-            {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
-                Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshBackward();
-            }
-
-            foreach (GameObject Child in Characters)
-            {//Play the next animation on all the characters
-                if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
-                {
-                    //Debug.Log("Launching Previous Anim");
-                    Child.GetComponent<CharacterAnimationSystems>().InvokePreviousAnimation(Scenetext.GetComponent<Text>().text);
-                }
-            }
-            UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
-
-            /*if(isGoingBack == true)
-            {
-                isGoingBack = false; 
-
-            }*/
         StoryManager.GetComponent<StoryManager>().PanLeft();
-        }
-        ///CharacterCoin.GetComponent<SpeakerUIAssign>().ImageAssign(Speaker);
     }
 
     public void SetUpNewTextBack()
     {
-        //PreviousSentence(isGoingBack);
+        //
         GetComponent<PageManager>().GoToPage(audioIndex - 1);
         transform.hasChanged = false;
-        foreach (GameObject Mesh in DynamicProps)
-        {//Go through all the dynamic meshes and see if there are any that need to be moved or activated. 
-            Mesh.GetComponent<DynamicStaticMeshSystem>().MoveMeshBackward();
-        }
 
-        foreach (GameObject Child in Characters)
-        {//Play the next animation on all the characters
-            if (Child.GetComponent<Animator>() != null || Child.GetComponent<Camera>() != null || Child.GetComponent<Image>() != null)
-            {
-                //Debug.Log("Launching Previous Anim");
-                Child.GetComponent<CharacterAnimationSystems>().InvokePreviousAnimation(Scenetext.GetComponent<Text>().text);
-            }
-        }
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
 
-        //GameObject TextPositionref;
+
+        foreach (SentenceRowContainer Child in sentenceContainer)
+        {//Disable all the Text Containers
+            ///if (Child != null)
+                //Child.gameObject.SetActive(false);
+        }
+
+        for (int i = 0; i < sentenceContainer.Length; i++)
+        {//Set all the containers back to null
+            sentenceContainer[i] = null;
+        }
+
+        sentenceContainerCounter = 0;
+        sentenceContainerCurrent = 0;
+
         foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
         {
             // do whatever you want with child transform object here
             if (child.gameObject.tag == "TextPlacement")
             {
-                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
-
+                sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
+                sentenceContainerCounter++;
+                TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                Debug.Log("Working");
             }
+
+            if (child.gameObject.tag == "SpeechBubble")
+            {
+                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
+                Debug.Log("working");
+                //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+            }
+
         }
 
-        ScenetextContainer.GetComponent<RectTransform>().position = TextPositionref.GetComponent<RectTransform>().position;
-
+        PreviousSentence(isGoingBack);
     }
 
     public void SetToLastPosition()
     {//This function goes through all the dynamic instances in the scene and sets their location to the last memeber of the array
-        Characters = GameObject.FindGameObjectsWithTag("Characters");
-        foreach (GameObject Child in Characters)
-        {
-            Child.GetComponent<CharacterAnimationSystems>().ResetToTheEnd();
-        }
 
-        DynamicProps = GameObject.FindGameObjectsWithTag("DynamicProps");
-        foreach (GameObject Mesh in DynamicProps)
-        {
-            Mesh.GetComponent<DynamicStaticMeshSystem>().ResetToTheEnd();
-        }
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
     }
 
@@ -524,12 +469,12 @@ public class PageManager : Singleton<PageManager>
 
         PlayPreviousSentence();
         //Debug.Log(playFromLast);
-        if (playFromLast == true)
+        /*if (playFromLast == true)
         {//If the player flips to a previous page after moving forward previously
             PreviousSentence(false);
             isGoingBack = false;
 
-        }
+        }*/
     }
 
     void PlayPreviousSentence()
