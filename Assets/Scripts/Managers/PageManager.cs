@@ -41,7 +41,7 @@ public class PageManager : Singleton<PageManager>
     private AudioSource audioSource;
     [SerializeField]
     public SentenceRowContainer[] sentenceContainer;
-    private int sentenceContainerCounter;
+    public int sentenceContainerCounter;
     private int sentenceContainerCurrent=0;
     private bool isForward = true;
     private List<TweenEvent> tweenEvents = new List<TweenEvent>();
@@ -193,6 +193,29 @@ public class PageManager : Singleton<PageManager>
             isGoingBack = false;
             sceneindex = 0;
             LoadingScreen.GetComponent<Image>().enabled = false;
+
+            sentenceContainerCounter = 0;
+            sentenceContainerCurrent = 0;
+            //GameObject TextPositionref;
+            foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
+            {
+                // do whatever you want with child transform object here
+                if (child.gameObject.tag == "TextPlacement")
+                {
+                    sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
+                    sentenceContainerCounter++;
+                    TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                    Debug.Log("Working");
+                }
+
+                if (child.gameObject.tag == "SpeechBubble")
+                {
+                    child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
+                    Debug.Log("working");
+                    //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+                }
+
+            }
 
             //Scenetext.GetComponent<Text>().text = currentPage.audioObjects[audioIndex];
         }

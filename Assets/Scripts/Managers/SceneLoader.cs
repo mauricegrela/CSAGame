@@ -23,7 +23,7 @@ public class SceneLoader : MonoBehaviour
     {
         foreach (string scenePath in scenePaths)
         {
-			string sceneName = DataManager.currentStoryName+"_start";
+            string sceneName = "Chapter_1";//DataManager.currentStoryName+"_start";
 			//Debug.Log (sceneName);
             Scene s = SceneManager.GetSceneByName(sceneName);
                 

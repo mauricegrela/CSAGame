@@ -45,13 +45,20 @@ public class StoryManager : MonoBehaviour {
             TextPositions[i] = transform.GetChild(i).gameObject;
             //Debug.Log(transform.GetChild(i).name);
         }
-
+        PageManager = GameObject.FindGameObjectWithTag("PageManager");
+        PageManager.GetComponent<PageManager>().sentenceContainerCounter = 0;
         foreach (Transform child in TextPositions[0].transform)
         {//Store the First of the Text References 
             
             if (child.gameObject.tag == "TextPlacement")
             {
-                InitialTextPosition = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                PageManager.GetComponent<PageManager>().
+                sentenceContainer[PageManager.GetComponent<PageManager>().sentenceContainerCounter] 
+                = child.gameObject.GetComponent<SentenceRowContainer>();
+                
+                PageManager.GetComponent<PageManager>().sentenceContainerCounter++;
+
+                //InitialTextPosition = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
                 Debug.Log("Working");
             }
 
@@ -60,8 +67,8 @@ public class StoryManager : MonoBehaviour {
 
 
         //Set references 
-        PageManager = GameObject.FindGameObjectWithTag("PageManager");
-        PageManager.GetComponent<PageManager>().sentenceContainer[0] = InitialTextPosition.GetComponent<SentenceRowContainer>();
+       
+        //PageManager.GetComponent<PageManager>().sentenceContainer[0] = InitialTextPosition.GetComponent<SentenceRowContainer>();
 
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = true;
