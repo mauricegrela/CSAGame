@@ -26,7 +26,7 @@ public class UI_ButtonBehaviour : MonoBehaviour {
 	{
 		if (isReadyToClick == true) {
 			isReadyToClick = false;
-			timeLeft = 0.5f;
+			timeLeft = 0.0f;
 			Pagemanager.GetComponent<PageManager> ().GotoNext ();
 		}
 	}
@@ -35,7 +35,7 @@ public class UI_ButtonBehaviour : MonoBehaviour {
 	{
 		if (isReadyToClick == true) {
 			isReadyToClick = false;
-			timeLeft = 0.5f;
+			timeLeft = 0.0f;
 			Pagemanager.GetComponent<PageManager> ().GotoPrevious ();
 		}
 	}

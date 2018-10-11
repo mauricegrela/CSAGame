@@ -1,0 +1,17 @@
+speaker = narrator
+0.000000	“Thank
+0.347976	you,
+0.579960	David,”
+0.985932	the
+1.159920	Explorers
+1.681884	said
+1.913868	in
+2.029860	unison.
+2.435832	////
+2.667816	“Arf!*”
+3.073788	barked
+3.421764	Chewie.
+3.827736	////
+4.117716	*Dare
+4.233708	to
+4.697676	explore!
