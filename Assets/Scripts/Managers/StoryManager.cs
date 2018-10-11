@@ -38,6 +38,7 @@ public class StoryManager : MonoBehaviour {
 
     void Awake()
     {
+        
         TextPositions = new GameObject[transform.childCount];
         pagesPerScene = transform.childCount;
         for (int i = 0; i < transform.childCount; i++)
@@ -47,7 +48,27 @@ public class StoryManager : MonoBehaviour {
         }
         PageManager = GameObject.FindGameObjectWithTag("PageManager");
         PageManager.GetComponent<PageManager>().sentenceContainerCounter = 0;
-        foreach (Transform child in TextPositions[0].transform)
+        PageManager.GetComponent<PageManager>().sentenceContainerCurrent = 0;
+
+        foreach (GameObject child in TextPositions)
+        {//Store the First of the Text References                 
+            child.SetActive(false);
+        }
+
+        int position;
+
+        if(PageManager.GetComponent<PageManager>().isGoingBack == true)
+        {
+        TextPositions[TextPositions.Length - 1].SetActive(true);
+        position = TextPositions.Length - 1;
+        }
+            else
+            {
+            TextPositions[0].SetActive(true);
+            position = 0;
+            }
+
+        foreach (Transform child in TextPositions[position].transform)
         {//Store the First of the Text References 
             
             if (child.gameObject.tag == "TextPlacement")
@@ -59,7 +80,7 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().sentenceContainerCounter++;
 
                 //InitialTextPosition = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
-                Debug.Log("Working");
+                //Debug.Log("Working");
             }
 
 
@@ -87,19 +108,7 @@ public class StoryManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-
-        /*for (int i = 0; i <= TextPositions.Length - 1; i++)
-        {////Set the children to be a carousel 
-            TextPositions[i].GetComponent<Transform>().localPosition = new Vector3(
-                TextPositions[i].GetComponent<Transform>().localPosition.x+(PanningSetUp*i),
-                TextPositions[i].GetComponent<Transform>().localPosition.y,
-                TextPositions[i].GetComponent<Transform>().localPosition.z);
-
-        }*/
-        //Debug.Log(StreamingAssetsCounter.ToString() + "////" + DataManager.CurrentAssetPackage.ToString());
-
-
-		//This variable loads the offset from the page manager so that the level starts off at the right passage.
+        //This variable loads the offset from the page manager so that the level starts off at the right passage.
 		int chapterOffset = PageManager.GetComponent<PageManager> ().ChapterOffSet;
 
 		for(int i = 0; i < Canvas.transform.GetChildCount(); i++)
@@ -146,7 +155,7 @@ public class StoryManager : MonoBehaviour {
             }
             else if (Counter == 2)
             {
-                PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(pagesPerScene - 1);
+                PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(AudioIndexPosition+pagesPerScene - 1);
                 PageManager.GetComponent<PageManager>().isGoingBack = false;
                 PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
                 StopCoroutine(coroutine);
@@ -212,41 +221,6 @@ public class StoryManager : MonoBehaviour {
             TextPositions[CurrentPage].SetActive(true);
             isPanningRight = false;
             PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
-
-            /*int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
-            DistanceCounter = new Vector3(TextPositions[CurrentPage].transform.position.x,Camera.transform.position.y,Camera.transform.position.z);
-            if(Vector3.Distance(DistanceCounter, Camera.transform.position)>0) 
-            {//Move if you're not in place
-                Camera.transform.position = DistanceCounter;//Vector3.MoveTowards(DistanceCounter, Camera.transform.position, 0.01f);
-               
-            }
-                else
-                {
-                isPanningRight = false;
-                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
-                }
-
-            if(PanningCounter*-1 <=PanningLimit)
-            {
-                for (int i = 0; i <= TextPositions.Length - 1; i++)
-                {//Pan the camera Right
-                    //Camera.transform.position -= Vector3.right * (Time.deltaTime * PanningSpeed);
-                    TextPositions[i].transform.position -= Vector3.right * (Time.deltaTime * PanningSpeed);
-                    /// Camera
-                }
-            PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition 
-                       -= Vector3.right * (Time.deltaTime * PanningSpeed);
-            
-                PanningCounter -= Vector3.right.x * (Time.deltaTime * PanningSpeed);
-                //Debug.Log(PanningCounter);
-            }
-            else
-            {
-                PanningCounter = 0;
-                isPanningRight = false;
-                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
-            }*/
-        
         }
 
 
@@ -261,25 +235,17 @@ public class StoryManager : MonoBehaviour {
             isPanningLeft = false;
             PageManager.GetComponent<PageManager>().SetUpNewTextBack();
 
-            /*if (PanningCounter  <= PanningLimit)
-            {
-                for (int i = 0; i <= TextPositions.Length - 1; i++)
-                {//Pan the camera Right
-                    //TextPositions[i].transform.position += Vector3.right * (Time.deltaTime * PanningSpeed);
-                }
-                PageManager.GetComponent<PageManager>().ScenetextContainer.GetComponent<Transform>().localPosition
-                           += Vector3.right * (Time.deltaTime * PanningSpeed);
-
-                PanningCounter += Vector3.right.x * (Time.deltaTime * PanningSpeed);
-                Debug.Log(PanningCounter);
-            }
-            else
-            {
-                PanningCounter = 0;
-                isPanningLeft = false;
-                PageManager.GetComponent<PageManager>().SetUpNewTextBack();
-            }*/
-
         }
 	}
+
+    public void SetToFinal()
+    {
+        Debug.Log("SET TO FINAL");
+        foreach (GameObject child in TextPositions)
+        {//Store the First of the Text References                 
+            child.SetActive(false);
+        }
+        int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+        TextPositions[CurrentPage].SetActive(true);  
+    }
 }

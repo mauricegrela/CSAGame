@@ -9727,7 +9727,7 @@ MonoBehaviour:
   LevelName: Chapter_3
   pagesPerScene: 9
   NextScene: Chapter_4
-  LastScene: Chapter_3
+  LastScene: Chapter_2
   isLastscene: 0
   isFirstscene: 0
   isLoadingLevel: 0

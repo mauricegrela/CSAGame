@@ -42,7 +42,7 @@ public class PageManager : Singleton<PageManager>
     [SerializeField]
     public SentenceRowContainer[] sentenceContainer;
     public int sentenceContainerCounter;
-    private int sentenceContainerCurrent=0;
+    public int sentenceContainerCurrent=0;
     private bool isForward = true;
     private List<TweenEvent> tweenEvents = new List<TweenEvent>();
     [SerializeField]
@@ -116,7 +116,7 @@ public class PageManager : Singleton<PageManager>
         if (isGoingBack == true)
         {
             sceneindex = lastPage;
-            Debug.Log(sceneindex);
+            //Debug.Log(sceneindex);
   
         }
     }
@@ -282,43 +282,70 @@ public class PageManager : Singleton<PageManager>
     {
         sceneindex--;
         Debug.Log(sceneindex);
-        if (sceneindex < 0)
-        {// if the player has reached the end of a bookmark. 
-            if (StoryManager.GetComponent<StoryManager>().isFirstscene == true)
-            {//This condition handels what the player can do when they playe goes backwards from the first passage
-                GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
-                Canvas.GetComponent<MainStoryScreen>().OnQuitButton();
-            }
-            else
-            {//otherwise, go to the last scene
-                isGoingBack = true;
-                ChapterSkipToTheEnd(StoryManager.GetComponent<StoryManager>().LastScene);
+        //bool isloadingScene;
 
-                Debug.Log("Loading a new Level");
+        string LastScene;
+        LastScene = StoryManager.GetComponent<StoryManager>().LastScene;
+
+        if (sceneindex <0)
+        {//If the player is at the last page of the scene
+            //isloadingScene = true;
+            //Debug.Log("Moving scenes");
+            //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
+            GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
+            LoadingScreen.GetComponent<Image>().enabled = true;
+            Resources.UnloadUnusedAssets();
+            SceneManager.UnloadScene(EnvironmentTracker);
+
+            //Check if the player has reached the end of this scene, Once reached, go to the next scene.
+            SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
+            isGoingBack = true;
+            sceneindex = StoryManager.GetComponent<StoryManager>().pagesPerScene;
+            LoadingScreen.GetComponent<Image>().enabled = false;
+
+            Debug.Log("Moving scenes");
+            StoryManager.GetComponent<StoryManager>().SetToFinal();
+
+            //Resetting logic for finding the 
+            sentenceContainerCounter = 0;
+            sentenceContainerCurrent = 0;
+            //GameObject TextPositionref;
+            foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
+            {
+                // do whatever you want with child transform object here
+                if (child.gameObject.tag == "TextPlacement")
+                {
+                    sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
+                    sentenceContainerCounter++;
+                    TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                    Debug.Log("Working");
+                }
             }
         }
         StoryManager.GetComponent<StoryManager>().PanLeft();
+
     }
 
     public void SetUpNewTextBack()
     {
-        //
-        GetComponent<PageManager>().GoToPage(audioIndex - 1);
-        transform.hasChanged = false;
+        //Set Story Variables
+        isGoingBack = true;
+        isForward = false;
 
+        //UI Dots
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
-
 
         foreach (SentenceRowContainer Child in sentenceContainer)
         {//Disable all the Text Containers
-            ///if (Child != null)
-                //Child.gameObject.SetActive(false);
+            //if (Child != null)
+            //Child.gameObject.SetActive(false);
         }
 
         for (int i = 0; i < sentenceContainer.Length; i++)
         {//Set all the containers back to null
             sentenceContainer[i] = null;
         }
+
 
         sentenceContainerCounter = 0;
         sentenceContainerCurrent = 0;
@@ -331,19 +358,18 @@ public class PageManager : Singleton<PageManager>
                 sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
                 sentenceContainerCounter++;
                 TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
-                Debug.Log("Working");
+                //Debug.Log("Working");
             }
 
             if (child.gameObject.tag == "SpeechBubble")
             {
-                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
-                Debug.Log("working");
-                //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive(); 
             }
 
         }
 
         PreviousSentence(isGoingBack);
+
     }
 
     public void SetToLastPosition()
@@ -446,6 +472,7 @@ public class PageManager : Singleton<PageManager>
             Child.Clear();
         }
         audioIndex = i;
+        Debug.Log("Holla");
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 
@@ -455,36 +482,31 @@ public class PageManager : Singleton<PageManager>
         foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if (Child != null)
-            Child.Clear();
+                Child.Clear();
         }
-
-        if (audioIndex < 1 && pageIndex > 0)
-        {//Switch to the previous page if can(OBSELETE)
-            Debug.Log("Reset to previous page");
-            pageIndex--;
-            //audioIndex = currentStory.pageObjects.Count;
+        if (pageIndex >= currentStory.pageObjects.Count)
+        {//when the player reaches the end of the narrative
+            Debug.Log("Story ended! Back to menu...");
+            //SceneManager.LoadScene("Menu");
+            return;
         }
 
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
 
         PlayPreviousSentence();
-        //Debug.Log(playFromLast);
-        /*if (playFromLast == true)
-        {//If the player flips to a previous page after moving forward previously
-            PreviousSentence(false);
-            isGoingBack = false;
 
-        }*/
     }
 
     void PlayPreviousSentence()
     {
-        AudioObject currentAudio = currentPage.audioObjects[audioIndex];
-        StartCoroutine(RunSequence(currentAudio));
+
         if (audioIndex > 0)
         {//reduce the passage book mark
             audioIndex--;
         }
+        AudioObject currentAudio = currentPage.audioObjects[audioIndex];
+        StartCoroutine(RunSequence(currentAudio));
+
     }
 
 
