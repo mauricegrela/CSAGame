@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: d2028086d4cec41448d1b5cd1bf44414
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: More Sugar
+  fontNames:
+  - More Sugar
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
+  - {fileID: 12800000, guid: 590415bf8666642e49dc1559a3c2ca7f, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
