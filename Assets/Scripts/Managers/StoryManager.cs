@@ -18,6 +18,7 @@ public class StoryManager : MonoBehaviour {
 	private GameObject Canvas;
     [SerializeField]
     public GameObject Camera;
+    public Vector3 OGCameraPosition;
     public GameObject[] TextPositions;
     public GameObject InitialTextPosition;
 
@@ -29,16 +30,17 @@ public class StoryManager : MonoBehaviour {
     private bool isPanningLeft = false;
     private bool isPanningRight = false;
     private float PanningCounter;
+    private Transform panningtargetPosition;
     private float PanningSpeed = 20.47f;
     private float PanningLimit = 20.47f;
     private float PanningSetUp = 20.47f;
-
+    private int CurrentPage;
     //
     private Vector3 DistanceCounter;
 
     void Awake()
     {
-        
+        OGCameraPosition = Camera.transform.position;
         TextPositions = new GameObject[transform.childCount];
         pagesPerScene = transform.childCount;
         for (int i = 0; i < transform.childCount; i++)
@@ -47,6 +49,7 @@ public class StoryManager : MonoBehaviour {
             //Debug.Log(transform.GetChild(i).name);
         }
         PageManager = GameObject.FindGameObjectWithTag("PageManager");
+
         PageManager.GetComponent<PageManager>().sentenceContainerCounter = 0;
         PageManager.GetComponent<PageManager>().sentenceContainerCurrent = 0;
 
@@ -95,7 +98,6 @@ public class StoryManager : MonoBehaviour {
         PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = true;
         if (isLoadingLevel == true)
         {//If this is going to load a different streaming package, load it here. 
-
             PageManager.GetComponent<PageManager>().audioIndex = 0;
             DataManager.LoadStory(DataManager.currentStoryName, StreamingAssetsCounter.ToString());
         }
@@ -107,7 +109,6 @@ public class StoryManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
         //This variable loads the offset from the page manager so that the level starts off at the right passage.
 		int chapterOffset = PageManager.GetComponent<PageManager> ().ChapterOffSet;
 
@@ -119,25 +120,14 @@ public class StoryManager : MonoBehaviour {
 		}
 
 		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) {
-			//Set up the narrative variables
-			/*PageManager.GetComponent<PageManager> ().AssetAssigner (LevelName, AudioIndexPosition+chapterOffset);
-			PageManager.GetComponent<PageManager> ().GoToPage (AudioIndexPosition+chapterOffset);
-			PageManager.GetComponent<PageManager> ().ChapterskipSetCharacters(chapterOffset);*/
             coroutine = WaitGoingForward(0.05f);
             StartCoroutine(coroutine);
 			} 
 				else 
 				{//If the player is going backwards
-				/*PageManager.GetComponent<PageManager>().AssetAssigner (LevelName,pagesPerScene-1);
-                PageManager.GetComponent<PageManager>().SetToLastPosition();
-                PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(pagesPerScene - 1);
-				PageManager.GetComponent<PageManager>().isGoingBack = false;*/
-
                 coroutine = WaitGoingBack(0.05f);
                 StartCoroutine(coroutine);
 				}
-	//PageManager.GetComponent<PageManager> ().ChapterOffSet = 0;
-	//PageManager.GetComponent<PageManager> ().LoadingScreen.GetComponent<Image> ().enabled = false;
 	}
 
     private IEnumerator WaitGoingBack(float waitTime)
@@ -200,6 +190,34 @@ public class StoryManager : MonoBehaviour {
     public void PanRight()
     {
         isPanningRight = true;
+        CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+        Camera.transform.position = OGCameraPosition;
+        if (TextPositions[CurrentPage].tag == "panning")
+        {
+            Debug.Log("This is a specific panning script.");
+            TextPositions[CurrentPage].SetActive(true);
+            foreach (Transform child in TextPositions[CurrentPage].transform)
+            {//Store the First of the Text References 
+
+                if (child.gameObject.tag == "panning target")
+                {
+                    panningtargetPosition = child.gameObject.transform;
+                }
+
+            }
+        }
+            else
+            {
+                foreach (GameObject child in TextPositions)
+                {//Store the First of the Text References                 
+                    child.SetActive(false);
+                }
+
+                TextPositions[CurrentPage].SetActive(true);
+
+                isPanningRight = false;
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward(); 
+            }
     }
 
     public void PanLeft()
@@ -212,15 +230,27 @@ public class StoryManager : MonoBehaviour {
         
         if(isPanningRight == true && isPanningLeft == false)
         {
+            float dist = Vector3.Distance(Camera.transform.position, panningtargetPosition.position);
+            if (dist >= 0.1)
+            {
+                //Camera.transform.Translate(Vector3.right * (Time.deltaTime*2), Space.World);
+                float step = 6 * Time.deltaTime;
 
-            foreach (GameObject child in TextPositions)
-            {//Store the First of the Text References                 
-                child.SetActive(false);
+                // Move our position a step closer to the target.
+                Camera.transform.position = Vector3.MoveTowards(Camera.transform.position, panningtargetPosition.position, step);
             }
-            int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
-            TextPositions[CurrentPage].SetActive(true);
-            isPanningRight = false;
-            PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
+                else
+                {
+                    foreach (GameObject child in TextPositions)
+                    {//Store the First of the Text References                 
+                        child.SetActive(false);
+                    }
+
+                TextPositions[CurrentPage].SetActive(true);
+
+                isPanningRight = false;
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();  
+                }
         }
 
 
@@ -230,7 +260,8 @@ public class StoryManager : MonoBehaviour {
             {//Store the First of the Text References                 
                 child.SetActive(false);
             }
-            int CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+            CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
+
             TextPositions[CurrentPage].SetActive(true);
             isPanningLeft = false;
             PageManager.GetComponent<PageManager>().SetUpNewTextBack();

@@ -102,7 +102,7 @@ public class PageManager : Singleton<PageManager>
     {//Initiage the story
      //AssetAssigner (DataManager.currentStoryName + "_start", 11);
         //DataManager.LoadStory(DataManager.currentStoryName, "0");
-        OG_PostitionTextBody = TextBody.gameObject.transform.position;
+        //OG_PostitionTextBody = TextBody.gameObject.transform.position;
         yield return null;
     }
 
