@@ -6987,7 +6987,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1313913499}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -7000,7 +7000,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 6aa61fd9aa7ae421eb8605c8dbe43a2b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
