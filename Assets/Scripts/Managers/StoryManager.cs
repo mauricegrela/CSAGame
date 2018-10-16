@@ -28,7 +28,7 @@ public class StoryManager : MonoBehaviour {
 
     //Panning Variable
     private bool isPanningLeft = false;
-    private bool isPanningRight = false;
+    public bool isPanningRight = false;
     private float PanningCounter;
     private Transform panningtargetPosition;
     private float PanningSpeed = 20.47f;
@@ -194,7 +194,7 @@ public class StoryManager : MonoBehaviour {
         Camera.transform.position = OGCameraPosition;
         if (TextPositions[CurrentPage].tag == "panning")
         {
-            Debug.Log("This is a specific panning script.");
+            //Debug.Log("This is a specific panning script.");
             TextPositions[CurrentPage].SetActive(true);
             foreach (Transform child in TextPositions[CurrentPage].transform)
             {//Store the First of the Text References 
@@ -223,6 +223,7 @@ public class StoryManager : MonoBehaviour {
     public void PanLeft()
     {
         isPanningLeft = true;
+        Camera.transform.position = OGCameraPosition;
     }
 
 	// Update is called once per frame

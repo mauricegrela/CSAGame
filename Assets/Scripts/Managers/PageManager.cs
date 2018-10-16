@@ -281,10 +281,7 @@ public class PageManager : Singleton<PageManager>
     public void GotoPrevious()
     {
         sceneindex--;
-        if(StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning")
-        {
-            sceneindex--; 
-        }
+       
         //Debug.Log(sceneindex);
         //bool isloadingScene;
 
@@ -324,6 +321,15 @@ public class PageManager : Singleton<PageManager>
                     TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
                     Debug.Log("Working");
                 }
+            }
+        }
+        else
+        {
+            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning")
+            {
+                sceneindex--;
+                audioIndex--;
+                Debug.Log(sceneindex);
             }
         }
         StoryManager.GetComponent<StoryManager>().PanLeft();
@@ -476,7 +482,7 @@ public class PageManager : Singleton<PageManager>
             Child.Clear();
         }
         audioIndex = i;
-        Debug.Log("Holla");
+        //Debug.Log("Holla");
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 

@@ -24,7 +24,7 @@ public class UI_ButtonBehaviour : MonoBehaviour {
 
 	public void GoToNext()
 	{
-		if (isReadyToClick == true) {
+        if (isReadyToClick == true && Pagemanager.GetComponent<PageManager>().StoryManager.GetComponent<StoryManager>().isPanningRight  == false) {
 			isReadyToClick = false;
 			timeLeft = 0.5f;
 			Pagemanager.GetComponent<PageManager> ().GotoNext ();
@@ -33,7 +33,7 @@ public class UI_ButtonBehaviour : MonoBehaviour {
 
 	public void GoTolast()
 	{
-		if (isReadyToClick == true) {
+        if (isReadyToClick == true && Pagemanager.GetComponent<PageManager>().StoryManager.GetComponent<StoryManager>().isPanningRight == false) {
 			isReadyToClick = false;
 			timeLeft = 0.5f;
 			Pagemanager.GetComponent<PageManager> ().GotoPrevious ();
