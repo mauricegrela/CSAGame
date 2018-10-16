@@ -1,7 +1,3 @@
-0.088969	David,
-0.649389	could
-0.794899	you
-0.937082	give
-1.086749	us
-1.189022	a
-1.362802	push?
+0.149533	David,
+0.943869	peux-tu nous donner une
+1.678202	poussée?

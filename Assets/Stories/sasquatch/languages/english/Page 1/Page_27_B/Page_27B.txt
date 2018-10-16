@@ -1,4 +1,3 @@
-speaker = narrator
 0.000000	Before
 0.347976	long,
 0.637956	a

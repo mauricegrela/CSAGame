@@ -1,17 +1,4 @@
-0.09845	The
-0.30967	kids
-0.48509	all
-0.66588	came
-0.93975	out
-1.13844	from
-1.30491	their
-1.41052	hiding
-1.81327	spots
-2.25003	and
-2.36996	gave
-2.53643	their
-2.82104	new
-3.0788	friend
-3.27928	a
-3.39563	big
-3.56747	hug.
+0.155687	Les enfants sortent
+1.419351	tous de leur cachette
+3.10337	et font un gros câlin
+4.574617	à leur nouvelle amie.

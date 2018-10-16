@@ -1,33 +1,18 @@
-0.116740	Without
-0.619228	warning,
-1.070959	the
-1.314590	television
-2.035330	went
-2.334793	dead.
+0.264680	Puis
+0.947925	la télévision
+1.994336	s’éteint brusquement.
 ///
-3.187500	Hey!
-3.842257	What
-4.085888	just
-4.299065	happened?
+3.988671	Hé!
+4.899664	Qu’est-ce qui vient de se passer ?
 ///
-4.913217	I
-5.080713	don't
-5.293889	know,
-5.710092	Mathias,
-6.402740	but
-6.518364	I'm
-6.632005	going
-6.781485	to
-6.858127	be
-6.942697	a
-7.201694	space
-7.391977	explorer
-7.954899	just
-8.208610	like
-8.428334	David.
+6.450814	Je ne sais
+7.109437	pas, Mathias.
+8.352819	Mais moi,
+9.091462	je veux explorer
+9.977833	l’espace
+10.888826	comme David!
 ///
-9.475047	Us
-9.785460	too!
+12.243004	Nous aussi!
 ///
-10.231213	Arf!
-10.541626	Arf!
+13.221706	Ouaf!
+13.523318	Ouaf!

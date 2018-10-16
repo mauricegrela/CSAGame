@@ -1,42 +1,12 @@
-0.234675	From
-0.481384	inside
-0.860474	it,
-1.444152	they
-1.732983	heard
-1.895450	a
-2.045883	loud
+0.190548	Et ils entendent un gros
+2.013186	WOUF
+2.974212	en provenance de l’intérieur du tourbillon!
 ///
-2.683717	BARK!
+5.782731	Chewie est là-dedans!
 ///
-3.514104	Chewie's
-3.917264	in
-4.103800	there!
+7.497666	Je ne sais vraiment pas si nous devrions entrer, Niko…
+11.184364	C’est vraiment bizarre.
 ///
-5.000378	I
-5.174880	really
-5.403537	don't
-5.590074	know
-5.698385	if
-5.890939	we
-5.945094	should
-6.143665	go
-6.215873	in,
-6.438513	Niko
-7.106434	it's
-7.292970	kind
-7.545697	scary
-7.996994	looking.
-///
-8.725088	But
-8.911624	Layla,
-9.621666	we
-9.802185	still
-9.964652	need
-10.066946	to
-10.25950	find
-10.542313	him!
-10.981576	Dare
-11.125991	to
-11.318545	explore,
-12.329452	right
-12.576161	everyone?
+13.429522	Mais Layla,
+14.597667	nous devons le retrouver!
+15.989499	Il faut oser explorer, non?

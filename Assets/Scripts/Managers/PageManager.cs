@@ -281,7 +281,11 @@ public class PageManager : Singleton<PageManager>
     public void GotoPrevious()
     {
         sceneindex--;
-        Debug.Log(sceneindex);
+        if(StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning")
+        {
+            sceneindex--; 
+        }
+        //Debug.Log(sceneindex);
         //bool isloadingScene;
 
         string LastScene;

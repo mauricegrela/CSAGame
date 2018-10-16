@@ -1,32 +1,9 @@
-0.262293	Just
-0.825450	then,
-1.496611	the
-1.782047	kids
-2.144628	spotted
-2.538067	something
-3.062652	strange
-3.402090	up
-3.579523	ahead.
-4.836985	A
-5.045276	big
-5.353856	swirling
-6.156163	cosmic
-6.572745	whirlpool,
-7.521627	dancing
-7.884208	and
-8.254504	shimmering
-8.755946	in
-9.002809	space.
-10.021122	It
-10.267986	was
-10.591994	mesmerazing
-12.235181	-
-12.520617	which
-12.759766	is
-12.960343	when
-13.276637	something
-13.83208	is
-14.071229	both
-14.325807	mesmerizing
-15.698987	and
-16.123283	amazing.
+0.247995	Au même moment,
+1.811114	les enfants aperçoivent quelque chose d’étrange :
+5.365707	un gros tourbillon cosmique
+7.469905	dansant
+8.30407	et scintillant dans l’espace.
+10.671293	C’était
+11.565578	fascimidable,
+13.023487	ce qui est le cas quand quelque chose est à la fois fascinant
+15.804035	et formidable.

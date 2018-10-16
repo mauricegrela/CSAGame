@@ -1,12 +1,7 @@
-0.068837	And
-0.206511	of
-0.473254	course,
-0.992974	a
-1.177112	little
-1.483437	doggy
-1.887854	rocket
-2.323248	for
-2.457480	Chewie.
+0.097089	Et bien sûr,
+1.255227	une petite fusée
+2.512188	pour
+2.706367	Chewie.
 ///
-3.190594	Arf!
-3.502082	Arf!
+3.240359	Ouaf!
+3.547231	Ouaf!

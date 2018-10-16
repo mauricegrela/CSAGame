@@ -1,10 +1,5 @@
-speaker = narrator
-0.000000	Before
-0.347976	long,
-0.637956	a
-0.695952	very
-0.927936	large
-1.217916	shadow
-1.565892	crossed
-1.971864	their
-2.261844	path...
+0.136106	Peu
+0.465395	après,
+0.985672	leur trajectoire les mène vers une ombre de
+3.23362	très grande
+4.186363	taille...

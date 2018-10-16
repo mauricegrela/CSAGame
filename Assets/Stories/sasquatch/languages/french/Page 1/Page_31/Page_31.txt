@@ -1,9 +1,7 @@
-0.185559	David
-0.583702	used
-0.938607	Canadarm2
-1.938466	to
-2.005123	give
-2.217706	them
-2.363631	a
-2.412273	mighty
-3.354483	push!
+0.11729	Avec
+0.412291	le
+0.714401	Canadarm2,
+1.757568	David
+2.091666	leur
+2.358233	donne une
+2.813175	formidable poussée!

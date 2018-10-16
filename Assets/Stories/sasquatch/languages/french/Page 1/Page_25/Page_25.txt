@@ -1,11 +1,4 @@
-0.10837	Oh
-0.465354	no,
-1.170822	our
-1.355688	Rocket
-1.716922	Booster
-2.029282	9000
-2.641254	just
-2.836746	broke
-3.070485	off!
-3.820576	Niko,
-4.279555	help!
+0.089843	Oh non,
+1.124322	notre propulseur-9000
+2.918617	vient de se casser!
+4.594833	À l’aide, Niko!
