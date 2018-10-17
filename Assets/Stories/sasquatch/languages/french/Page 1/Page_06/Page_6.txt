@@ -1,18 +1,18 @@
-0.264680	Puis
+0.26468	Puis
 0.947925	la télévision
 1.994336	s’éteint brusquement.
-///
+1.994336	///	
 3.988671	Hé!
 4.899664	Qu’est-ce qui vient de se passer ?
-///
+4.899664	///	
 6.450814	Je ne sais
 7.109437	pas, Mathias.
 8.352819	Mais moi,
 9.091462	je veux explorer
 9.977833	l’espace
 10.888826	comme David!
-///
+10.888826	///	
 12.243004	Nous aussi!
-///
+12.243004	///	
 13.221706	Ouaf!
 13.523318	Ouaf!

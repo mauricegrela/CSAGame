@@ -9,12 +9,12 @@
 3.000236	to
 3.175284	chase
 3.370686	after
-3.623080	their
+3.62308	their
 3.757419	beloved
 4.315129	pet
-///
+4.315129	///	
 5.096738	RRRRRROOOOOOOOOAAAAAAAAAARRRRRRRR
 7.494484	went
 7.734666	the
-7.893430	mighty
+7.89343	mighty
 8.174321	engines!

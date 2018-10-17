@@ -1,10 +1,10 @@
 0.295143	Chewie,
 1.196106	on vient
 1.703544	te chercher!
-///
+1.703544	///	
 3.256928	Qui a mis
 3.873104	tout ce carburant dans la fusée?!
-///
+3.873104	///	
 5.783766	Je ne sais pas,
 6.40512	Mathias.
 7.844589	Mais nous filons tellement vite

@@ -1,15 +1,15 @@
 0.18259	La créature pousse un petit gloussement
 2.821015	et devient orange vif :
 5.340757	elle est heureuse maintenant!
-///
+5.340757	///	
 6.920161	Aider cette créature solitaire
 9.102111	leur a donné l’envie de retourner à la maison,
 12.026682	mais ils n’avaient toujours pas retrouvé Chewie!
-///
+9.102111	///	
 14.890214	As-tu vu un chien passer par ici?
-///
+14.890214	///	
 17.32779	La créature
 18.414201	montre la Terre du doigt.
-///
+18.414201	///	
 19.838403	Ouaf!
 20.167065	Ouaf!

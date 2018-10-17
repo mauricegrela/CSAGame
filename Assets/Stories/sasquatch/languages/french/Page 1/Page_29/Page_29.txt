@@ -4,6 +4,6 @@
 4.013944	parce qu’il était grand temps de retourner sur Terre.
 7.263623	Mais au moment
 8.29507	où Gemma s’apprête à mettre les gaz…
-///
+8.29507	///	
 10.979318	Oh non!
 12.296587	On n’a plus de carburant!

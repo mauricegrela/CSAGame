@@ -1,27 +1,11 @@
-0.099944	Many
-0.623461	many
-1.194571	busy
-1.589588	busy
-1.946532	minutes
-2.351068	laters,
-2.860307	the
-3.136344	kids
-3.402861	stood
-3.678898	back
-4.078674	and
-4.378507	admired
-4.797321	their
-5.021005	work.
-5.663504	a
-5.834836	fantastic-
-6.572520	looking
-6.948500	doggy
-7.267370	spaceship
-7.966979	and
-8.238256	an
-8.409589	even
-8.599959	more
-8.875995	fantastic
-9.518493	one
-9.789771	for
-9.989659	kids.
+0.132238	Après
+0.356469	plusieurs longues,
+1.655854	très longues minutes de dur travail,
+3.915405	les enfants s’arrêtent
+5.191793	pour admirer le résultat
+6.203704	de leurs efforts :
+7.790565	une magnifique fusée
+9.256686	pour chien
+10.331841	et une plus magnifique
+11.544984	encore
+12.108435	pour enfants.

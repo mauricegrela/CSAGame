@@ -1,13 +1,13 @@
-0.278640	Meet
-0.65010		the
+0.167228	Meet
+0.546808	the
 0.798977	Explorers
-1.425418	Club
-2.250939	Niko
-3.288812	Layla
+1.425418	Club:
+2.250939	Niko,
+3.288812	Layla,
 4.071863	Mathias
 4.913311	and
-5.157516	Gemma
-5.927295	Oh
+5.157516	Gemma.
+5.927295	Oh,
 6.476757	don't
 6.667875	forget
 7.310242	their
@@ -22,7 +22,7 @@
 11.151171	dog
 11.429884	in
 11.594458	the
-11.751068	universe
+11.751068	universe - 
 12.826103	or
 12.93228	at
 13.168522	least

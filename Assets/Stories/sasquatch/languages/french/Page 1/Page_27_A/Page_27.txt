@@ -1,8 +1,8 @@
 0.16238	Voilà qui est mieux!
 1.520956	Mais ATTENTION AUX ASTÉROÏDES!
-///
+1.520956	///	
 3.496575	Et À CE SATELLITE!
-///
+3.496575	///	
 4.81185	Comme de vrais astronautes,
 6.506011	ils manœuvrent habilement pour éviter tous les dangers.
 10.143316	Ouf,

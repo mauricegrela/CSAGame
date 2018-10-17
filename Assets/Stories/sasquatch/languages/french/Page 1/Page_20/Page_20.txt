@@ -6,9 +6,10 @@
 9.245442	Elle pense y voir…
 11.079658	est-ce que cela pourrait être…
 13.285675	des larmes?
-///
+13.285675	///	
 14.971172	Hé tout le monde!
 16.693848	Je crois que ce n’est pas un monstre effrayant.
 19.866546	Regardez!
+19.866546	///	
 21.514862	Elle veut simplement être notre amie.
 24.27858	On peut se sentir très seul ici dans l'espace, après tout.

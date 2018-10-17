@@ -1,10 +1,10 @@
 0.170046	[BAÎLLEMENT!]
 3.294634	Faisons une petite sieste
 4.945494	avant d’atterrir.
-///
+4.945494	///	
 7.326133	Bonne idée, Layla.
 9.04076	Mathias et Niko dorment déjà!
-///
+9.04076	///	
 11.393058	Ils se blottissent
 12.519611	dans leur sac de couchage
 14.149215	et se laissent gagner par le sommeil…
