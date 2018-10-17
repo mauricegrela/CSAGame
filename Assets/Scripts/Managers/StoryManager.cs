@@ -189,6 +189,9 @@ public class StoryManager : MonoBehaviour {
 
     public void PanRight()
     {
+
+        Debug.Log("Working");
+
         isPanningRight = true;
         CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
         Camera.transform.position = OGCameraPosition;
