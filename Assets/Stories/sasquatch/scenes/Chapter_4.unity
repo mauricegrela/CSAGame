@@ -250,7 +250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.15, y: -3.85}
+  m_AnchoredPosition: {x: 3.7, y: -1.94}
   m_SizeDelta: {x: 649.932, y: 174.551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &79113967
@@ -6919,8 +6919,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.9, y: 2.78}
-  m_SizeDelta: {x: 201.717, y: 98.093}
+  m_AnchoredPosition: {x: 3.112, y: 2.78}
+  m_SizeDelta: {x: 230.598, y: 98.093}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1298364629
 MonoBehaviour:
@@ -10276,6 +10276,7 @@ MonoBehaviour:
   OGCameraPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningRight: 0
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0
