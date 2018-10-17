@@ -4522,7 +4522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.562, y: -6.208}
+  m_AnchoredPosition: {x: 2.562, y: -5.78}
   m_SizeDelta: {x: 618.789, y: 181.272}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1910227770
@@ -5183,6 +5183,7 @@ MonoBehaviour:
   OGCameraPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningRight: 0
 --- !u!4 &2095002486
 Transform:
   m_ObjectHideFlags: 0
