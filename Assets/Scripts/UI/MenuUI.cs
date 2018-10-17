@@ -13,7 +13,7 @@ public class MenuUI : MonoBehaviour
     //TODO Dry this code up
     void Awake()
     {
-        DataManager.languageManager = new string[languageDropdown.options.Count];
+       /*) DataManager.languageManager = new string[languageDropdown.options.Count];
 
         for (int i = 0; i < languageDropdown.options.Count; i++)
         {
@@ -33,7 +33,7 @@ public class MenuUI : MonoBehaviour
                 storyDropdown.value = i;
             }
         }
-        storyDropdown.onValueChanged.AddListener(OnStoryDropdownChanged);
+        storyDropdown.onValueChanged.AddListener(OnStoryDropdownChanged);*/
     }
 
 
