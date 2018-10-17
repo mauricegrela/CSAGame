@@ -594,6 +594,7 @@ public class PageManager : Singleton<PageManager>
             else
             {
                 Debug.Log (wordGroup.text);
+                //sentenceContainer[sentenceContainerCurrent].gameObject.SetActive(false);
                 //sentenceContainer.AddText(wordGroup);
                 /*foreach (SentenceRowContainer Child in sentenceContainer)
                 {
