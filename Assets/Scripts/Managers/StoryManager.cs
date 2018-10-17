@@ -120,12 +120,12 @@ public class StoryManager : MonoBehaviour {
 		}
 
 		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) {
-            coroutine = WaitGoingForward(0.0f);
+            coroutine = WaitGoingForward(0.2f);
             StartCoroutine(coroutine);
 			} 
 				else 
 				{//If the player is going backwards
-                coroutine = WaitGoingBack(0.0f);
+                coroutine = WaitGoingBack(0.2f);
                 StartCoroutine(coroutine);
 				}
 	}

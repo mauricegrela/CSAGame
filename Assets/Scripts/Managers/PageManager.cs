@@ -581,30 +581,23 @@ public class PageManager : Singleton<PageManager>
             "Please ensure a text file is in the folder, and it's  set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
             yield break;
         }
+
         //Displaying all words in the bottom
         foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
 			if (wordGroup.text.Contains("///"))
             {//Get The Narrator
-                //Speaker = wordGroup.text;
-                //Speaker = Speaker.Remove(0, 10);
-                //Debug.Log(Speaker);
                 sentenceContainerCurrent += 1;
             }
             else
             {
-                //Debug.Log (wordGroup.text);
-                //sentenceContainer.AddText(wordGroup);
-                /*foreach (SentenceRowContainer Child in sentenceContainer)
-                {
-                    if (Child != null)
-                    Child.AddText(wordGroup);
-                }*/
                 sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
             }
         }
+
         //highlight the proper wordgroups
         int i = 0;
+
         WordGroupObject prevWordGroup = null;
 
         while (i < obj.sentence.wordGroups.Count)
@@ -616,14 +609,17 @@ public class PageManager : Singleton<PageManager>
                     if (Child != null)
                     Child.HighlightWordGroup(wordGroup);
                 }
-            i++;
+
             //We calculate it like this because the times given are actually absolute times, not times per word
-            float waitTime = wordGroup.time;
+            //float waitTime = wordGroup.time;
+            float waitTime = obj.sentence.wordGroups[i+1].time;
             if (prevWordGroup != null && i > 1)
             {
-                waitTime -= prevWordGroup.time;
+                waitTime -= obj.sentence.wordGroups[i].time;
             }
-            yield return new WaitForSeconds(waitTime);
+            Debug.Log(waitTime+"///"+wordGroup.text);
+            i++;
+            yield return new WaitForSecondsRealtime(waitTime);
             prevWordGroup = wordGroup;
         }
         //sentenceContainer.HighlightWordGroup(null);
