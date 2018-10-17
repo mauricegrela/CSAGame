@@ -582,15 +582,24 @@ public class PageManager : Singleton<PageManager>
             yield break;
         }
 
-        //Displaying all words in the bottom
         foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
-			if (wordGroup.text.Contains("///"))
+            if (wordGroup.text.Contains("///"))
             {//Get The Narrator
+                //Speaker = wordGroup.text;
+                //Speaker = Speaker.Remove(0, 10);
+                Debug.Log(Speaker);
                 sentenceContainerCurrent += 1;
             }
             else
             {
+                Debug.Log (wordGroup.text);
+                //sentenceContainer.AddText(wordGroup);
+                /*foreach (SentenceRowContainer Child in sentenceContainer)
+                {
+                    if (Child != null)
+                    Child.AddText(wordGroup);
+                }*/
                 sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
             }
         }
@@ -617,7 +626,7 @@ public class PageManager : Singleton<PageManager>
             {
                 waitTime -= obj.sentence.wordGroups[i].time;
             }
-            Debug.Log(waitTime+"///"+wordGroup.text);
+            //Debug.Log(waitTime+"///"+wordGroup.text);
             i++;
             yield return new WaitForSecondsRealtime(waitTime);
             prevWordGroup = wordGroup;
