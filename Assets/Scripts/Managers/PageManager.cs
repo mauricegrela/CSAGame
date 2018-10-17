@@ -301,12 +301,13 @@ public class PageManager : Singleton<PageManager>
             //Check if the player has reached the end of this scene, Once reached, go to the next scene.
             SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
             isGoingBack = true;
-            sceneindex = StoryManager.GetComponent<StoryManager>().pagesPerScene;
+            //StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
+            //sceneindex = StoryManager.GetComponent<StoryManager>().pagesPerScene;
             LoadingScreen.GetComponent<Image>().enabled = false;
 
             Debug.Log("Moving scenes");
-            StoryManager.GetComponent<StoryManager>().SetToFinal();
-
+            //StoryManager.GetComponent<StoryManager>().SetToFinal();
+            /*
             //Resetting logic for finding the 
             sentenceContainerCounter = 0;
             sentenceContainerCurrent = 0;
@@ -321,10 +322,11 @@ public class PageManager : Singleton<PageManager>
                     TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
                     Debug.Log("Working");
                 }
-            }
+            }*/
         }
         else
         {
+            Debug.Log("working");
             if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning")
             {
                 sceneindex--;
