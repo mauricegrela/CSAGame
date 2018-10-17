@@ -13,27 +13,7 @@ public class MenuUI : MonoBehaviour
     //TODO Dry this code up
     void Awake()
     {
-       /*) DataManager.languageManager = new string[languageDropdown.options.Count];
-
-        for (int i = 0; i < languageDropdown.options.Count; i++)
-        {
-            DataManager.languageManager[i] = languageDropdown.options[i].text.ToLower();
-            //Debug.Log(languageDropdown.options[i].text);
-            if (languageDropdown.options[i].text.ToLower() == DataManager.currentLanguage)
-            {
-                languageDropdown.value = i;
-            }
-        }
-        languageDropdown.onValueChanged.AddListener(OnLanguageDropdownChanged);
-
-        for (int i = 0; i < storyDropdown.options.Count; i++)
-        {
-            if (storyDropdown.options[i].text.ToLower() == DataManager.currentStoryName)
-            {
-                storyDropdown.value = i;
-            }
-        }
-        storyDropdown.onValueChanged.AddListener(OnStoryDropdownChanged);*/
+      
     }
 
 
@@ -46,20 +26,6 @@ public class MenuUI : MonoBehaviour
     void Start()
     {
 
-    }
-
-
-
-    void OnLanguageDropdownChanged(int i)
-    {
-        DataManager.currentLanguage = languageDropdown.options[i].text.ToLower();
-        Debug.Log(DataManager.currentLanguage);
-    }
-
-    void OnStoryDropdownChanged(int i)
-    {
-        DataManager.currentStoryName = storyDropdown.options[i].text.ToLower();
-		Debug.Log(DataManager.currentStoryName);
     }
 
     public void StartGame()
