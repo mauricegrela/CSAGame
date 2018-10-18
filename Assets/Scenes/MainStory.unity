@@ -9743,6 +9743,8 @@ MonoBehaviour:
   UIDots: {fileID: 1014635017}
   ScentenceContainer: {fileID: 0}
   LoadingScreen: {fileID: 1313913501}
+  BackButton: {fileID: 1362191583}
+  NextButton: {fileID: 23125222}
   Scenetext: {fileID: 2139804641}
   ScenetextContainer: {fileID: 0}
 --- !u!4 &2054599092
