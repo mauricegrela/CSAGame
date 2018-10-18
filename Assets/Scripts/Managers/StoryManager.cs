@@ -120,12 +120,12 @@ public class StoryManager : MonoBehaviour {
 		}
 
 		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) {
-            coroutine = WaitGoingForward(0.2f);
+            coroutine = WaitGoingForward(1.0f);
             StartCoroutine(coroutine);
 			} 
 				else 
 				{//If the player is going backwards
-                coroutine = WaitGoingBack(0.2f);
+                coroutine = WaitGoingBack(1.0f);
                 StartCoroutine(coroutine);
 				}
 	}
@@ -141,10 +141,11 @@ public class StoryManager : MonoBehaviour {
             }
             else if (Counter == 1)
             {
-                PageManager.GetComponent<PageManager>().SetToLastPosition();
+                
             }
             else if (Counter == 2)
             {
+                PageManager.GetComponent<PageManager>().SetToLastPosition();
                 PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(AudioIndexPosition+pagesPerScene - 1);
                 PageManager.GetComponent<PageManager>().isGoingBack = false;
                 PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
@@ -170,10 +171,11 @@ public class StoryManager : MonoBehaviour {
             }
             else if (Counter == 1)
             {
-                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition );
+                
             }
             else if (Counter == 2)
             {
+                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
                 PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
                 PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
                 StopCoroutine(coroutine);

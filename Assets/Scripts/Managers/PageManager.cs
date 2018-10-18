@@ -198,6 +198,7 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
             isloadingScene = true;
+            audioSource.Stop();
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<Image>().enabled = true;
@@ -293,6 +294,7 @@ public class PageManager : Singleton<PageManager>
             //isloadingScene = true;
             //Debug.Log("Moving scenes");
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
+            audioSource.Stop();
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
