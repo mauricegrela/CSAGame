@@ -650,7 +650,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 100917804}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!4 &100917809
 Transform:
   m_ObjectHideFlags: 0
@@ -9743,6 +9743,8 @@ MonoBehaviour:
   UIDots: {fileID: 1014635017}
   ScentenceContainer: {fileID: 0}
   LoadingScreen: {fileID: 1313913501}
+  BackButton: {fileID: 1362191583}
+  NextButton: {fileID: 23125222}
   Scenetext: {fileID: 2139804641}
   ScenetextContainer: {fileID: 0}
 --- !u!4 &2054599092

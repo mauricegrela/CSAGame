@@ -80,6 +80,10 @@ public class PageManager : Singleton<PageManager>
     public GameObject UIDots;
     public GameObject ScentenceContainer;
     public Image LoadingScreen;
+    [SerializeField]
+    private GameObject BackButton;
+    [SerializeField]
+    private GameObject NextButton;
 
     //Debuging Vars
     public GameObject Scenetext;
@@ -198,6 +202,7 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
             isloadingScene = true;
+            audioSource.Stop();
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<Image>().enabled = true;
@@ -293,6 +298,7 @@ public class PageManager : Singleton<PageManager>
             //isloadingScene = true;
             //Debug.Log("Moving scenes");
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
+            audioSource.Stop();
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
@@ -301,28 +307,10 @@ public class PageManager : Singleton<PageManager>
             //Check if the player has reached the end of this scene, Once reached, go to the next scene.
             SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
             isGoingBack = true;
-            //StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
-            //sceneindex = StoryManager.GetComponent<StoryManager>().pagesPerScene;
+
             LoadingScreen.GetComponent<Image>().enabled = false;
 
             Debug.Log("Moving scenes");
-            //StoryManager.GetComponent<StoryManager>().SetToFinal();
-            /*
-            //Resetting logic for finding the 
-            sentenceContainerCounter = 0;
-            sentenceContainerCurrent = 0;
-            //GameObject TextPositionref;
-            foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
-            {
-                // do whatever you want with child transform object here
-                if (child.gameObject.tag == "TextPlacement")
-                {
-                    sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
-                    sentenceContainerCounter++;
-                    TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
-                    Debug.Log("Working");
-                }
-            }*/
         }
         else
         {
@@ -559,6 +547,24 @@ public class PageManager : Singleton<PageManager>
     IEnumerator RunSequence(AudioObject obj)
     {
         //Debug.Log(obj.clip);
+
+        if(audioIndex == 0)
+        {
+            BackButton.GetComponent<Image>().enabled = false;
+        }
+            else 
+            {
+                BackButton.GetComponent<Image>().enabled = true;   
+            }
+
+        if (audioIndex == 38)
+        {
+            NextButton.GetComponent<Image>().enabled = false;
+        }
+        else
+        {
+            NextButton.GetComponent<Image>().enabled = true;
+        }
 
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
         Scenetext.GetComponent<Text>().text = currentAudio.name;
