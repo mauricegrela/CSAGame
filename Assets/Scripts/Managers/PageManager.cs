@@ -205,6 +205,7 @@ public class PageManager : Singleton<PageManager>
             audioSource.Stop();
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
+            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
             LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
@@ -300,6 +301,7 @@ public class PageManager : Singleton<PageManager>
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
             audioSource.Stop();
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
+            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
             LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);

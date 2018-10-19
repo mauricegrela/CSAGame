@@ -7026,12 +7026,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   loadingscreens:
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
-  - {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
+  - {fileID: 21300000, guid: dd3cdc40d48f946b893f71d148c696d4, type: 3}
+  - {fileID: 21300000, guid: 1cc4db186c76343f0a4557b25dbdde10, type: 3}
+  - {fileID: 21300000, guid: d1fdfa989d9be480fac5dd718c6e0bab, type: 3}
+  - {fileID: 21300000, guid: 456b7dbe217db4d51a09c349f3eb07b3, type: 3}
+  - {fileID: 21300000, guid: 2df4c015108654ac4b828f4aabe7a9b8, type: 3}
 --- !u!1 &1338087635
 GameObject:
   m_ObjectHideFlags: 0
