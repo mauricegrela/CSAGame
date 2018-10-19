@@ -146,11 +146,13 @@ public class StoryManager : MonoBehaviour {
             else if (Counter == 2)
             {
                 PageManager.GetComponent<PageManager>().SetToLastPosition();
-                PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(AudioIndexPosition+pagesPerScene - 1);
+                PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(AudioIndexPosition + pagesPerScene - 1);
                 PageManager.GetComponent<PageManager>().isGoingBack = false;
-                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
 
+                PageManager.GetComponent<PageManager>().isGoingBack = false;
+                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
                 GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                if (AnimRef != null)
                 AnimRef.GetComponent<Animator>().enabled = true;
 
                 StopCoroutine(coroutine);
@@ -181,8 +183,9 @@ public class StoryManager : MonoBehaviour {
             {
                 PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
                 PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
-                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
+                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
                 GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                if(AnimRef != null)
                 AnimRef.GetComponent<Animator>().enabled = true;
 
                 StopCoroutine(coroutine);
@@ -199,7 +202,7 @@ public class StoryManager : MonoBehaviour {
     public void PanRight()
     {
 
-        Debug.Log("Working");
+//        Debug.Log("Working");
 
         isPanningRight = true;
         CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;

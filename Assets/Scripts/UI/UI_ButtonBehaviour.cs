@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class UI_ButtonBehaviour : MonoBehaviour {
@@ -27,7 +28,8 @@ public class UI_ButtonBehaviour : MonoBehaviour {
         if (isReadyToClick == true && Pagemanager.GetComponent<PageManager>().StoryManager.GetComponent<StoryManager>().isPanningRight  == false) {
 			isReadyToClick = false;
 			timeLeft = 0.5f;
-			Pagemanager.GetComponent<PageManager> ().GotoNext ();
+            //Debug.Log("TurnOff");
+            Pagemanager.GetComponent<PageManager> ().GotoNext ();
 		}
 	}
 

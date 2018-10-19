@@ -201,8 +201,10 @@ public class PageManager : Singleton<PageManager>
 
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
-            LoadingScreen.GetComponent<Image>().enabled = true;
+            //LoadingScreen.GetComponent<Image>().enabled = true;
             LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
+            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(true);
+                         
 
             isloadingScene = true;
             audioSource.Stop();
@@ -219,7 +221,7 @@ public class PageManager : Singleton<PageManager>
             SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
             isGoingBack = false;
             sceneindex = 0;
-            LoadingScreen.GetComponent<Image>().enabled = false;
+
 
             //Resetting logic for finding the 
             sentenceContainerCounter = 0;
@@ -307,18 +309,21 @@ public class PageManager : Singleton<PageManager>
             //isloadingScene = true;
             //Debug.Log("Moving scenes");
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
+
+
             audioSource.Stop();
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<Image>().enabled = true;
+            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(true);
+            ///LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
             //Check if the player has reached the end of this scene, Once reached, go to the next scene.
             SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
             isGoingBack = true;
-
-            LoadingScreen.GetComponent<Image>().enabled = false;
+            //LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
+            //LoadingScreen.GetComponent<Image>().enabled = false;
 
             Debug.Log("Moving scenes");
         }
@@ -385,7 +390,7 @@ public class PageManager : Singleton<PageManager>
     public void SetToLastPosition()
     {//This function goes through all the dynamic instances in the scene and sets their location to the last memeber of the array
 
-        UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
+        //UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
     }
 
     private void LanguageMenuDeploy()
@@ -604,12 +609,12 @@ public class PageManager : Singleton<PageManager>
             {//Get The Narrator
                 //Speaker = wordGroup.text;
                 //Speaker = Speaker.Remove(0, 10);
-                Debug.Log(Speaker);
+                //Debug.Log(Speaker);
                 sentenceContainerCurrent += 1;
             }
             else
             {
-                Debug.Log (wordGroup.text);
+               //Debug.Log (wordGroup.text);
                 //sentenceContainer[sentenceContainerCurrent].gameObject.SetActive(false);
                 //sentenceContainer.AddText(wordGroup);
                 /*foreach (SentenceRowContainer Child in sentenceContainer)
@@ -638,10 +643,23 @@ public class PageManager : Singleton<PageManager>
 
             //We calculate it like this because the times given are actually absolute times, not times per word
             //float waitTime = wordGroup.time;
-            float waitTime = obj.sentence.wordGroups[i+1].time;
+            float waitTime;
+            if(i == obj.sentence.wordGroups.Count-1)
+            {
+                waitTime = obj.sentence.wordGroups[i].time;
+            }
+                else
+                {
+                waitTime = obj.sentence.wordGroups[i + 1].time; 
+                }
+
             if (prevWordGroup != null && i > 1)
             {
                 waitTime -= obj.sentence.wordGroups[i].time;
+                    if (i == obj.sentence.wordGroups.Count - 1)
+                    {
+                    waitTime = obj.sentence.wordGroups[i].time - obj.sentence.wordGroups[i-1].time;
+                    }
             }
             //Debug.Log(waitTime+"///"+wordGroup.text);
             i++;

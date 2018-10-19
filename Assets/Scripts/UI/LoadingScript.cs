@@ -6,6 +6,11 @@ using UnityEngine;
 public class LoadingScript : MonoBehaviour {
 
 	public Sprite[] loadingscreens;
+    [SerializeField]
+    private Color Off;
+    [SerializeField]
+    private Color On;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -21,4 +26,18 @@ public class LoadingScript : MonoBehaviour {
 
 		GetComponent<Image>().sprite = loadingscreens[Random.Range(0,loadingscreens.Length-1)];
 	}
+
+    public void VisualToggle(bool Switch)
+    {
+        if(Switch == true)
+        {
+            Debug.Log("TrunOn");
+            GetComponent<Image>().color = On;
+        }
+        else
+        {
+            Debug.Log("TrunOff");
+            GetComponent<Image>().color = Off;
+        }
+    }
 }
