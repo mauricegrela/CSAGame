@@ -201,12 +201,17 @@ public class PageManager : Singleton<PageManager>
 
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
+            LoadingScreen.GetComponent<Image>().enabled = true;
+            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
+
             isloadingScene = true;
             audioSource.Stop();
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
-            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<Image>().enabled = true;
+
+
+
+
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
@@ -250,6 +255,9 @@ public class PageManager : Singleton<PageManager>
             //Child.gameObject.SetActive(false);
         }
 
+        GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+        if(AnimRef != null)
+        AnimRef.GetComponent<Animator>().enabled = true;
 
 
         for (int i = 0; i < sentenceContainer.Length; i++)
