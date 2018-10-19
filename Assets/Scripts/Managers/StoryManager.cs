@@ -149,6 +149,10 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().GetComponent<PageManager>().GoToPage(AudioIndexPosition+pagesPerScene - 1);
                 PageManager.GetComponent<PageManager>().isGoingBack = false;
                 PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
+
+                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                AnimRef.GetComponent<Animator>().enabled = true;
+
                 StopCoroutine(coroutine);
             }
             else
@@ -178,6 +182,9 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
                 PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
                 PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = false;
+                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                AnimRef.GetComponent<Animator>().enabled = true;
+
                 StopCoroutine(coroutine);
             }
             else

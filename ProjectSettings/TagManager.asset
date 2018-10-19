@@ -17,6 +17,7 @@ TagManager:
   - SpeechBubble
   - panning
   - panning target
+  - LoadPageAnim
   layers:
   - Default
   - TransparentFX
