@@ -264,6 +264,22 @@ public class StoryManager : MonoBehaviour {
 
                 TextPositions[CurrentPage].SetActive(true);
 
+                GameObject[] AnimRef = GameObject.FindGameObjectsWithTag("LoadPageAnim");
+
+                foreach (GameObject child in AnimRef)
+                {
+                    if (child.gameObject.GetComponent<SpriteRenderer>())
+                    {
+                        child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                    }
+
+                    if (child.gameObject.GetComponent<Animator>())
+                    {
+                        child.gameObject.GetComponent<Animator>().enabled = true;
+                    }
+                }
+
+
                 isPanningRight = false;
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward();  
                 }
@@ -279,6 +295,20 @@ public class StoryManager : MonoBehaviour {
             CurrentPage = PageManager.GetComponent<PageManager>().sceneindex;
 
             TextPositions[CurrentPage].SetActive(true);
+            GameObject[] AnimRef = GameObject.FindGameObjectsWithTag("LoadPageAnim");
+
+            foreach (GameObject child in AnimRef)
+            {
+                if (child.gameObject.GetComponent<SpriteRenderer>())
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                }
+
+                if (child.gameObject.GetComponent<Animator>())
+                {
+                    child.gameObject.GetComponent<Animator>().enabled = true;
+                }
+            }
             isPanningLeft = false;
             PageManager.GetComponent<PageManager>().SetUpNewTextBack();
 

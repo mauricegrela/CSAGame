@@ -257,9 +257,22 @@ public class PageManager : Singleton<PageManager>
             //Child.gameObject.SetActive(false);
         }
 
-        GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
-        if(AnimRef != null)
-        AnimRef.GetComponent<Animator>().enabled = true;
+        GameObject[] AnimRef = GameObject.FindGameObjectsWithTag("LoadPageAnim");
+   
+            foreach(GameObject child in AnimRef)
+            {
+                if (child.gameObject.GetComponent<SpriteRenderer>())
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                }
+
+                if (child.gameObject.GetComponent<Animator>())
+                {
+                    child.gameObject.GetComponent<Animator>().enabled = true;
+                }
+            }
+
+
 
 
         for (int i = 0; i < sentenceContainer.Length; i++)
@@ -350,11 +363,17 @@ public class PageManager : Singleton<PageManager>
         //UI Dots
         UIDots.GetComponent<DotGenerator>().updateDots(sceneindex);
 
-        foreach (SentenceRowContainer Child in sentenceContainer)
-        {//Disable all the Text Containers
-            //if (Child != null)
-            //Child.gameObject.SetActive(false);
-        }
+        GameObject[] AnimRef = GameObject.FindGameObjectsWithTag("LoadPageAnim");
+     
+            foreach (GameObject child in AnimRef)
+            {
+                if (child.gameObject.GetComponent<SpriteRenderer>())
+                {
+                    child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+                }
+                child.gameObject.GetComponent<Animator>().enabled = true;
+            }
+
 
         for (int i = 0; i < sentenceContainer.Length; i++)
         {//Set all the containers back to null
