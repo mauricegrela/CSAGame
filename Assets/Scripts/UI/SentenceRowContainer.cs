@@ -21,8 +21,22 @@ public class SentenceRowContainer : MonoBehaviour
 
 	public float ReadAlongOn =1;
 
+
+
+
+
+    private Color HighlightedColor;
+
+
+    //Color.TryParseHexString("#d8314d", out HighlightedColor);
+
+    private Color NormalColor;
+
+
     void Awake()
     {
+        ColorUtility.TryParseHtmlString("#d8314d", out HighlightedColor);
+        ColorUtility.TryParseHtmlString("#FFFFFF", out NormalColor);
         rt = GetComponent<RectTransform>();
         layoutGroup = GetComponent<VerticalLayoutGroup>();
         sentenceRowPrefab.gameObject.SetActive(false);
@@ -99,11 +113,11 @@ public class SentenceRowContainer : MonoBehaviour
         {
 			if (text.wordGroup == wordGroup && ReadAlongOn ==0)
             {
-				text.text.color = Color.blue;
+                text.text.color = HighlightedColor;
             }
             else
             {
-                text.text.color = Color.white;
+                text.text.color = NormalColor;
             }
         }
     }

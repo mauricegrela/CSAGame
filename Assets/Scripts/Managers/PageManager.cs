@@ -287,7 +287,7 @@ public class PageManager : Singleton<PageManager>
         foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
         {
             // do whatever you want with child transform object here
-            if(child.gameObject.tag == "TextPlacement")
+            if(child.gameObject.tag == "TextPlacement" )
             {
                 sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>();;
                 sentenceContainerCounter++;
@@ -295,11 +295,21 @@ public class PageManager : Singleton<PageManager>
                 //Debug.Log("Working");
             }
 
+
             if (child.gameObject.tag == "SpeechBubble")
             {
-                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
-                //Debug.Log("working");
-                //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+            
+                foreach (Transform Kiddo in child)
+                {
+                    // do whatever you want with child transform object here
+                    if (Kiddo.gameObject.tag == "TextPlacement")
+                    {
+                        sentenceContainer[sentenceContainerCounter] = Kiddo.gameObject.GetComponent<SentenceRowContainer>(); ;
+                        sentenceContainerCounter++;
+                        TextPositionref = Kiddo.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                                                           //Debug.Log("Working");
+                    }
+                }   
             }
 
         }
@@ -595,10 +605,10 @@ public class PageManager : Singleton<PageManager>
         {
             NextButton.GetComponent<Image>().enabled = false;
         }
-        else
-        {
+            else
+            {
             NextButton.GetComponent<Image>().enabled = true;
-        }
+            }
 
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
         Scenetext.GetComponent<Text>().text = currentAudio.name;
@@ -609,11 +619,11 @@ public class PageManager : Singleton<PageManager>
             audioSource.clip = obj.clip;
             audioSource.Play();
         }
-        else
-        {
+            else
+            {
             Debug.LogErrorFormat("Unable to read the audio from folder {0}. " +
             "Please ensure an audio file is in the folder, and it's set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
-        }
+            }
 
         if (obj.sentence == null)
         {
@@ -622,27 +632,30 @@ public class PageManager : Singleton<PageManager>
             yield break;
         }
 
+        float PreviousWordTime =0;
         foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
+
+
+
             if (wordGroup.text.Contains("///"))
             {//Get The Narrator
-                //Speaker = wordGroup.text;
-                //Speaker = Speaker.Remove(0, 10);
-                //Debug.Log(Speaker);
-                sentenceContainerCurrent += 1;
-            }
-            else
-            {
-               //Debug.Log (wordGroup.text);
-                //sentenceContainer[sentenceContainerCurrent].gameObject.SetActive(false);
-                //sentenceContainer.AddText(wordGroup);
-                /*foreach (SentenceRowContainer Child in sentenceContainer)
+
+
+
+            sentenceContainerCurrent += 1;
+
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
                 {
-                    if (Child != null)
-                    Child.AddText(wordGroup);
-                }*/
-                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }
+
             }
+                else
+                {
+                PreviousWordTime = wordGroup.time;
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+                }
         }
 
         //highlight the proper wordgroups
