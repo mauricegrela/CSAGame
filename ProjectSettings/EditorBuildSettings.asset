@@ -5,12 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Menu.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/ad4d2e7632af33047b1a97d3b1a14e6b
     guid: ad4d2e7632af33047b1a97d3b1a14e6b
   - enabled: 0
-    path: Assets/Stories/sasquatch/scenes/Sasquatch_start.unity
-    guid: 913803d65595f499f847d3e4cb9919a1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 1fdd1792365ef4321bffaf2552369073
+  - enabled: 1
+    path: Assets/Scenes/Accelerometer_Test.unity
+    guid: 17ffb632ad6c14f1989b9c2382f0a6a9
   - enabled: 1
     path: Assets/Stories/sasquatch/scenes/Chapter_1.unity
     guid: 974159e739c1241ed94e345f79847df5

@@ -18,6 +18,7 @@ TagManager:
   - panning
   - panning target
   - LoadPageAnim
+  - AnimTurnOff
   layers:
   - Default
   - TransparentFX
