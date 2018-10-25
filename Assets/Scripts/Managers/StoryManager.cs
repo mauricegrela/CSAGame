@@ -155,6 +155,10 @@ public class StoryManager : MonoBehaviour {
                 if (AnimRef != null)
                 AnimRef.GetComponent<Animator>().enabled = true;
 
+                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+                if (AnimatedObject != null)
+                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+
                 StopCoroutine(coroutine);
             }
             else
@@ -187,7 +191,11 @@ public class StoryManager : MonoBehaviour {
                 GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
                 if(AnimRef != null)
                 AnimRef.GetComponent<Animator>().enabled = true;
-
+                
+                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+                if (AnimatedObject != null)
+                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+                
                 StopCoroutine(coroutine);
             }
             else

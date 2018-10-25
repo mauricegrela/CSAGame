@@ -178,9 +178,18 @@ public class PageManager : Singleton<PageManager>
 
             if (child.gameObject.tag == "SpeechBubble")
             {
-                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive();
-                Debug.Log("working");
-                //TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement");    
+
+                foreach (Transform Kiddo in child)
+                {
+                    // do whatever you want with child transform object here
+                    if (Kiddo.gameObject.tag == "TextPlacement")
+                    {
+                        sentenceContainer[sentenceContainerCounter] = Kiddo.gameObject.GetComponent<SentenceRowContainer>(); ;
+                        sentenceContainerCounter++;
+                        TextPositionref = Kiddo.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                                                           //Debug.Log("Working");
+                    }
+                }
             }
         }
     }
@@ -407,7 +416,18 @@ public class PageManager : Singleton<PageManager>
 
             if (child.gameObject.tag == "SpeechBubble")
             {
-                child.gameObject.GetComponent<SpeechBubbleAnimation>().setActive(); 
+
+                foreach (Transform Kiddo in child)
+                {
+                    // do whatever you want with child transform object here
+                    if (Kiddo.gameObject.tag == "TextPlacement")
+                    {
+                        sentenceContainer[sentenceContainerCounter] = Kiddo.gameObject.GetComponent<SentenceRowContainer>(); ;
+                        sentenceContainerCounter++;
+                        TextPositionref = Kiddo.gameObject;//GameObject.FindWithTag("TextPlacement"); 
+                                                           //Debug.Log("Working");
+                    }
+                }
             }
 
         }

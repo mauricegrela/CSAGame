@@ -28,11 +28,24 @@ public class MenuUI : MonoBehaviour
 
     }
 
-    public void StartGame()
+    public void StartGame(string LeveltoLoad)
     {
         //Debug.Log("Working");
         SceneManager.LoadScene("MainStory");
     }
 
+
+    public void SkyboxTest()
+    {
+        //Debug.Log("Working");
+        SceneManager.LoadScene("Accelerometer_Test");
+    }
   
+    public void GoToMenu()
+    {
+        //Debug.Log("Working");
+        SceneManager.LoadScene("Menu");
+    }
+  
+
 }
