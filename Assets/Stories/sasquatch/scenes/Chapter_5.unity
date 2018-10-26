@@ -8256,6 +8256,7 @@ GameObject:
   - component: {fileID: 1666874680}
   - component: {fileID: 1666874685}
   - component: {fileID: 1666874684}
+  - component: {fileID: 1666874686}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -8297,7 +8298,7 @@ Camera:
   far clip plane: 1000
   field of view: 58.4
   orthographic: 1
-  orthographic size: 7.4783025
+  orthographic size: 6.826667
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -8333,12 +8334,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1666874679}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd5b4a68ec76f4a099fb3fcf115d7bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StoryBookPanningPage: {fileID: 0}
+  StoryBook: {fileID: 1207434000}
   labels: []
 --- !u!114 &1666874685
 MonoBehaviour:
@@ -8346,7 +8347,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1666874679}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf53bbc86499431bba05206468afe6d, type: 3}
   m_Name: 
@@ -8354,6 +8355,18 @@ MonoBehaviour:
   mouseSensitivity: 100
   clampAngle: 80
   StoryBook: {fileID: 1207434000}
+--- !u!114 &1666874686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1666874679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d64890430269042b2afa2082b3fe8b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalResolution: 2048
 --- !u!1 &1681695327
 GameObject:
   m_ObjectHideFlags: 0

@@ -244,7 +244,7 @@ public class StoryManager : MonoBehaviour {
             Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                 if (PageManager.GetComponent<PageManager>().audioIndex == 37)
                 {
-                    Camera.GetComponent<Camera_MouseMovement>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
+                Camera.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
                     Debug.Log("Working");
                     //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
                     //Camera.GetComponent<Accelerometer_SkyBox>().enabled = true;
@@ -256,7 +256,7 @@ public class StoryManager : MonoBehaviour {
                 if (PageManager.GetComponent<PageManager>().audioIndex == 38)
                 {
 
-                Camera.GetComponent<Camera_MouseMovement>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().Reset();
+                Camera.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().Reset();
                     //Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                     //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
                     //Camera.GetComponent<Accelerometer_SkyBox>().enabled = false;

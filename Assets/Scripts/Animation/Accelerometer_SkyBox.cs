@@ -5,7 +5,7 @@ using UnityEngine;
 public class Accelerometer_SkyBox : MonoBehaviour {
 
     // Faces for 6 sides of the cube
-    public GameObject StoryBookPanningPage;
+    public GameObject StoryBook;
 
     // Textures for each quad, should be +X, +Y etc
     // with appropriate colors, red, green, blue, etc
