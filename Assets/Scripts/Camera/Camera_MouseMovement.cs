@@ -10,6 +10,8 @@ public class Camera_MouseMovement : MonoBehaviour {
     private float rotY = 0.0f; // rotation around the up/y axis
     private float rotX = 0.0f; // rotation around the right/x axis
 
+    public GameObject StoryBook;
+
     void Start()
     {
         Vector3 rot = transform.localRotation.eulerAngles;
