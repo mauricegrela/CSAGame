@@ -3054,6 +3054,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 392039337}
+  - component: {fileID: 392039338}
   m_Layer: 0
   m_Name: PageOneMATHIAS
   m_TagString: Untagged
@@ -3076,6 +3077,24 @@ Transform:
   m_Father: {fileID: 1346055700}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &392039338
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392039336}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9b09055c18e5a428e8fd550b8939bed1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &394113401
 GameObject:
   m_ObjectHideFlags: 0
@@ -7510,7 +7529,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 823085860}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.45, y: -1.37, z: 0}
+  m_LocalPosition: {x: -2.45, y: -0.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1282065003}
@@ -8724,7 +8743,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.9, y: 3.3}
+  m_AnchoredPosition: {x: 5.86, y: 3.3}
   m_SizeDelta: {x: 509.755, y: 274.654}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &955070733
