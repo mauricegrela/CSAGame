@@ -240,6 +240,13 @@ public class StoryManager : MonoBehaviour {
 
                 isPanningRight = false;
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward(); 
+                if (PageManager.GetComponent<PageManager>().audioIndex == 38)
+                {
+                    Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
+                    //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
+                    Camera.GetComponent<Accelerometer_SkyBox>().enabled = false;
+                    Camera.gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
+                }
             }
     }
 
@@ -289,7 +296,18 @@ public class StoryManager : MonoBehaviour {
 
 
                 isPanningRight = false;
-                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();  
+
+
+
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
+                Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
+                if (PageManager.GetComponent<PageManager>().audioIndex == 37)
+                {
+                    //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
+                    Camera.GetComponent<Accelerometer_SkyBox>().enabled = true;
+                }
+                   
+
                 }
         }
 

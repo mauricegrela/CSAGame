@@ -38,7 +38,7 @@ public class Accelerometer_SkyBox : MonoBehaviour {
     }
 
     // make a quad for one side of the cube
-    GameObject createQuad(GameObject quad, Vector3 pos, Vector3 rot, string name, Color col, Texture t)
+   /* GameObject createQuad(GameObject quad, Vector3 pos, Vector3 rot, string name, Color col, Texture t)
     {
         Quaternion quat = Quaternion.Euler(rot);
         GameObject GO = Instantiate(quad, pos, quat);
@@ -47,7 +47,7 @@ public class Accelerometer_SkyBox : MonoBehaviour {
         GO.GetComponent<Renderer>().material.mainTexture = t;
         GO.transform.localScale += new Vector3(0.25f, 0.25f, 0.25f);
         return GO;
-    }
+    }*/
 
     protected void Update()
     {
@@ -56,11 +56,11 @@ public class Accelerometer_SkyBox : MonoBehaviour {
 
     protected void OnGUI()
     {
-        GUI.skin.label.fontSize = Screen.width / 40;
+        /*GUI.skin.label.fontSize = Screen.width / 40;
 
         GUILayout.Label("Orientation: " + Screen.orientation);
         GUILayout.Label("input.gyro.attitude: " + Input.gyro.attitude);
-        GUILayout.Label("iphone width/font: " + Screen.width + " : " + GUI.skin.label.fontSize);
+        GUILayout.Label("iphone width/font: " + Screen.width + " : " + GUI.skin.label.fontSize);*/
     }
 
     /********************************************/
@@ -69,7 +69,7 @@ public class Accelerometer_SkyBox : MonoBehaviour {
     // Make the necessary change to the camera.
     void GyroModifyCamera()
     {
-        transform.rotation = GyroToUnity(Input.gyro.attitude);
+        transform.localRotation = GyroToUnity(Input.gyro.attitude);
     }
 
     private static Quaternion GyroToUnity(Quaternion q)
