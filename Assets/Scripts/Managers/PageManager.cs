@@ -362,12 +362,14 @@ public class PageManager : Singleton<PageManager>
         else
         {
             Debug.Log("working");
-            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning")
+            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning" || audioIndex == 37)
             {
                 sceneindex--;
                 audioIndex--;
                 Debug.Log(sceneindex);
             }
+
+
         }
         StoryManager.GetComponent<StoryManager>().PanLeft();
 
