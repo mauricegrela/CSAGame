@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 5b4acfe58ff3d451c903fc45f564a22f, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -3836,8 +3836,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 735929718}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.22, y: -0.16, z: 17.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1461383707}
@@ -3846,8 +3846,8 @@ Transform:
   - {fileID: 46760872}
   - {fileID: 1611715443}
   - {fileID: 3496551}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1666874683}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &738615603
 GameObject:
@@ -7819,9 +7819,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1611715443}
+  - component: {fileID: 1611715444}
   m_Layer: 0
   m_Name: Page37
-  m_TagString: panning
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7843,6 +7844,17 @@ Transform:
   m_Father: {fileID: 735929720}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611715444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1611715442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950bc655e62a0475da86baaed381ce32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1612491345
 GameObject:
   m_ObjectHideFlags: 0
@@ -8117,7 +8129,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -8153,7 +8165,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.22, y: 0.16, z: -17.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 735929720}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8168,6 +8181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd5b4a68ec76f4a099fb3fcf115d7bab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  StoryBookPanningPage: {fileID: 1611715442}
   labels: []
 --- !u!114 &1666874685
 MonoBehaviour:
@@ -8175,13 +8189,14 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1666874679}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cf53bbc86499431bba05206468afe6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mouseSensitivity: 100
   clampAngle: 80
+  StoryBook: {fileID: 1611715442}
 --- !u!1 &1681695327
 GameObject:
   m_ObjectHideFlags: 0

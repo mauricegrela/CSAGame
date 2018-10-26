@@ -244,7 +244,7 @@ public class StoryManager : MonoBehaviour {
                 {
                     Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                     //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
-                    Camera.GetComponent<Accelerometer_SkyBox>().enabled = false;
+                    //Camera.GetComponent<Accelerometer_SkyBox>().enabled = false;
                     Camera.gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
                 }
             }
@@ -303,8 +303,11 @@ public class StoryManager : MonoBehaviour {
                 Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                 if (PageManager.GetComponent<PageManager>().audioIndex == 37)
                 {
+                    Camera.GetComponent<Camera_MouseMovement>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
+                    
                     //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
-                    Camera.GetComponent<Accelerometer_SkyBox>().enabled = true;
+                    //Camera.GetComponent<Accelerometer_SkyBox>().enabled = true;
+
                 }
                    
 

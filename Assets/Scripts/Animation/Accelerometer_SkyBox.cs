@@ -5,11 +5,13 @@ using UnityEngine;
 public class Accelerometer_SkyBox : MonoBehaviour {
 
     // Faces for 6 sides of the cube
-    private GameObject[] quads = new GameObject[6];
+    public GameObject StoryBookPanningPage;
 
     // Textures for each quad, should be +X, +Y etc
     // with appropriate colors, red, green, blue, etc
     public Texture[] labels;
+
+    //private float OGDistance
 
     void Start()
     {
