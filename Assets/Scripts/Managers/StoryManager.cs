@@ -241,7 +241,7 @@ public class StoryManager : MonoBehaviour {
                 isPanningRight = false;
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward(); 
 
-            Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
+                 Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                 if (PageManager.GetComponent<PageManager>().audioIndex == 37)
                 {
                 Camera.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
@@ -314,7 +314,7 @@ public class StoryManager : MonoBehaviour {
 
 
 
-                //PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
+                PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
 
 
                 }
