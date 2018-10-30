@@ -386,6 +386,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!223 &126160031
 Canvas:
   m_ObjectHideFlags: 0
@@ -1007,7 +1008,7 @@ Camera:
   far clip plane: 1000
   field of view: 58.4
   orthographic: 1
-  orthographic size: 7.899798
+  orthographic size: 6.403145
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -1743,6 +1744,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!223 &1053428576
 Canvas:
   m_ObjectHideFlags: 0
@@ -3136,6 +3138,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1395616730
 Canvas:
   m_ObjectHideFlags: 0
@@ -3635,6 +3638,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!223 &1450945850
 Canvas:
   m_ObjectHideFlags: 0
@@ -3759,6 +3763,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1541821170
 Canvas:
   m_ObjectHideFlags: 0
@@ -5107,6 +5112,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1898941613
 Canvas:
   m_ObjectHideFlags: 0
@@ -5202,6 +5208,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1910227771
 Canvas:
   m_ObjectHideFlags: 0
