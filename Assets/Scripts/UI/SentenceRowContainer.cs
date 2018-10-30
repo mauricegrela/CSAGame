@@ -30,13 +30,13 @@ public class SentenceRowContainer : MonoBehaviour
 
     //Color.TryParseHexString("#d8314d", out HighlightedColor);
 
-    private Color NormalColor;
+	public Color NormalColor = Color.white;
 
 
     void Awake()
     {
         ColorUtility.TryParseHtmlString("#d8314d", out HighlightedColor);
-        ColorUtility.TryParseHtmlString("#FFFFFF", out NormalColor);
+		//ColorUtility.TryParseHtmlString("#ffffff", out NormalColor);
         rt = GetComponent<RectTransform>();
         layoutGroup = GetComponent<VerticalLayoutGroup>();
         sentenceRowPrefab.gameObject.SetActive(false);
@@ -134,12 +134,12 @@ public class SentenceRowContainer : MonoBehaviour
         {
             if (text.wordGroup == clickedText.wordGroup)
             {
-                text.text.color = Color.red;
-            }
-            else
-            {
-                text.text.color = Color.white;
-            }
+				text.text.color = HighlightedColor;
+			}
+			else
+			{
+				text.text.color = NormalColor;
+			}
         }
     }
 }

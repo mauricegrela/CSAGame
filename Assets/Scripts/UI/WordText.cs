@@ -8,6 +8,7 @@ public class WordText : MonoBehaviour
     internal Text text;
     internal RectTransform rt;
 
+
     internal WordGroupObject wordGroup;
 
     // Use this for initialization
@@ -15,8 +16,6 @@ public class WordText : MonoBehaviour
     {
         rt = GetComponent<RectTransform>();
         text = GetComponent<Text>();
-
-
 
     }
 	
