@@ -834,6 +834,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &46771755
 Canvas:
   m_ObjectHideFlags: 0
@@ -2257,6 +2258,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &190639911
 Canvas:
   m_ObjectHideFlags: 0
@@ -3398,6 +3400,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &403847269
 Canvas:
   m_ObjectHideFlags: 0
@@ -3767,6 +3770,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &421338746
 Canvas:
   m_ObjectHideFlags: 0
@@ -3915,6 +3919,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 445460345}
+  - component: {fileID: 445460346}
   m_Layer: 0
   m_Name: PageFiveGEMMA
   m_TagString: Untagged
@@ -3936,6 +3941,24 @@ Transform:
   m_Father: {fileID: 331344457}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &445460346
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 445460344}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 791bee49765ed40f08bdf13cce4888fa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &446522169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4797,6 +4820,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &542811495
 Canvas:
   m_ObjectHideFlags: 0
@@ -4892,6 +4916,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &560820449
 Canvas:
   m_ObjectHideFlags: 0
@@ -6017,6 +6042,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &643415837
 Canvas:
   m_ObjectHideFlags: 0
@@ -8782,6 +8808,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &955070734
 Canvas:
   m_ObjectHideFlags: 0
@@ -9034,6 +9061,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 957464889}
+  - component: {fileID: 957464890}
   m_Layer: 0
   m_Name: PageFiveMATHIAS
   m_TagString: Untagged
@@ -9055,6 +9083,24 @@ Transform:
   m_Father: {fileID: 331344457}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &957464890
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 957464888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3f748adbe325545f191c92742a8d9a5a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &958916172
 GameObject:
   m_ObjectHideFlags: 0
@@ -9200,6 +9246,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &963293811
 Canvas:
   m_ObjectHideFlags: 0
@@ -9398,6 +9445,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1012617788
 Canvas:
   m_ObjectHideFlags: 0
@@ -10294,6 +10342,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1104989263
 Canvas:
   m_ObjectHideFlags: 0
@@ -11785,6 +11834,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1256655921
 Canvas:
   m_ObjectHideFlags: 0
@@ -11954,6 +12004,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1275824868
 Canvas:
   m_ObjectHideFlags: 0
@@ -13882,6 +13933,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1539919780}
+  - component: {fileID: 1539919781}
   m_Layer: 0
   m_Name: PageFiveLAYLA
   m_TagString: Untagged
@@ -13903,6 +13955,24 @@ Transform:
   m_Father: {fileID: 331344457}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1539919781
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1539919779}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43400f1a2d5f64f30a4d994557e10fab, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1543412671
 GameObject:
   m_ObjectHideFlags: 0
@@ -14148,6 +14218,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1568522205
 Canvas:
   m_ObjectHideFlags: 0
@@ -16735,6 +16806,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 2012275589}
+  - component: {fileID: 2012275590}
   m_Layer: 0
   m_Name: PageFiveNIKO
   m_TagString: Untagged
@@ -16756,6 +16828,24 @@ Transform:
   m_Father: {fileID: 331344457}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2012275590
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2012275588}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a637edaaac98f4335ae12daa1c71f87a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2017722050
 GameObject:
   m_ObjectHideFlags: 0
@@ -16809,6 +16899,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &2017722053
 Canvas:
   m_ObjectHideFlags: 0
@@ -16904,6 +16995,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &2039822720
 Canvas:
   m_ObjectHideFlags: 0
@@ -16999,6 +17091,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &2057423404
 Canvas:
   m_ObjectHideFlags: 0
