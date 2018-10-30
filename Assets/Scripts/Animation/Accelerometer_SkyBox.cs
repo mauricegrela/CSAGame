@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Accelerometer_SkyBox : MonoBehaviour {
 
     // Faces for 6 sides of the cube
     public GameObject StoryBook;
+    // Faces for 6 sides of the cube
+    //public GameObject TextRef;
 
     // Textures for each quad, should be +X, +Y etc
     // with appropriate colors, red, green, blue, etc
@@ -15,6 +18,7 @@ public class Accelerometer_SkyBox : MonoBehaviour {
 
     void Start()
     {
+        Input.gyro.enabled = true;
         // make camera solid colour and based at the origin
         /*GetComponent<Camera>().backgroundColor = new Color(49.0f / 255.0f, 77.0f / 255.0f, 121.0f / 255.0f);
         GetComponent<Camera>().transform.position = new Vector3(0, 0, 0);
@@ -54,6 +58,7 @@ public class Accelerometer_SkyBox : MonoBehaviour {
     protected void Update()
     {
         GyroModifyCamera();
+        //TextRef.GetComponent<Text>().text = Input.gyro.attitude.x + "///" + Input.gyro.attitude.y + "///" + Input.gyro.attitude.z;
     }
 
     protected void OnGUI()

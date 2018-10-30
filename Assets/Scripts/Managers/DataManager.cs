@@ -28,13 +28,22 @@ public class DataManager
 
         ///Debug.Log("Story loaded");
 		SceneRefCounter = 0;
- 		myLoadedAssetBundle = AssetBundle.LoadFromFile(CombinePaths(
-			Application.streamingAssetsPath,storyName,currentLanguage.ToLower()+"_"+packageToLoad.ToString()));
+
+        myLoadedAssetBundle = AssetBundle.LoadFromFile(CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString())); 
+     
+       /*#if UNITY_IPHONE
+        myLoadedAssetBundle = AssetBundle.LoadFromFile(CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString())); 
+         #endif
+         #if UNITY_ANDROID
+        myLoadedAssetBundle = AssetBundle.LoadFromFile(CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString())); 
+         #endif*/
+
+ 		
 
 		CurrentAssetPackage = packageToLoad.ToString ();
 
 		//AssetStreamingCounter++;
-		//Debug.Log ((currentLanguage.ToLower()+"_"+packageToLoad.ToString()).ToString());
+        Debug.Log (CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString()));
 			
         if (myLoadedAssetBundle == null)
         {
