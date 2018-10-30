@@ -1839,6 +1839,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &233853610
 Canvas:
   m_ObjectHideFlags: 0
@@ -3001,6 +3002,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &309360149
 Canvas:
   m_ObjectHideFlags: 0
@@ -3483,6 +3485,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &345879366
 Canvas:
   m_ObjectHideFlags: 0
@@ -5615,6 +5618,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &593010249
 Canvas:
   m_ObjectHideFlags: 0
@@ -5710,6 +5714,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &610185130
 Canvas:
   m_ObjectHideFlags: 0
@@ -6036,6 +6041,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &701403883
 Canvas:
   m_ObjectHideFlags: 0
@@ -6819,7 +6825,7 @@ Transform:
   m_GameObject: {fileID: 820022416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 1915715127}
   m_Father: {fileID: 2135867431}
@@ -7482,6 +7488,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &885717554
 Canvas:
   m_ObjectHideFlags: 0
@@ -7670,6 +7677,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &891676363
 Canvas:
   m_ObjectHideFlags: 0
@@ -7881,6 +7889,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &917464306
 Canvas:
   m_ObjectHideFlags: 0
@@ -8369,6 +8378,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &956414257
 Canvas:
   m_ObjectHideFlags: 0
@@ -9076,6 +9086,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1054933423
 Canvas:
   m_ObjectHideFlags: 0
@@ -11443,6 +11454,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1286496411
 Canvas:
   m_ObjectHideFlags: 0
@@ -13766,6 +13778,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1439159285
 Canvas:
   m_ObjectHideFlags: 0
@@ -14083,6 +14096,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1497970297
 Canvas:
   m_ObjectHideFlags: 0
@@ -14318,6 +14332,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1525510989
 Canvas:
   m_ObjectHideFlags: 0
@@ -14806,6 +14821,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1577235696
 Canvas:
   m_ObjectHideFlags: 0
@@ -15136,6 +15152,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1613247279
 Canvas:
   m_ObjectHideFlags: 0
@@ -15682,6 +15699,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1684949612
 Canvas:
   m_ObjectHideFlags: 0
@@ -16207,6 +16225,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1798368332
 Canvas:
   m_ObjectHideFlags: 0
@@ -16302,6 +16321,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1817734283
 Canvas:
   m_ObjectHideFlags: 0
@@ -16593,6 +16613,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1857600657
 Canvas:
   m_ObjectHideFlags: 0
@@ -16688,6 +16709,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1861315704
 Canvas:
   m_ObjectHideFlags: 0
@@ -17796,7 +17818,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1915715126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.32, y: 1.39, z: 0}
+  m_LocalPosition: {x: -0.32, y: 0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 820022417}
@@ -17998,6 +18020,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &1929412280
 Canvas:
   m_ObjectHideFlags: 0
@@ -18855,6 +18878,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &2051235176
 Canvas:
   m_ObjectHideFlags: 0
@@ -19629,6 +19653,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &2128981751
 Canvas:
   m_ObjectHideFlags: 0
