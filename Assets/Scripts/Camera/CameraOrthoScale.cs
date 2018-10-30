@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class CameraOrthoScale : MonoBehaviour {
 
-    private float horizontalResolution = 2560;
+    private float horizontalResolution = 2048;
 
     void OnGUI()
     {
