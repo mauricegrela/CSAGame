@@ -55,6 +55,7 @@ public class PageManager : Singleton<PageManager>
     private string EnvironmentTracker;
     public GameObject TextBody;
     private Vector3 OG_PostitionTextBody;
+    public float IsReadingAlong = 1.0f;
 
     //Camera Variables
     private Vector3 cameraPreviousPosition;
@@ -763,7 +764,10 @@ public class PageManager : Singleton<PageManager>
     {
         Debug.Log("newTextStyle" + newTextStyle.value);
         //audioSource.volume = newTextStyle.value;
-        ScentenceContainer.GetComponent<SentenceRowContainer>().ReadAlongOn = newTextStyle.value;
+        //ScentenceContainer.GetComponent<SentenceRowContainer>().ReadAlongOn = newTextStyle.value;
+
+        IsReadingAlong = newTextStyle.value; 
+
     }
 
     public void changeClickDragFunctionality(bool state)

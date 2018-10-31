@@ -21,6 +21,8 @@ public class SentenceRowContainer : MonoBehaviour
 
 	public float ReadAlongOn =1;
 
+    private PageManager PageManagerRefScript;
+
 
 
 
@@ -40,6 +42,10 @@ public class SentenceRowContainer : MonoBehaviour
         rt = GetComponent<RectTransform>();
         layoutGroup = GetComponent<VerticalLayoutGroup>();
         sentenceRowPrefab.gameObject.SetActive(false);
+        GameObject PageManagerRef;
+
+        PageManagerRef = GameObject.FindGameObjectWithTag("PageManager");
+        PageManagerRefScript = PageManagerRef.GetComponent<PageManager>();
     }
 
     public void Clear()
@@ -111,7 +117,7 @@ public class SentenceRowContainer : MonoBehaviour
     {
         foreach (WordText text in texts)
         {
-			if (text.wordGroup == wordGroup && ReadAlongOn ==0)
+            if (text.wordGroup == wordGroup && PageManagerRefScript.IsReadingAlong == 1.0f)
             {
                 text.text.color = HighlightedColor;
             }
