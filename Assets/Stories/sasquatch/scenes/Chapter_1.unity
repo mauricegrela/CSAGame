@@ -14159,7 +14159,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  NormalColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!223 &1568522205
 Canvas:
   m_ObjectHideFlags: 0
@@ -14582,9 +14582,9 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 34
+  field of view: 58.4
   orthographic: 1
-  orthographic size: 1150.19
+  orthographic size: 7.68629
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2

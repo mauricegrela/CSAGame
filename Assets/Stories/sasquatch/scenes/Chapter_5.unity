@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1a896c9c137483a88234d0433746c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioIndexPosition: 32
+  AudioIndexPosition: 34
   LevelName: Chapter_5
   pagesPerScene: 5
   NextScene: menu
@@ -7262,7 +7262,7 @@ Camera:
   far clip plane: 1000
   field of view: 58.4
   orthographic: 1
-  orthographic size: 5.7509494
+  orthographic size: 7.64
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
