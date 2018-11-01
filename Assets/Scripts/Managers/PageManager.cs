@@ -153,7 +153,7 @@ public class PageManager : Singleton<PageManager>
         SceneManager.UnloadScene(EnvironmentTracker);
         AssetBundle.UnloadAllAssetBundles(true);
         SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
-
+        sceneindex = 0;
     }
 
     public void ChapterSkipToTheEnd(String LevelToLoad)

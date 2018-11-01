@@ -21,13 +21,15 @@ public class AccelerometerTest : MonoBehaviour {
 
        // TextRef.text = transform.position.x.ToString();
 
+        transform.Translate(Input.acceleration.x * Inverterx, -Input.acceleration.z * Invertery, 0);  
+
         if((transform.position.x<=6 && transform.position.x >= -6) && (transform.position.y <= 6 && transform.position.y >= -6))//transform.position.x < 30))
         {
-            transform.Translate(Input.acceleration.x * Inverterx, -Input.acceleration.z * Invertery, 0);  
+           
         }
             else
             {
-            transform.Translate(-Input.acceleration.x * (Inverterx), Input.acceleration.z * (Invertery), 0);    
+            //transform.Translate(-Input.acceleration.x * (Inverterx), Input.acceleration.z * (Invertery), 0);    
             }
             
 
