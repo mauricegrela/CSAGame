@@ -18,20 +18,35 @@ public class AccelerometerTest : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        Vector3 dir = Vector3.zero;
 
-       // TextRef.text = transform.position.x.ToString();
+        // we assume that device is held parallel to the ground
+        // and Home button is in the right hand
 
-        transform.Translate(Input.acceleration.x * Inverterx, -Input.acceleration.z * Invertery, 0);  
+        // remap device acceleration axis to game coordinates:
+        //  1) XY plane of the device is mapped onto XZ plane
+        //  2) rotated 90 degrees around Y axis
+        dir.x = Input.acceleration.x*Inverterx;
+        dir.y = Input.acceleration.y* Inverterx;
 
-        if((transform.position.x<=6 && transform.position.x >= -6) && (transform.position.y <= 6 && transform.position.y >= -6))//transform.position.x < 30))
-        {
-           
-        }
-            else
-            {
-            //transform.Translate(-Input.acceleration.x * (Inverterx), Input.acceleration.z * (Invertery), 0);    
-            }
-            
+        // clamp acceleration vector to unit sphere
+        if (dir.sqrMagnitude > 1)
+            dir.Normalize();
+
+        // Make it move 10 meters per second instead of 10 meters per frame...
+        dir *= Time.deltaTime;
+
+
+        // Move object
+        transform.Translate(dir * 10);    
+        
+        // initially, the temporary vector should equal the player's position
+        Vector3 clampedPosition = transform.position;
+        // Now we can manipulte it to clamp the y element
+        clampedPosition.y = Mathf.Clamp(transform.position.y, -10.1f, 10.1f);
+        clampedPosition.x = Mathf.Clamp(transform.position.x, -10.1f, 10.1f);
+        // re-assigning the transform's position will clamp it
+        transform.position = clampedPosition;
 
 
 	}
