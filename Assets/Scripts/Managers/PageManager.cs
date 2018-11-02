@@ -362,8 +362,9 @@ public class PageManager : Singleton<PageManager>
         }
         else
         {
-            Debug.Log(audioIndex);
-            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning" || audioIndex == 38)
+            //Debug.Log(audioIndex);
+            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning" || (audioIndex == 4 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 4))
+
             {
                 sceneindex--;
                 audioIndex--;
@@ -615,7 +616,8 @@ public class PageManager : Singleton<PageManager>
     {
         //Debug.Log(obj.clip);
 
-        if(audioIndex == 0)
+        //if(audioIndex == 0)\
+        if (audioIndex == 0 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 0)
         {
             BackButton.GetComponent<Image>().enabled = false;
         }
@@ -624,7 +626,8 @@ public class PageManager : Singleton<PageManager>
                 BackButton.GetComponent<Image>().enabled = true;   
             }
 
-        if (audioIndex == 38)
+        //if (audioIndex == 38)
+        if (audioIndex == 4 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 4)
         {
             NextButton.GetComponent<Image>().enabled = false;
         }

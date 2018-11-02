@@ -242,7 +242,7 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward(); 
 
                  //Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
-                if (PageManager.GetComponent<PageManager>().audioIndex == 37)
+            if (PageManager.GetComponent<PageManager>().audioIndex == 3 && StreamingAssetsCounter == 4)
                 {
                 Camera.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
                     //Debug.Log("Working");
@@ -253,11 +253,11 @@ public class StoryManager : MonoBehaviour {
                    
 
 
-                if (PageManager.GetComponent<PageManager>().audioIndex == 38)
+                if (PageManager.GetComponent<PageManager>().audioIndex == 4 && StreamingAssetsCounter == 4)
                 {
 
                 Camera.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().Reset();
-                    //Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
+                    Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
                     //Camera.GetComponent<Camera_MouseMovement>().enabled = false;
                     //Camera.GetComponent<Accelerometer_SkyBox>().enabled = false;
                     Camera.gameObject.transform.rotation = new Quaternion(0, 0, 0, 0);
