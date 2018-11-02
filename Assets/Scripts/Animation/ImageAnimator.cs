@@ -7,7 +7,7 @@ public class ImageAnimator : MonoBehaviour {
 
     public Sprite[] sprites;
     public float animationSpeed;
-    public bool isAnimated;
+    public bool IsLooping = true;
     private bool isAnimating = false;
     private Vector3 OGPose;
     public AudioSource SFXSource;
@@ -36,8 +36,11 @@ public class ImageAnimator : MonoBehaviour {
 
             }
         //isAnimating = false;
-       
-        StartCoroutine("nukeMethod");
+        if(IsLooping==true)
+        {
+        StartCoroutine("nukeMethod");   
+        }
+
         
     }
 
@@ -65,5 +68,10 @@ public class ImageAnimator : MonoBehaviour {
     public void ResetPosition()
     {
         transform.position = OGPose;
+    }
+
+    void OnEnable()
+    {
+        StartCoroutine("nukeMethod"); //Debug.Log("Triggered");
     }
 }
