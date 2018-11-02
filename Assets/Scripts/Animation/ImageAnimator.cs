@@ -72,6 +72,8 @@ public class ImageAnimator : MonoBehaviour {
 
     void OnEnable()
     {
-        StartCoroutine("nukeMethod"); //Debug.Log("Triggered");
+        
+        StartCoroutine("nukeMethod"); 
+        Debug.Log("Triggered");
     }
 }

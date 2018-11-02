@@ -120,7 +120,7 @@ public class SentenceRowContainer : MonoBehaviour
             if (text.wordGroup == wordGroup && PageManagerRefScript.IsReadingAlong == 1.0f)
             {
                 text.text.color = HighlightedColor;
-                Debug.Log(text.text);
+                //Debug.Log(text.text);
             }
             else
             {

@@ -31,12 +31,12 @@ public class LoadingScript : MonoBehaviour {
     {
         if(Switch == true)
         {
-            Debug.Log("TrunOn");
+            //Debug.Log("TrunOn");
             GetComponent<Image>().color = On;
         }
         else
         {
-            Debug.Log("TrunOff");
+            //Debug.Log("TrunOff");
             GetComponent<Image>().color = Off;
         }
     }

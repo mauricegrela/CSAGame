@@ -9727,15 +9727,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1a896c9c137483a88234d0433746c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AudioIndexPosition: 13
+  AudioIndexPosition: 0
   LevelName: Chapter_3
   pagesPerScene: 9
   NextScene: Chapter_4
   LastScene: Chapter_2
   isLastscene: 0
   isFirstscene: 0
-  isLoadingLevel: 0
-  StreamingAssetsCounter: 0
+  isLoadingLevel: 1
+  StreamingAssetsCounter: 2
   PageManager: {fileID: 0}
   Camera: {fileID: 424480129}
   OGCameraPosition: {x: 0, y: 0, z: 0}

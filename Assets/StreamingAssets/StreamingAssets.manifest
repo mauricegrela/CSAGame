@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2567682324
+CRC: 2354236354
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,4 +10,16 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: sasquatch/english_0
+      Dependencies: {}
+    Info_3:
+      Name: sasquatch/english_1
+      Dependencies: {}
+    Info_4:
+      Name: sasquatch/english_2
+      Dependencies: {}
+    Info_5:
+      Name: sasquatch/english_3
+      Dependencies: {}
+    Info_6:
+      Name: sasquatch/english_4
       Dependencies: {}
