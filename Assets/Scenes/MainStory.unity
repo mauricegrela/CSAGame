@@ -10494,6 +10494,7 @@ GameObject:
   - component: {fileID: 2054599092}
   - component: {fileID: 2054599091}
   - component: {fileID: 2054599090}
+  - component: {fileID: 2054599093}
   m_Layer: 0
   m_Name: PageManager
   m_TagString: PageManager
@@ -10646,6 +10647,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &2054599093
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2054599089}
+  m_Enabled: 1
 --- !u!1 &2071734123
 GameObject:
   m_ObjectHideFlags: 0

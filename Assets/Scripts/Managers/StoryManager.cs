@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class StoryManager : MonoBehaviour {
@@ -38,7 +39,7 @@ public class StoryManager : MonoBehaviour {
     //
     private Vector3 DistanceCounter;
 
-    void Awake()
+   public void InitialSetUp()///Awake()
     {
         OGCameraPosition = Camera.transform.position;
         TextPositions = new GameObject[transform.childCount];
@@ -105,10 +106,14 @@ public class StoryManager : MonoBehaviour {
         {//this condition will trigger when the player loads a level from the menu that requires a streaming asset that is not currently loaded.
             DataManager.LoadStory(DataManager.currentStoryName, StreamingAssetsCounter.ToString());
         }
+
+        CoroutineLoad();
+        //SceneManager.SetActiveScene(NextScene)
     }
 
 	// Use this for initialization
-	void Start () {
+	public void CoroutineLoad()//Start () 
+    {
         //This variable loads the offset from the page manager so that the level starts off at the right passage.
 		int chapterOffset = PageManager.GetComponent<PageManager> ().ChapterOffSet;
 
@@ -120,12 +125,12 @@ public class StoryManager : MonoBehaviour {
 		}
 
 		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) {
-            coroutine = WaitGoingForward(1.0f);
+            coroutine = WaitGoingForward(0.0f);
             StartCoroutine(coroutine);
 			} 
 				else 
 				{//If the player is going backwards
-                coroutine = WaitGoingBack(1.0f);
+                coroutine = WaitGoingBack(0.0f);
                 StartCoroutine(coroutine);
 				}
 	}

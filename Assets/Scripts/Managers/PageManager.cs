@@ -94,6 +94,8 @@ public class PageManager : Singleton<PageManager>
     [SerializeField]
     public GameObject ScenetextContainer;
 
+    private bool LevelsLoaded = false;
+
     protected override void Awake()
     {
         base.Awake();
@@ -106,11 +108,25 @@ public class PageManager : Singleton<PageManager>
     IEnumerator Start()
     {//Initiage the story
      //AssetAssigner (DataManager.currentStoryName + "_start", 11);
-        //DataManager.LoadStory(DataManager.currentStoryName, "0");
-        //OG_PostitionTextBody = TextBody.gameObject.transform.position;
+     //DataManager.LoadStory(DataManager.currentStoryName, "0");
+     //OG_PostitionTextBody = TextBody.gameObject.transform.position;
+
+        LevelJugler();
         yield return null;
     }
 
+    public void LevelJugler()
+    {
+        StoryManager = GameObject.FindGameObjectWithTag("StoryManager");//Find the story manager found in every level
+        if (LevelsLoaded == false)
+        {
+            LevelsLoaded = true;
+            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            StoryManager.GetComponent<StoryManager>().InitialSetUp();
+            //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
+            //.SetActiveScene(SceneManager.GetSceneByName(CurrentLevel));
+        }
+    }
 
     public void AssetAssigner(string CurrentLevel, int lastPage)
     {//when ever a level is loaded, this code will run to store all of the relative data
@@ -118,12 +134,16 @@ public class PageManager : Singleton<PageManager>
         EnvironmentTracker = CurrentLevel;
         StoryManager = GameObject.FindGameObjectWithTag("StoryManager");//Find the story manager found in every level
 
+
+
         if (isGoingBack == true)
         {
-            sceneindex = lastPage;
+            //sceneindex = lastPage;
             //Debug.Log(sceneindex);
   
         }
+
+
     }
 
     public void ChapterskipSetCharacters(int StartingPosition)
@@ -160,8 +180,8 @@ public class PageManager : Singleton<PageManager>
     {
 
         Resources.UnloadUnusedAssets();
-        SceneManager.UnloadSceneAsync(EnvironmentTracker);
-        SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
+        //SceneManager.UnloadSceneAsync(EnvironmentTracker);
+        //SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
         //Resetting logic for finding the 
         sentenceContainerCounter = 0;
         sentenceContainerCurrent = 0;
@@ -213,12 +233,12 @@ public class PageManager : Singleton<PageManager>
         {//If the player is at the last page of the scene
             //LoadingScreen.GetComponent<Image>().enabled = true;
             LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(true);
+            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
                          
 
             isloadingScene = true;
             audioSource.Stop();
-            //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
+            Debug.Log(EnvironmentTracker);
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
 
 
@@ -227,8 +247,14 @@ public class PageManager : Singleton<PageManager>
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
+            StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
+            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            StoryManager.GetComponent<StoryManager>().InitialSetUp();
+            //LevelsLoaded = false;
+            //LevelJugler();
             //Check if the player has reached the end of this scene, Once reached, go to the next scene.
-            SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
+            //SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
+            //SceneManager.SetActiveScene(NextScene)
             isGoingBack = false;
             sceneindex = 0;
 
@@ -236,6 +262,7 @@ public class PageManager : Singleton<PageManager>
             //Resetting logic for finding the 
             sentenceContainerCounter = 0;
             sentenceContainerCurrent = 0;
+            /*
             //GameObject TextPositionref;
             foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
             {
@@ -248,8 +275,14 @@ public class PageManager : Singleton<PageManager>
                     Debug.Log("Working");
                 }
             }
+
+            Resources.UnloadUnusedAssets();
+            StoryManager.GetComponent<StoryManager>().PanRight();*/
+
+
         }
-        StoryManager.GetComponent<StoryManager>().PanRight();
+
+
     }
 
     public void SetUpNewTextFoward()
@@ -340,14 +373,14 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex <0)
         {//If the player is at the last page of the scene
             //isloadingScene = true;
-            //Debug.Log("Moving scenes");
+            Debug.Log(EnvironmentTracker);
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
 
 
             audioSource.Stop();
             GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
             LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(true);
+            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
             ///LoadingScreen.GetComponent<Image>().enabled = true;
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
@@ -371,8 +404,9 @@ public class PageManager : Singleton<PageManager>
                 Debug.Log(sceneindex);
             }
 
-
+            Resources.UnloadUnusedAssets();
         }
+
         StoryManager.GetComponent<StoryManager>().PanLeft();
 
     }

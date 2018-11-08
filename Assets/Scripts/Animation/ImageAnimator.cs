@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class ImageAnimator : MonoBehaviour {
 
-    public Sprite[] sprites;
+    [SerializeField]
+    private Sprite[] sprites;
     public float animationSpeed;
     public bool IsLooping = true;
     private bool isAnimating = false;
@@ -39,6 +40,10 @@ public class ImageAnimator : MonoBehaviour {
         if(IsLooping==true)
         {
         StartCoroutine("nukeMethod");   
+        }
+        else
+        {
+            StopAllCoroutines();
         }
 
         
@@ -76,4 +81,11 @@ public class ImageAnimator : MonoBehaviour {
         StartCoroutine("nukeMethod"); 
         Debug.Log("Triggered");
     }
+
+    void OnDisable()
+    {
+        StopAllCoroutines();
+        Debug.Log("Triggered");
+    }
+
 }
