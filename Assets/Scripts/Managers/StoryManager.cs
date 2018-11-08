@@ -130,8 +130,19 @@ public class StoryManager : MonoBehaviour {
 			} 
 				else 
 				{//If the player is going backwards
-                coroutine = WaitGoingBack(0.0f);
-                StartCoroutine(coroutine);
+                PageManager.GetComponent<PageManager>().AssetAssigner(LevelName, AudioIndexPosition);
+                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
+                PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
+                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
+                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                if (AnimRef != null)
+                    AnimRef.GetComponent<Animator>().enabled = true;
+
+                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+                if (AnimatedObject != null)
+                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+                //coroutine = WaitGoingBack(0.0f);
+                //StartCoroutine(coroutine);
 				}
 	}
 
@@ -183,6 +194,18 @@ public class StoryManager : MonoBehaviour {
             if (Counter == 0)
             {
                 PageManager.GetComponent<PageManager> ().AssetAssigner (LevelName, AudioIndexPosition);
+                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
+                PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
+                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
+                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+                if (AnimRef != null)
+                    AnimRef.GetComponent<Animator>().enabled = true;
+
+                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+                if (AnimatedObject != null)
+                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+
+                StopCoroutine(coroutine);
             }
             else if (Counter == 1)
             {
@@ -190,18 +213,7 @@ public class StoryManager : MonoBehaviour {
             }
             else if (Counter == 2)
             {
-                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
-                PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
-                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
-                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
-                if(AnimRef != null)
-                AnimRef.GetComponent<Animator>().enabled = true;
-                
-                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
-                if (AnimatedObject != null)
-                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
-                
-                StopCoroutine(coroutine);
+
             }
             else
             {

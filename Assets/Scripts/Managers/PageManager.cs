@@ -53,6 +53,7 @@ public class PageManager : Singleton<PageManager>
     //Narrative Manager vars
     public GameObject StoryManager;
     private string EnvironmentTracker;
+    private string PreviousLevelTracker;
     public GameObject TextBody;
     private Vector3 OG_PostitionTextBody;
     public float IsReadingAlong = 1.0f;
@@ -246,15 +247,16 @@ public class PageManager : Singleton<PageManager>
 
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
-
+                if (PreviousLevelTracker != null)
+                {
+                    SceneManager.UnloadScene(PreviousLevelTracker);
+                }
+            PreviousLevelTracker = EnvironmentTracker;
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            SceneManager.LoadScene(EnvironmentTracker, LoadSceneMode.Additive);
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
-            //LevelsLoaded = false;
-            //LevelJugler();
-            //Check if the player has reached the end of this scene, Once reached, go to the next scene.
-            //SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
-            //SceneManager.SetActiveScene(NextScene)
+
             isGoingBack = false;
             sceneindex = 0;
 
