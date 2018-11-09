@@ -127,6 +127,7 @@ public class PageManager : Singleton<PageManager>
             LevelsLoaded = true;
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
+            PreviousLevelTracker = StoryManager.GetComponent<StoryManager>().LastScene;
             //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
             //.SetActiveScene(SceneManager.GetSceneByName(CurrentLevel));
         }
@@ -178,9 +179,14 @@ public class PageManager : Singleton<PageManager>
 
         SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
         SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().LastScene);
-        SceneManager.UnloadScene(EnvironmentTracker);
 
-        SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
+        if (PreviousLevelTracker != EnvironmentTracker)
+        { 
+        SceneManager.UnloadScene(EnvironmentTracker);     
+        } 
+
+        SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);  
+
         //PreviousLevelTracker = EnvironmentTracker;
 
         //StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
@@ -257,11 +263,13 @@ public class PageManager : Singleton<PageManager>
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
-            if (sceneindex>1 )
-                {
-                Debug.Log(PreviousLevelTracker.ToString());
-                SceneManager.UnloadScene(PreviousLevelTracker);
-                }
+            if(PreviousLevelTracker != EnvironmentTracker)
+            {
+            Debug.Log(PreviousLevelTracker.ToString());
+            SceneManager.UnloadScene(PreviousLevelTracker);   
+            }
+                
+                
 
             PreviousLevelTracker = EnvironmentTracker;
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
@@ -373,7 +381,7 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex <0)
         {//If the player is at the last page of the scene
             //isloadingScene = true;
-
+            sceneindex = 0;
             Debug.Log(EnvironmentTracker);
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
 
@@ -385,12 +393,13 @@ public class PageManager : Singleton<PageManager>
             SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
             SceneManager.UnloadScene(EnvironmentTracker);
 
-            //PreviousLevelTracker = EnvironmentTracker;
+
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
 
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
+            PreviousLevelTracker = StoryManager.GetComponent<StoryManager>().LastScene;
         }
         else
         {

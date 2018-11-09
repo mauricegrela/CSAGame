@@ -289,9 +289,10 @@ public class StoryManager : MonoBehaviour {
                  //Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
             if (PageManager.GetComponent<PageManager>().audioIndex == 37)
                 {
+                    
                     Page37Panning.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
                     //Debug.Log("Working");
-                    //CameraRef.GetComponent<CameraRef_MouseMovement>().enabled = false;
+                    //CameraRef.GetComponent<Camera_MouseMovement>().enabled = true;
                     //CameraRef.GetComponent<Accelerometer_SkyBox>().enabled = true;
 
                 }
