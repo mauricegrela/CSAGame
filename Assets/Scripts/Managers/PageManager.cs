@@ -230,6 +230,9 @@ public class PageManager : Singleton<PageManager>
         string NextScene;
         NextScene = StoryManager.GetComponent<StoryManager>().NextScene;
 
+        StoryManager.GetComponent<StoryManager>().CameraRef.transform.position = StoryManager.GetComponent<StoryManager>().OGCameraRefPosition;
+        StoryManager.GetComponent<StoryManager>().isPanningLeft = false;
+        StoryManager.GetComponent<StoryManager>().isPanningRight = false;
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
             //LoadingScreen.GetComponent<Image>().enabled = true;
@@ -248,8 +251,9 @@ public class PageManager : Singleton<PageManager>
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
-                if (PreviousLevelTracker != null)
+            if (PreviousLevelTracker != null && PreviousLevelTracker != null)
                 {
+                    Debug.Log(PreviousLevelTracker.ToString());
                     SceneManager.UnloadScene(PreviousLevelTracker);
                     //SceneManager.UnloadScene(EnvironmentTracker);
                 }
@@ -269,7 +273,10 @@ public class PageManager : Singleton<PageManager>
             sentenceContainerCurrent = 0;
 
         }
-        //StoryManager.GetComponent<StoryManager>().PanRight();
+        else
+        {
+            //StoryManager.GetComponent<StoryManager>().PanRight();
+        }
 
     }
 
@@ -361,6 +368,7 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex <0)
         {//If the player is at the last page of the scene
             //isloadingScene = true;
+
             Debug.Log(EnvironmentTracker);
             //Debug.Log(sceneindex+"///"+StoryManager.GetComponent<StoryManager>().pagesPerScene);
 
@@ -381,9 +389,9 @@ public class PageManager : Singleton<PageManager>
         }
         else
         {
-            
+        //StoryManager.GetComponent<StoryManager>().PanLeft();  
         }
-        //StoryManager.GetComponent<StoryManager>().PanLeft();
+
     }
 
     public void SetUpNewTextBack()
