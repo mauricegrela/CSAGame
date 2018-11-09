@@ -41,7 +41,7 @@ public class StoryManager : MonoBehaviour {
 
    public void InitialSetUp()///Awake()
     {
-        OGCameraPosition = Camera.transform.position;
+        //OGCameraPosition = Camera.transform.position;
         TextPositions = new GameObject[transform.childCount];
         pagesPerScene = transform.childCount;
         for (int i = 0; i < transform.childCount; i++)
@@ -104,7 +104,7 @@ public class StoryManager : MonoBehaviour {
         }
         else if (StreamingAssetsCounter.ToString() != DataManager.CurrentAssetPackage.ToString())
         {//this condition will trigger when the player loads a level from the menu that requires a streaming asset that is not currently loaded.
-            DataManager.LoadStory(DataManager.currentStoryName, StreamingAssetsCounter.ToString());
+            //DataManager.LoadStory(DataManager.currentStoryName, StreamingAssetsCounter.ToString());
         }
 
         CoroutineLoad();
@@ -124,26 +124,36 @@ public class StoryManager : MonoBehaviour {
 			}
 		}
 
-		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) {
-            coroutine = WaitGoingForward(0.0f);
-            StartCoroutine(coroutine);
-			} 
-				else 
-				{//If the player is going backwards
-                PageManager.GetComponent<PageManager>().AssetAssigner(LevelName, AudioIndexPosition);
-                PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
-                PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
-                PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
-                GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
-                if (AnimRef != null)
-                    AnimRef.GetComponent<Animator>().enabled = true;
+		if (PageManager.GetComponent<PageManager> ().isGoingBack == false) 
+        {
+        PageManager.GetComponent<PageManager>().AssetAssigner(LevelName, AudioIndexPosition);
+        PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
+        PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
+        PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
+        GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+        if (AnimRef != null)
+            AnimRef.GetComponent<Animator>().enabled = true;
 
-                GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
-                if (AnimatedObject != null)
-                    AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
-                //coroutine = WaitGoingBack(0.0f);
-                //StartCoroutine(coroutine);
-				}
+        GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+        if (AnimatedObject != null)
+            AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+		} 
+			else 
+			{//If the player is going backwards
+            PageManager.GetComponent<PageManager>().AssetAssigner(LevelName, AudioIndexPosition);
+            PageManager.GetComponent<PageManager>().GoToPage(AudioIndexPosition);
+            PageManager.GetComponent<PageManager>().ChapterskipSetCharacters(0);
+            PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
+            GameObject AnimRef = GameObject.FindGameObjectWithTag("LoadPageAnim");
+            if (AnimRef != null)
+                AnimRef.GetComponent<Animator>().enabled = true;
+
+            GameObject AnimatedObject = GameObject.FindGameObjectWithTag("AnimTurnOff");
+            if (AnimatedObject != null)
+                AnimatedObject.GetComponent<AnimationTurnOff>().ActivateCountDown();
+            //coroutine = WaitGoingBack(0.0f);
+            //StartCoroutine(coroutine);
+			}
 	}
 
     private IEnumerator WaitGoingBack(float waitTime)

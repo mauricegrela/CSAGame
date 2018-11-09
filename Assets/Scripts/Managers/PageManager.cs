@@ -233,24 +233,27 @@ public class PageManager : Singleton<PageManager>
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
             //LoadingScreen.GetComponent<Image>().enabled = true;
-            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
+            //LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
+            //LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
                          
 
             isloadingScene = true;
             audioSource.Stop();
-            Debug.Log(EnvironmentTracker);
-            GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
+            //Debug.Log(EnvironmentTracker);
+            //GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
 
 
 
 
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
+
                 if (PreviousLevelTracker != null)
                 {
                     SceneManager.UnloadScene(PreviousLevelTracker);
+                    //SceneManager.UnloadScene(EnvironmentTracker);
                 }
+
             PreviousLevelTracker = EnvironmentTracker;
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
@@ -264,26 +267,9 @@ public class PageManager : Singleton<PageManager>
             //Resetting logic for finding the 
             sentenceContainerCounter = 0;
             sentenceContainerCurrent = 0;
-            /*
-            //GameObject TextPositionref;
-            foreach (Transform child in StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].transform)
-            {
-                // do whatever you want with child transform object here
-                if (child.gameObject.tag == "TextPlacement")
-                {
-                    sentenceContainer[sentenceContainerCounter] = child.gameObject.GetComponent<SentenceRowContainer>(); ;
-                    sentenceContainerCounter++;
-                    TextPositionref = child.gameObject;//GameObject.FindWithTag("TextPlacement"); 
-                    Debug.Log("Working");
-                }
-            }
-
-            Resources.UnloadUnusedAssets();
-            StoryManager.GetComponent<StoryManager>().PanRight();*/
-
 
         }
-
+        //StoryManager.GetComponent<StoryManager>().PanRight();
 
     }
 
@@ -380,37 +366,24 @@ public class PageManager : Singleton<PageManager>
 
 
             audioSource.Stop();
-            GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
-            LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
-            ///LoadingScreen.GetComponent<Image>().enabled = true;
+
+            StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             Resources.UnloadUnusedAssets();
+            SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
             SceneManager.UnloadScene(EnvironmentTracker);
 
-            //Check if the player has reached the end of this scene, Once reached, go to the next scene.
-            SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
-            isGoingBack = true;
-            //LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
-            //LoadingScreen.GetComponent<Image>().enabled = false;
+            //PreviousLevelTracker = EnvironmentTracker;
+            StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
+            StoryManager.GetComponent<StoryManager>().InitialSetUp();
 
-            Debug.Log("Moving scenes");
+            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
         }
         else
         {
-            //Debug.Log(audioIndex);
-            if (StoryManager.GetComponent<StoryManager>().TextPositions[sceneindex].tag == "panning" || (audioIndex == 4 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 4))
-
-            {
-                sceneindex--;
-                audioIndex--;
-                Debug.Log(sceneindex);
-            }
-
-            Resources.UnloadUnusedAssets();
+            
         }
-
-        StoryManager.GetComponent<StoryManager>().PanLeft();
-
+        //StoryManager.GetComponent<StoryManager>().PanLeft();
     }
 
     public void SetUpNewTextBack()
