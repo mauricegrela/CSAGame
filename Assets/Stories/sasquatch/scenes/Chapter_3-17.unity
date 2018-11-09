@@ -535,11 +535,13 @@ MonoBehaviour:
   isLoadingLevel: 0
   StreamingAssetsCounter: 0
   PageManager: {fileID: 0}
-  Camera: {fileID: 0}
-  OGCameraPosition: {x: 0, y: 0, z: 0}
+  CameraRef: {fileID: 0}
+  OGCameraRefPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningLeft: 0
   isPanningRight: 0
+  Page37Panning: {fileID: 0}
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0
@@ -578,8 +580,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1109839232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000029802, y: 0.52, z: 0}
-  m_LocalScale: {x: 3.4230478, y: 3.4230456, z: 3.4230456}
+  m_LocalPosition: {x: -0.77, y: 0.49, z: 0}
+  m_LocalScale: {x: 1.9026189, y: 1.902617, z: 1.902617}
   m_Children: []
   m_Father: {fileID: 657607889}
   m_RootOrder: 1
@@ -619,7 +621,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 26
-  m_Sprite: {fileID: 21300000, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -641,22 +643,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300002, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300004, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300006, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300008, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300010, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300012, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300014, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300016, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300018, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300020, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300022, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300024, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
+  - {fileID: 21300000, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300002, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300004, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300006, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300008, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300010, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300012, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300014, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300016, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300018, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300020, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300022, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300024, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
   - {fileID: 21300026, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300028, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
-  - {fileID: 21300030, guid: 19c0790b628c044cda066847ec3f3a1e, type: 3}
+  - {fileID: 21300028, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
+  - {fileID: 21300030, guid: 3b7a20ac54778448d87965787fd944c1, type: 3}
   animationSpeed: 0
   IsLooping: 1
   SFXSource: {fileID: 0}

@@ -559,6 +559,8 @@ public class PageManager : Singleton<PageManager>
             if (Child != null)
             Child.Clear();
         }
+        sentenceContainerCounter = 0;
+        sentenceContainerCurrent = 0;
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 
@@ -648,7 +650,7 @@ public class PageManager : Singleton<PageManager>
         //Debug.Log(obj.clip);
 
         //if(audioIndex == 0)\
-        if (audioIndex == 0 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 0)
+        if (audioIndex == 0 )
         {
             BackButton.GetComponent<Image>().enabled = false;
         }
@@ -658,7 +660,7 @@ public class PageManager : Singleton<PageManager>
             }
 
         //if (audioIndex == 38)
-        if (audioIndex == 4 && StoryManager.GetComponent<StoryManager>().StreamingAssetsCounter == 4)
+        if (audioIndex == 38)
         {
             NextButton.GetComponent<Image>().enabled = false;
         }

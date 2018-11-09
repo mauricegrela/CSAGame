@@ -1433,11 +1433,13 @@ MonoBehaviour:
   isLoadingLevel: 0
   StreamingAssetsCounter: 2
   PageManager: {fileID: 0}
-  Camera: {fileID: 0}
-  OGCameraPosition: {x: 0, y: 0, z: 0}
+  CameraRef: {fileID: 0}
+  OGCameraRefPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningLeft: 0
   isPanningRight: 0
+  Page37Panning: {fileID: 0}
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0
@@ -2737,22 +2739,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprites:
-  - {fileID: 21300000, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300002, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300004, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300006, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300008, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300010, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300012, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300014, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300016, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300018, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300020, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300022, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300024, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300026, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300028, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
-  - {fileID: 21300030, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
+  - {fileID: 21300000, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300002, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300004, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300006, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300008, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300010, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300012, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300014, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300016, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300018, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300020, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300022, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300024, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300026, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300028, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
+  - {fileID: 21300030, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
   animationSpeed: 0
   IsLooping: 1
   SFXSource: {fileID: 0}
@@ -2792,7 +2794,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 28
-  m_Sprite: {fileID: 21300000, guid: a830cff6e51ea49d7b6eb8be3f6e7036, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 62e45260398c646cfbf8a354c09c827d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
