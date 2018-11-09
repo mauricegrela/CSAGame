@@ -49,11 +49,14 @@ public class PageManager : Singleton<PageManager>
     private GameObject[] Characters;
     [SerializeField]
     private GameObject[] DynamicProps;
+    public bool isLoading = false;
 
     //Narrative Manager vars
     public GameObject StoryManager;
+    [SerializeField]
     private string EnvironmentTracker;
-    private string PreviousLevelTracker;
+    [SerializeField]
+    public string PreviousLevelTracker;
     public GameObject TextBody;
     private Vector3 OG_PostitionTextBody;
     public float IsReadingAlong = 1.0f;
@@ -167,13 +170,25 @@ public class PageManager : Singleton<PageManager>
             if(Child != null)
             Child.Clear();
         }
+        isLoading = true;
+        StoryManager.GetComponent<StoryManager>().CameraRef.transform.position = StoryManager.GetComponent<StoryManager>().OGCameraRefPosition;
 
-        LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-        LoadingScreen.GetComponent<Image>().enabled = true;
+        StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
         Resources.UnloadUnusedAssets();
+
+        SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
+        SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().LastScene);
         SceneManager.UnloadScene(EnvironmentTracker);
-        AssetBundle.UnloadAllAssetBundles(true);
+
         SceneManager.LoadScene(LevelToLoad, LoadSceneMode.Additive);
+        //PreviousLevelTracker = EnvironmentTracker;
+
+        //StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
+        //StoryManager.GetComponent<StoryManager>().InitialSetUp();
+
+        //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+        //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
+
         sceneindex = 0;
     }
 
@@ -225,7 +240,7 @@ public class PageManager : Singleton<PageManager>
 
     public void GotoNext()
     {   sceneindex++;
-        bool isloadingScene;
+        //bool isloadingScene;
 
         string NextScene;
         NextScene = StoryManager.GetComponent<StoryManager>().NextScene;
@@ -235,27 +250,17 @@ public class PageManager : Singleton<PageManager>
         StoryManager.GetComponent<StoryManager>().isPanningRight = false;
         if (sceneindex >= StoryManager.GetComponent<StoryManager>().pagesPerScene)
         {//If the player is at the last page of the scene
-            //LoadingScreen.GetComponent<Image>().enabled = true;
-            //LoadingScreen.GetComponent<LoadingScript>().LoadingScreenAssigner();
-            //LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);//true
-                         
 
-            isloadingScene = true;
+            // = true;
             audioSource.Stop();
-            //Debug.Log(EnvironmentTracker);
-            //GameObject Canvas = GameObject.FindGameObjectWithTag("Canvas");
-
-
-
 
             Resources.UnloadUnusedAssets();
             SceneManager.UnloadScene(EnvironmentTracker);
 
-            if (PreviousLevelTracker != null && PreviousLevelTracker != null)
+            if (sceneindex>1 )
                 {
-                    Debug.Log(PreviousLevelTracker.ToString());
-                    SceneManager.UnloadScene(PreviousLevelTracker);
-                    //SceneManager.UnloadScene(EnvironmentTracker);
+                Debug.Log(PreviousLevelTracker.ToString());
+                SceneManager.UnloadScene(PreviousLevelTracker);
                 }
 
             PreviousLevelTracker = EnvironmentTracker;
@@ -275,7 +280,7 @@ public class PageManager : Singleton<PageManager>
         }
         else
         {
-            //StoryManager.GetComponent<StoryManager>().PanRight();
+            StoryManager.GetComponent<StoryManager>().PanRight();
         }
 
     }
@@ -389,7 +394,7 @@ public class PageManager : Singleton<PageManager>
         }
         else
         {
-        //StoryManager.GetComponent<StoryManager>().PanLeft();  
+        StoryManager.GetComponent<StoryManager>().PanLeft();  
         }
 
     }

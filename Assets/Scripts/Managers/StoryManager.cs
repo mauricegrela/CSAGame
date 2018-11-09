@@ -36,10 +36,26 @@ public class StoryManager : MonoBehaviour {
     private float PanningLimit = 20.47f;
     private float PanningSetUp = 20.47f;
     private int CurrentPage;
+    [SerializeField]
+    private GameObject Page37Panning;
     //
     private Vector3 DistanceCounter;
 
-   public void InitialSetUp()///Awake()
+    private void Awake()
+    {
+        PageManager = GameObject.FindGameObjectWithTag("PageManager");
+        if(PageManager.GetComponent<PageManager>().isLoading==true)
+        {
+            InitialSetUp();
+            PageManager.GetComponent<PageManager>().isLoading = false;
+            PageManager.GetComponent<PageManager>().StoryManager = gameObject;
+            SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
+            SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
+            PageManager.GetComponent<PageManager>().PreviousLevelTracker = LastScene;
+        }
+    }
+
+    public void InitialSetUp()///Awake()
     {
         CameraRef = GameObject.FindGameObjectWithTag("MainCamera");
         OGCameraRefPosition = CameraRef.transform.position;
@@ -271,9 +287,9 @@ public class StoryManager : MonoBehaviour {
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward(); 
 
                  //Debug.Log("Working?" + PageManager.GetComponent<PageManager>().audioIndex);
-            if (PageManager.GetComponent<PageManager>().audioIndex == 3 && StreamingAssetsCounter == 4)
+            if (PageManager.GetComponent<PageManager>().audioIndex == 37)
                 {
-                CameraRef.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
+                    Page37Panning.GetComponent<Accelerometer_PageMoveDown>().StartPushDown();
                     //Debug.Log("Working");
                     //CameraRef.GetComponent<CameraRef_MouseMovement>().enabled = false;
                     //CameraRef.GetComponent<Accelerometer_SkyBox>().enabled = true;
@@ -282,7 +298,7 @@ public class StoryManager : MonoBehaviour {
                    
 
 
-                if (PageManager.GetComponent<PageManager>().audioIndex == 4 && StreamingAssetsCounter == 4)
+            if (PageManager.GetComponent<PageManager>().audioIndex == 38)
                 {
 
                 CameraRef.GetComponent<Accelerometer_SkyBox>().StoryBook.GetComponent<Accelerometer_PageMoveDown>().Reset();

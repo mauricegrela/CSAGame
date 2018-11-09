@@ -728,17 +728,6 @@ MonoBehaviour:
           m_StringArgument: Chapter_2
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1313913503}
-        m_MethodName: VisualToggle
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &104005282
@@ -4150,17 +4139,6 @@ MonoBehaviour:
           m_StringArgument: Chapter_3
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1313913503}
-        m_MethodName: VisualToggle
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &624214351
@@ -4425,17 +4403,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Chapter_1
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1313913503}
-        m_MethodName: VisualToggle
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -5119,17 +5086,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: Chapter_4
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1313913503}
-        m_MethodName: VisualToggle
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -8899,17 +8855,6 @@ MonoBehaviour:
           m_StringArgument: Chapter_5
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1313913503}
-        m_MethodName: VisualToggle
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1562626509
@@ -10731,7 +10676,10 @@ MonoBehaviour:
   sentenceContainerCurrent: 0
   Characters: []
   DynamicProps: []
+  isLoading: 0
   StoryManager: {fileID: 0}
+  EnvironmentTracker: 
+  PreviousLevelTracker: 
   TextBody: {fileID: 0}
   IsReadingAlong: 1
   cameraTransformTracker: {fileID: 0}
@@ -11322,6 +11270,7 @@ GameObject:
   - component: {fileID: 2122783534}
   - component: {fileID: 2122783533}
   - component: {fileID: 2122783532}
+  - component: {fileID: 2122783536}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -11397,6 +11346,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122783536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2122783531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd5b4a68ec76f4a099fb3fcf115d7bab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoryBook: {fileID: 0}
+  labels: []
 --- !u!1 &2139804641
 GameObject:
   m_ObjectHideFlags: 0
