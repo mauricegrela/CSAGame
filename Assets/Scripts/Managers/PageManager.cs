@@ -165,7 +165,7 @@ public class PageManager : Singleton<PageManager>
     public void ChapterSkip(String LevelToLoad)
     {//Launches when the player skips to a chapter through clicking on the book mark
         StopAllCoroutines();
-
+        LoadingScreen.GetComponent<LoadingScript>().VisualToggle(true);
         foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if(Child != null)

@@ -45,7 +45,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 2
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -79,7 +79,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -90,7 +90,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -101,7 +101,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -112,7 +112,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -123,7 +123,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
@@ -134,7 +134,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 2
     compressionQuality: 0
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0

@@ -52,11 +52,13 @@ public class StoryManager : MonoBehaviour {
             SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
             SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
             PageManager.GetComponent<PageManager>().PreviousLevelTracker = LastScene;
+
         }
     }
 
     public void InitialSetUp()///Awake()
     {
+        PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<LoadingScript>().VisualToggle(false);
         CameraRef = GameObject.FindGameObjectWithTag("MainCamera");
         OGCameraRefPosition = CameraRef.transform.position;
         TextPositions = new GameObject[transform.childCount];
@@ -172,6 +174,7 @@ public class StoryManager : MonoBehaviour {
             //coroutine = WaitGoingBack(0.0f);
             //StartCoroutine(coroutine);
 			}
+
 	}
 
     private IEnumerator WaitGoingBack(float waitTime)
