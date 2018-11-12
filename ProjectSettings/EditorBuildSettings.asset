@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/ad4d2e7632af33047b1a97d3b1a14e6b
-    guid: ad4d2e7632af33047b1a97d3b1a14e6b
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -23,14 +23,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stories/sasquatch/scenes/Chapter_2.unity
     guid: 66595fb7054e944f49eb0accd5b1e7fe
-  - enabled: 1
-    path: Assets/Stories/sasquatch/scenes/Chapter_3.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/d36cf6be6543d4eb79104689e5602956
     guid: d36cf6be6543d4eb79104689e5602956
-  - enabled: 1
-    path: Assets/Stories/sasquatch/scenes/Chapter_4.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/c833f3cc5b98049f0b56cc62c932e6c7
     guid: c833f3cc5b98049f0b56cc62c932e6c7
-  - enabled: 1
-    path: Assets/Stories/sasquatch/scenes/Chapter_5.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/ceea4830b75b34e65826ee740ee9ec41
     guid: ceea4830b75b34e65826ee740ee9ec41
   - enabled: 1
     path: Assets/Scenes/MainStory.unity
