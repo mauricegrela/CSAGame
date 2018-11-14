@@ -36,8 +36,11 @@ public class StoryManager : MonoBehaviour {
     private float PanningLimit = 20.47f;
     private float PanningSetUp = 20.47f;
     private int CurrentPage;
+
     [SerializeField]
     private GameObject Page37Panning;
+
+    public AudioClip PageSong;
     //
     private Vector3 DistanceCounter;
 

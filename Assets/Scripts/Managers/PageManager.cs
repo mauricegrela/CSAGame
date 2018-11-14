@@ -477,8 +477,9 @@ public class PageManager : Singleton<PageManager>
 
     public void SetAudioTrack()
     {
+        //StoryManager.GetComponent<StoryManager>().
         GameObject Cam = GameObject.FindGameObjectWithTag("MainCamera");
-        if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex-1])
+        /*if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex-1])
         {
             Cam.GetComponent<AudioSource>().clip = OST[audioIndex];
             Cam.GetComponent<AudioSource>().Play();
@@ -486,6 +487,25 @@ public class PageManager : Singleton<PageManager>
             else
             {
             Cam.GetComponent<AudioSource>().Stop(); 
+            }*/
+        Debug.Log(StoryManager.GetComponent<StoryManager>().PageSong.ToString());
+        Debug.Log(Cam.GetComponent<AudioSource>().clip.ToString());
+
+        if(StoryManager.GetComponent<StoryManager>().PageSong == Cam.GetComponent<AudioSource>().clip)
+        {//if current track is the same as the previous  dont change it
+            
+        }
+            else
+            {
+                if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex - 1])
+                {
+                    Cam.GetComponent<AudioSource>().clip = OST[audioIndex];
+                    Cam.GetComponent<AudioSource>().Play();
+                }
+                    else
+                    {
+                        Cam.GetComponent<AudioSource>().Stop();
+                    }    
             }
     }
 
