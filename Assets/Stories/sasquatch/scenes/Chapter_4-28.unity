@@ -647,7 +647,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 170.56}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -5.23, y: -4.06}
+  m_AnchoredPosition: {x: -6.94, y: 4.17}
   m_SizeDelta: {x: 1824.882, y: 1281.139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &735233714
@@ -737,7 +737,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -4.6749997, y: -4.0489993}
+  m_AnchoredPosition: {x: -6.3849998, y: 4.1810007}
   m_SizeDelta: {x: 270.782, y: 146.376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984744869
@@ -2040,11 +2040,13 @@ MonoBehaviour:
   isLoadingLevel: 0
   StreamingAssetsCounter: 3
   PageManager: {fileID: 0}
-  Camera: {fileID: 0}
-  OGCameraPosition: {x: 0, y: 0, z: 0}
+  CameraRef: {fileID: 0}
+  OGCameraRefPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningLeft: 0
   isPanningRight: 0
+  Page37Panning: {fileID: 0}
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0
@@ -2083,7 +2085,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1828633943}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.88, y: 3.52, z: 0}
+  m_LocalPosition: {x: -2.45, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 289073326}
@@ -2186,7 +2188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.702, y: 1.83}
+  m_AnchoredPosition: {x: -2.47, y: -3.82}
   m_SizeDelta: {x: 453.703, y: 334.428}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998289394
