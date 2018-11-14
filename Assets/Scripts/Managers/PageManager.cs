@@ -90,6 +90,10 @@ public class PageManager : Singleton<PageManager>
     [SerializeField]
     private GameObject NextButton;
 
+    //Audio Vars
+    [SerializeField]
+    private AudioClip[] OST; 
+
     //Debuging Vars
     public GameObject Scenetext;
 
@@ -290,7 +294,7 @@ public class PageManager : Singleton<PageManager>
         {
             StoryManager.GetComponent<StoryManager>().PanRight();
         }
-
+        SetAudioTrack();
     }
 
     public void SetUpNewTextFoward()
@@ -405,7 +409,7 @@ public class PageManager : Singleton<PageManager>
         {
         StoryManager.GetComponent<StoryManager>().PanLeft();  
         }
-
+        SetAudioTrack();
     }
 
     public void SetUpNewTextBack()
@@ -469,6 +473,20 @@ public class PageManager : Singleton<PageManager>
 
         PreviousSentence(isGoingBack);
 
+    }
+
+    public void SetAudioTrack()
+    {
+        GameObject Cam = GameObject.FindGameObjectWithTag("MainCamera");
+        if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex-1])
+        {
+            Cam.GetComponent<AudioSource>().clip = OST[audioIndex];
+            Cam.GetComponent<AudioSource>().Play();
+        }
+            else
+            {
+            Cam.GetComponent<AudioSource>().Stop(); 
+            }
     }
 
     public void SetToLastPosition()

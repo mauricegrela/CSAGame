@@ -77,5 +77,8 @@ public class ParentsCornerActivation : MonoBehaviour {
         }*/
         //Unlock.GetComponent<MyIAPManager>().BuyNonConsumable();
     }
-
+    public void redirect()
+    {
+        Application.OpenURL("http://www.asc-csa.gc.ca/eng/astronauts/canadian/active/bio-david-saint-jacques.asp");
+    }
 }
