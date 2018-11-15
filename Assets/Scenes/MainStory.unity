@@ -728,6 +728,29 @@ MonoBehaviour:
           m_StringArgument: Chapter_2
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: ac14b815e0e68456c8284359f258e5ff,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &104005282
@@ -1736,7 +1759,7 @@ Transform:
   m_GameObject: {fileID: 317726966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.04, y: -0.45, z: 17.27}
-  m_LocalScale: {x: 0.94, y: 0.98, z: 1}
+  m_LocalScale: {x: 0.92, y: 0.96, z: 1}
   m_Children: []
   m_Father: {fileID: 2122783535}
   m_RootOrder: 1
@@ -4213,6 +4236,17 @@ MonoBehaviour:
           m_StringArgument: Chapter_3
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &624214351
@@ -4476,6 +4510,29 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Chapter_1
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -5159,6 +5216,29 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Chapter_4
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: set_clip
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 9596ce4b04fe8491abdd8a8bb33f1ca4,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -7499,20 +7579,80 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224921631590075040, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.0115
+      value: 3.1237519
       objectReference: {fileID: 0}
-    - target: {fileID: 224921631590075040, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: 0.0115
+      value: 3.123751
       objectReference: {fileID: 0}
-    - target: {fileID: 224921631590075040, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.z
-      value: 0.0115
+      value: 3.123751
+      objectReference: {fileID: 0}
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -24.266
+      objectReference: {fileID: 0}
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.859
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: -3.1237514
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: -3.1237507
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.123751
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -24.266
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.859
+      objectReference: {fileID: 0}
+    - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 3.1243594
+      objectReference: {fileID: 0}
+    - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.1243587
+      objectReference: {fileID: 0}
+    - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 3.1243587
+      objectReference: {fileID: 0}
+    - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 4.243
+      objectReference: {fileID: 0}
+    - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 18.859
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a4e3a9be33b34edcb05ad4d341fa468, type: 2}
@@ -8038,7 +8178,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1313913500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9171,6 +9311,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Chapter_5
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2122783536}
+        m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -10961,7 +11112,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.496
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -11544,8 +11695,6 @@ GameObject:
   - component: {fileID: 2106613731}
   - component: {fileID: 2106613730}
   - component: {fileID: 2106613729}
-  - component: {fileID: 2106613728}
-  - component: {fileID: 2106613727}
   m_Layer: 0
   m_Name: MainMenu (1)
   m_TagString: Untagged
@@ -11571,42 +11720,6 @@ RectTransform:
   m_AnchoredPosition: {x: -244.4, y: -54.1}
   m_SizeDelta: {x: 630, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2106613727
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2106613725}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!223 &2106613728
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2106613725}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!114 &2106613729
 MonoBehaviour:
   m_ObjectHideFlags: 0

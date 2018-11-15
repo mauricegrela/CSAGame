@@ -563,6 +563,7 @@ MonoBehaviour:
   isPanningLeft: 0
   isPanningRight: 0
   Page37Panning: {fileID: 0}
+  PageSong: {fileID: 8300000, guid: 0a1fd13bd283f445cb97718f80527fe1, type: 3}
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0

@@ -2688,7 +2688,7 @@ MonoBehaviour:
   isPanningLeft: 0
   isPanningRight: 0
   Page37Panning: {fileID: 0}
-  PageSong: {fileID: 0}
+  PageSong: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
 --- !u!1 &1844707455
 GameObject:
   m_ObjectHideFlags: 0

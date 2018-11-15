@@ -488,8 +488,8 @@ public class PageManager : Singleton<PageManager>
             {
             Cam.GetComponent<AudioSource>().Stop(); 
             }*/
-        Debug.Log(StoryManager.GetComponent<StoryManager>().PageSong.ToString());
-        Debug.Log(Cam.GetComponent<AudioSource>().clip.ToString());
+        //Debug.Log(StoryManager.GetComponent<StoryManager>().PageSong.ToString());
+        //Debug.Log(Cam.GetComponent<AudioSource>().clip.ToString());
 
         if(StoryManager.GetComponent<StoryManager>().PageSong == Cam.GetComponent<AudioSource>().clip)
         {//if current track is the same as the previous  dont change it
@@ -497,14 +497,15 @@ public class PageManager : Singleton<PageManager>
         }
             else
             {
-                if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex - 1])
+                if (StoryManager.GetComponent<StoryManager>().PageSong != null)
                 {
-                    Cam.GetComponent<AudioSource>().clip = OST[audioIndex];
-                    Cam.GetComponent<AudioSource>().Play();
+                Cam.GetComponent<AudioSource>().clip = StoryManager.GetComponent<StoryManager>().PageSong;
+                Cam.GetComponent<AudioSource>().Play();
                 }
                     else
                     {
-                        Cam.GetComponent<AudioSource>().Stop();
+                    Cam.GetComponent<AudioSource>().clip = null;
+                    Cam.GetComponent<AudioSource>().Stop();
                     }    
             }
     }
@@ -896,7 +897,7 @@ public class PageManager : Singleton<PageManager>
             }
             //Debug.Log(waitTime+"///"+wordGroup.text);
             i++;
-            yield return new WaitForSecondsRealtime(waitTime);
+            yield return new WaitForSeconds(waitTime);
             prevWordGroup = wordGroup;
         }
         //sentenceContainer.HighlightWordGroup(null);

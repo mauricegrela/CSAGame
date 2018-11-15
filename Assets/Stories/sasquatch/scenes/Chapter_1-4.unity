@@ -1773,11 +1773,14 @@ MonoBehaviour:
   isLoadingLevel: 0
   StreamingAssetsCounter: 0
   PageManager: {fileID: 0}
-  Camera: {fileID: 0}
-  OGCameraPosition: {x: 0, y: 0, z: 0}
+  CameraRef: {fileID: 0}
+  OGCameraRefPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningLeft: 0
   isPanningRight: 0
+  Page37Panning: {fileID: 0}
+  PageSong: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
 --- !u!1 &2017722050
 GameObject:
   m_ObjectHideFlags: 0

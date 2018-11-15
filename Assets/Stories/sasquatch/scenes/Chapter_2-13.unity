@@ -2403,11 +2403,14 @@ MonoBehaviour:
   isLoadingLevel: 0
   StreamingAssetsCounter: 0
   PageManager: {fileID: 0}
-  Camera: {fileID: 0}
-  OGCameraPosition: {x: 0, y: 0, z: 0}
+  CameraRef: {fileID: 0}
+  OGCameraRefPosition: {x: 0, y: 0, z: 0}
   TextPositions: []
   InitialTextPosition: {fileID: 0}
+  isPanningLeft: 0
   isPanningRight: 0
+  Page37Panning: {fileID: 0}
+  PageSong: {fileID: 8300000, guid: ac14b815e0e68456c8284359f258e5ff, type: 3}
 --- !u!4 &2095002486
 Transform:
   m_ObjectHideFlags: 0
