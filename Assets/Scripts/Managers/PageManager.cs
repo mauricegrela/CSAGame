@@ -566,6 +566,28 @@ public class PageManager : Singleton<PageManager>
         DataManager.LoadStory(DataManager.currentStoryName, DataManager.CurrentAssetPackage);
         //PreviousSentence (true);
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
+
+        foreach (WordGroupObject wordGroup in currentAudio.sentence.wordGroups)
+        {
+
+
+
+            if (wordGroup.text.Contains("///"))
+            {//Get The Narrator
+                sentenceContainerCurrent += 1;
+                /*
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
+                {
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }*/
+            }
+                else
+                {
+                   // PreviousWordTime = wordGroup.time;
+                    sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+                }
+        }
+
         StartCoroutine(RunSequence(currentAudio));
         Debug.Log(audioIndex + "/" + pageIndex);
         //Scenetext.GetComponent<Text> ().text =currentAudio.name;
@@ -599,6 +621,28 @@ public class PageManager : Singleton<PageManager>
         }
         sentenceContainerCounter = 0;
         sentenceContainerCurrent = 0;
+
+        foreach (WordGroupObject wordGroup in currentPage.audioObjects[audioIndex].sentence.wordGroups)
+        {
+
+
+
+            if (wordGroup.text.Contains("///"))
+            {//Get The Narrator
+                sentenceContainerCurrent += 1;
+                /*
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
+                {
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }*/
+            }
+            else
+            {
+                // PreviousWordTime = wordGroup.time;
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+            }
+        }
+
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 
@@ -612,6 +656,26 @@ public class PageManager : Singleton<PageManager>
         }
         audioIndex = i;
         //Debug.Log("Holla");
+        foreach (WordGroupObject wordGroup in currentPage.audioObjects[audioIndex].sentence.wordGroups)
+        {
+
+
+
+            if (wordGroup.text.Contains("///"))
+            {//Get The Narrator
+                sentenceContainerCurrent += 1;
+                /*
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
+                {
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }*/
+            }
+            else
+            {
+                // PreviousWordTime = wordGroup.time;
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+            }
+        }
         StartCoroutine(RunSequence(currentPage.audioObjects[audioIndex]));
     }
 
@@ -644,6 +708,26 @@ public class PageManager : Singleton<PageManager>
             audioIndex--;
         }
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
+        foreach (WordGroupObject wordGroup in currentPage.audioObjects[audioIndex].sentence.wordGroups)
+        {
+
+
+
+            if (wordGroup.text.Contains("///"))
+            {//Get The Narrator
+                sentenceContainerCurrent += 1;
+                /*
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
+                {
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }*/
+            }
+            else
+            {
+                // PreviousWordTime = wordGroup.time;
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+            }
+        }
         StartCoroutine(RunSequence(currentAudio));
 
     }
@@ -680,6 +764,26 @@ public class PageManager : Singleton<PageManager>
     {
         audioIndex++;
         AudioObject currentAudio = currentPage.audioObjects[audioIndex];
+        foreach (WordGroupObject wordGroup in currentPage.audioObjects[audioIndex].sentence.wordGroups)
+        {
+
+
+
+            if (wordGroup.text.Contains("///"))
+            {//Get The Narrator
+                sentenceContainerCurrent += 1;
+                /*
+                if (sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>())
+                {
+                    sentenceContainer[sentenceContainerCurrent].GetComponentInParent<SpeechBubbleDelay>().Acvivate_SpeechBuggle(PreviousWordTime);
+                }*/
+            }
+            else
+            {
+                // PreviousWordTime = wordGroup.time;
+                sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
+            }
+        }
         StartCoroutine(RunSequence(currentAudio));
     }
 
@@ -729,8 +833,8 @@ public class PageManager : Singleton<PageManager>
             yield break;
         }
 
-        float PreviousWordTime =0;
-        foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
+        //float PreviousWordTime =0;
+        /*foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
         {
 
 
@@ -753,7 +857,7 @@ public class PageManager : Singleton<PageManager>
                 PreviousWordTime = wordGroup.time;
                 sentenceContainer[sentenceContainerCurrent].AddText(wordGroup);
                 }
-        }
+        }*/
 
         //highlight the proper wordgroups
         int i = 0;
