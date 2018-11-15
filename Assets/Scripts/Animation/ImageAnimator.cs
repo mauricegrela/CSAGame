@@ -7,7 +7,7 @@ public class ImageAnimator : MonoBehaviour {
 
     [SerializeField]
     private Sprite[] sprites;
-    public float animationSpeed;
+    private float animationSpeed = 0.02f;
     public bool IsLooping = true;
     private bool isAnimating = false;
     private Vector3 OGPose;
