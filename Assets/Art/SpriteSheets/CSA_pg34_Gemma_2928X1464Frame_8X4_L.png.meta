@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: f1381a22572144974af5ac95de8751b0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CSA_pg34_Gemma_2928X1464Frame_8X4_L_0
+    21300002: CSA_pg34_Gemma_2928X1464Frame_8X4_L_1
+    21300004: CSA_pg34_Gemma_2928X1464Frame_8X4_L_2
+    21300006: CSA_pg34_Gemma_2928X1464Frame_8X4_L_3
+    21300008: CSA_pg34_Gemma_2928X1464Frame_8X4_L_4
+    21300010: CSA_pg34_Gemma_2928X1464Frame_8X4_L_5
+    21300012: CSA_pg34_Gemma_2928X1464Frame_8X4_L_6
+    21300014: CSA_pg34_Gemma_2928X1464Frame_8X4_L_7
+    21300016: CSA_pg34_Gemma_2928X1464Frame_8X4_L_8
+    21300018: CSA_pg34_Gemma_2928X1464Frame_8X4_L_9
+    21300020: CSA_pg34_Gemma_2928X1464Frame_8X4_L_10
+    21300022: CSA_pg34_Gemma_2928X1464Frame_8X4_L_11
+    21300024: CSA_pg34_Gemma_2928X1464Frame_8X4_L_12
+    21300026: CSA_pg34_Gemma_2928X1464Frame_8X4_L_13
+    21300028: CSA_pg34_Gemma_2928X1464Frame_8X4_L_14
+    21300030: CSA_pg34_Gemma_2928X1464Frame_8X4_L_15
+    21300032: CSA_pg34_Gemma_2928X1464Frame_8X4_L_16
+    21300034: CSA_pg34_Gemma_2928X1464Frame_8X4_L_17
+    21300036: CSA_pg34_Gemma_2928X1464Frame_8X4_L_18
+    21300038: CSA_pg34_Gemma_2928X1464Frame_8X4_L_19
+    21300040: CSA_pg34_Gemma_2928X1464Frame_8X4_L_20
+    21300042: CSA_pg34_Gemma_2928X1464Frame_8X4_L_21
+    21300044: CSA_pg34_Gemma_2928X1464Frame_8X4_L_22
+    21300046: CSA_pg34_Gemma_2928X1464Frame_8X4_L_23
+    21300048: CSA_pg34_Gemma_2928X1464Frame_8X4_L_24
+    21300050: CSA_pg34_Gemma_2928X1464Frame_8X4_L_25
+    21300052: CSA_pg34_Gemma_2928X1464Frame_8X4_L_26
+    21300054: CSA_pg34_Gemma_2928X1464Frame_8X4_L_27
+    21300056: CSA_pg34_Gemma_2928X1464Frame_8X4_L_28
+    21300058: CSA_pg34_Gemma_2928X1464Frame_8X4_L_29
+    21300060: CSA_pg34_Gemma_2928X1464Frame_8X4_L_30
+    21300062: CSA_pg34_Gemma_2928X1464Frame_8X4_L_31
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab372ab4fdad5438195f6f82d2b21572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538ef4875291b4077a9460f68fd828b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_2
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20e9d792b57d40899fd43fe77ca6b3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_3
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a1107772c747a3b18de27fe9a7338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_4
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ae8774f3dd740df97c9c8d531db408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_5
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d2e3e638d174fe883f00dc79705ba1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_6
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f3b4900a88e49e8a6e17872c9f1ede
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_7
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 1098
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3be2e0b7195142038e3f7293d9ef7e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441359f48c8bd42e4bbc266958de0ee5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7530a0eb9384b4ff9a17cf27145bc06c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_10
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc02dde266b7448c906ab160d161247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_11
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fec4e84f2f349d6b52132b1cf9b5af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_12
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4861e0eaa2ad447d4b47e90f6ca403df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_13
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1964dd51de6f54e89bc2aa9fe0bdccb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_14
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa9c24bd2cff4b689d399f43dea8399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_15
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 732
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ffd83c3fd1c49a1b50da7fba7ec72c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c6b0f55597e74d1391c7dd823753be0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3214de84b20694eb0b396e711855a7f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_18
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a9ad07c452340be8c38a6acce02bb5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_19
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a056ecd6e8c74d4ebd6d5e17a679c8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_20
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4467f3e3451d44efd91dbd290585f1a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_21
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbf447a81c7e47eb97407b3d05f2ab0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_22
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c351e396ac9354e378cd7948f0135026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_23
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 366
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de0fd0369438446eaa49fcb7d1c2014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ab7deb656e45229605e75c76c79df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b474bb95c35bb429a94a220e33d4d47d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_26
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454ee0b02af0b491a90ca09598d3fde7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_27
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a9f6ccf3c64754a6660afeeba6d93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_28
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a4e833a65043af9e6fddf414a93c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_29
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e45ba1a1ea7c4587804b772dd53cf21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_30
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e482c57c88e4eb3adb2c7d5d6c7134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CSA_pg34_Gemma_2928X1464Frame_8X4_L_31
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 0
+        width: 366
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86da908e33cc949608c7d8ecb803ca25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: d3e57718707ee4a6faa6f61e209f205d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
