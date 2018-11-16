@@ -394,12 +394,15 @@ public class PageManager : Singleton<PageManager>
 
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             Resources.UnloadUnusedAssets();
+            Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
             SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
             SceneManager.UnloadScene(EnvironmentTracker);
 
 
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
+
+            Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
 
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);

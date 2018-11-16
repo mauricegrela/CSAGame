@@ -1593,7 +1593,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AudioIndexPosition: 11
   LevelName: Chapter_2-12
-  pagesPerScene: 4
+  pagesPerScene: 1
   NextScene: Chapter_2-13
   LastScene: Chapter_2-11
   isLastscene: 0
