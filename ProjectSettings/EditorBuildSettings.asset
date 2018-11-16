@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Stories/sasquatch/scenes/Chapter_1-9.unity
     guid: 8a7f584e1b50c49e7ab0797326b4a681
   - enabled: 1
+    path: Assets/Stories/sasquatch/scenes/Chapter_2.unity
+    guid: 66595fb7054e944f49eb0accd5b1e7fe
+  - enabled: 1
     path: Assets/Stories/sasquatch/scenes/Chapter_2-11.unity
     guid: 93df32a8fa961416988fa58c3ea1cfae
   - enabled: 1
@@ -122,9 +125,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Stories/sasquatch/scenes/Chapter_5-38.unity
     guid: a35406a9ff3e84cac8224d15010f9f6a
-  - enabled: 1
-    path: Assets/Stories/sasquatch/scenes/Chapter_2.unity
-    guid: 66595fb7054e944f49eb0accd5b1e7fe
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
