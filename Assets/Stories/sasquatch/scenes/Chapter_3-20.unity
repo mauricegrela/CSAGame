@@ -813,7 +813,6 @@ MonoBehaviour:
   - {fileID: 21300026, guid: fce463fabe73f4a989802cb3b8622877, type: 3}
   - {fileID: 21300028, guid: fce463fabe73f4a989802cb3b8622877, type: 3}
   - {fileID: 21300030, guid: fce463fabe73f4a989802cb3b8622877, type: 3}
-  animationSpeed: 0
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}

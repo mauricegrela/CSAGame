@@ -1600,7 +1600,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  NormalColor: {r: 0.09411765, g: 0.13333334, b: 0.1882353, a: 1}
 --- !u!223 &1963705400
 Canvas:
   m_ObjectHideFlags: 0
