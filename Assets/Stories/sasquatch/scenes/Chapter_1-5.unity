@@ -1259,7 +1259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.89, y: -2.11}
+  m_AnchoredPosition: {x: 7.17, y: -2.49}
   m_SizeDelta: {x: 1171.145, y: 143.918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1568522204
@@ -1278,7 +1278,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.09019608, g: 0.11372549, b: 0.14901961, a: 1}
 --- !u!223 &1568522205
 Canvas:
   m_ObjectHideFlags: 0
