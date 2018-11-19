@@ -389,6 +389,7 @@ GameObject:
   m_Component:
   - component: {fileID: 311005200}
   - component: {fileID: 311005201}
+  - component: {fileID: 311005202}
   m_Layer: 0
   m_Name: Page_One_NIKO_HEAD
   m_TagString: Untagged
@@ -454,6 +455,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &311005202
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 311005199}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 990aa3e8bb36b4135939a8159d22c590, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &392039336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1804,6 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1372973026}
-  - component: {fileID: 1372973027}
   m_Layer: 0
   m_Name: PageOneMATHIAS_HEAD
   m_TagString: Untagged
@@ -1807,24 +1825,6 @@ Transform:
   m_Father: {fileID: 392039337}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &1372973027
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1372973025}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9f6599b7dc28f4dc6ab648c60f473a98, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1378378528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,6 +1863,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382444956}
   - component: {fileID: 1382444957}
+  - component: {fileID: 1382444958}
   m_Layer: 0
   m_Name: Page_One_MATHIAS_HEAD
   m_TagString: Untagged
@@ -1928,6 +1929,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &1382444958
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1382444955}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 544e02585681d4e908435e8085faae76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1405962574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,6 +2181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645257948}
   - component: {fileID: 1645257949}
+  - component: {fileID: 1645257950}
   m_Layer: 0
   m_Name: Page_One_GEMMA_HEAD
   m_TagString: Untagged
@@ -2227,6 +2247,24 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!95 &1645257950
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1645257947}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5f4da4c93f44e4404b8f952d04f833fb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1675887528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,7 +2585,7 @@ Animator:
   m_GameObject: {fileID: 2082678011}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7a0c2b0ee2f6f407bb4191d3ad8bbbcd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 27da8c7ac813443c5a0808ebfcec9c87, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
