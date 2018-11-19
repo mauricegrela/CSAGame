@@ -754,7 +754,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0.09411765, g: 0.13333334, b: 0.1882353, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &309360149
 Canvas:
   m_ObjectHideFlags: 0
@@ -1810,7 +1810,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0.09411765, g: 0.13333334, b: 0.1882353, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &610185130
 Canvas:
   m_ObjectHideFlags: 0
