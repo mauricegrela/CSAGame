@@ -176,8 +176,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3.4029999, y: 0.9600003}
-  m_SizeDelta: {x: 192.1, y: 121.096}
+  m_AnchoredPosition: {x: -4.47, y: 1.57}
+  m_SizeDelta: {x: 184.974, y: 137.13}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &126160030
 MonoBehaviour:
@@ -195,7 +195,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &126160031
 Canvas:
   m_ObjectHideFlags: 0
@@ -300,8 +300,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -179.9}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -3.742, y: 1.3900002}
-  m_SizeDelta: {x: 995.283, y: 634.184}
+  m_AnchoredPosition: {x: -4.428, y: 1.825}
+  m_SizeDelta: {x: 1412.835, y: 900.244}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &650106124
 Canvas:
@@ -581,8 +581,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.5339999, y: -2.2969997}
-  m_SizeDelta: {x: 195.645, y: 82.538}
+  m_AnchoredPosition: {x: 1.987, y: -2.835}
+  m_SizeDelta: {x: 232.002, y: 75.267}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1053428575
 MonoBehaviour:
@@ -600,7 +600,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &1053428576
 Canvas:
   m_ObjectHideFlags: 0
@@ -971,8 +971,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: -629.9}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -1.5120001, y: 3.9920006}
-  m_SizeDelta: {x: 791.119, y: 1490.03}
+  m_AnchoredPosition: {x: -2.074, y: 4.423}
+  m_SizeDelta: {x: 1053.462, y: 1833.109}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1263321528
 Canvas:
@@ -1465,8 +1465,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.28, y: 3.95}
-  m_SizeDelta: {x: 239.283, y: 101.788}
+  m_AnchoredPosition: {x: -2.051, y: 4.175}
+  m_SizeDelta: {x: 244.628, y: 157.015}
   m_Pivot: {x: 0.5000001, y: 0.5}
 --- !u!114 &1450945849
 MonoBehaviour:
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &1450945850
 Canvas:
   m_ObjectHideFlags: 0
@@ -1622,8 +1622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -0.743, y: -3.2819996}
-  m_SizeDelta: {x: 2060.352, y: 1663.5}
+  m_AnchoredPosition: {x: -0.743, y: -3.988}
+  m_SizeDelta: {x: 2726.79, y: 2016.32}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &1594208497
 Canvas:
@@ -1985,7 +1985,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
-    m_FontSize: 16
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2250,11 +2250,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
-    m_FontSize: 16
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 70
+    m_MaxSize: 254
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1

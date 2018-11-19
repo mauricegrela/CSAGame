@@ -495,7 +495,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -2.252, y: 4.903}
+  m_AnchoredPosition: {x: -2.9320002, y: 4.823}
   m_SizeDelta: {x: 1031.785, y: 572.942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &339802630
@@ -918,7 +918,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.03529412, g: 0.2509804, b: 0.27058825, a: 1}
 --- !u!223 &560820449
 Canvas:
   m_ObjectHideFlags: 0
@@ -1457,7 +1457,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
-    m_FontSize: 36
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1769,8 +1769,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -3.3500001, y: -4.82}
-  m_SizeDelta: {x: 486.504, y: 259.222}
+  m_AnchoredPosition: {x: -3.463, y: -4.9900002}
+  m_SizeDelta: {x: 483.328, y: 287.802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104989262
 MonoBehaviour:
@@ -1788,7 +1788,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &1104989263
 Canvas:
   m_ObjectHideFlags: 0
@@ -2311,7 +2311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: -180, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -3.75, y: -4.21}
+  m_AnchoredPosition: {x: -3.8, y: -4.55}
   m_SizeDelta: {x: 1027.239, y: 655.129}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1554359376
@@ -2972,7 +2972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.88, y: 4.41}
+  m_AnchoredPosition: {x: -2.56, y: 4.33}
   m_SizeDelta: {x: 462.27, y: 292.543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057423403
@@ -2991,7 +2991,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
-  NormalColor: {r: 0, g: 0, b: 0, a: 1}
+  NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &2057423404
 Canvas:
   m_ObjectHideFlags: 0
