@@ -389,7 +389,6 @@ GameObject:
   m_Component:
   - component: {fileID: 311005200}
   - component: {fileID: 311005201}
-  - component: {fileID: 311005202}
   m_Layer: 0
   m_Name: Page_One_NIKO_HEAD
   m_TagString: Untagged
@@ -455,24 +454,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!95 &311005202
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 311005199}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 990aa3e8bb36b4135939a8159d22c590, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &392039336
 GameObject:
   m_ObjectHideFlags: 0
@@ -1863,7 +1844,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1382444956}
   - component: {fileID: 1382444957}
-  - component: {fileID: 1382444958}
   m_Layer: 0
   m_Name: Page_One_MATHIAS_HEAD
   m_TagString: Untagged
@@ -1929,24 +1909,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!95 &1382444958
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1382444955}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 544e02585681d4e908435e8085faae76, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1405962574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,7 +2143,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1645257948}
   - component: {fileID: 1645257949}
-  - component: {fileID: 1645257950}
   m_Layer: 0
   m_Name: Page_One_GEMMA_HEAD
   m_TagString: Untagged
@@ -2247,24 +2208,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!95 &1645257950
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1645257947}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5f4da4c93f44e4404b8f952d04f833fb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1675887528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2510,7 +2453,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2082678012}
   - component: {fileID: 2082678013}
-  - component: {fileID: 2082678014}
   m_Layer: 0
   m_Name: Page_One_LAYLA_HEAD
   m_TagString: Untagged
@@ -2576,24 +2518,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!95 &2082678014
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2082678011}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 27da8c7ac813443c5a0808ebfcec9c87, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2098690888
 GameObject:
   m_ObjectHideFlags: 0
