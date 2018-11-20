@@ -2282,7 +2282,7 @@ MonoBehaviour:
   LevelName: Chapter_1
   pagesPerScene: 1
   NextScene: Chapter_1-2
-  LastScene: Chapter_1
+  LastScene: None
   isLastscene: 0
   isFirstscene: 1
   isLoadingLevel: 1

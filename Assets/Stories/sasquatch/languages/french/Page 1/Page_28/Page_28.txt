@@ -1,10 +1,10 @@
 0.086997	C’est la Station spatiale internationale!
-0.086997	///	
+2.585065	///
 2.585065	David Saint-Jacques
 3.703603	leur fait un salut du hublot.
 5.505692	Et Chewie
 6.363238	est à ses côtés!
 7.742768	Il était parti à toute allure
 9.451646	parce qu’il voulait rendre visite à David!
-9.451646	///	
+11.924857	///
 11.924857	Cette fois, tu restes avec nous, Chewie!

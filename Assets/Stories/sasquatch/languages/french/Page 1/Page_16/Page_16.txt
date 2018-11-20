@@ -1,12 +1,12 @@
 0.190548	Et ils entendent un gros
 2.013186	WOUF
 2.974212	en provenance de l’intérieur du tourbillon!
-2.974212	///	
+5.782731	///
 5.782731	Chewie est là-dedans!
-5.782731	///	
+7.497666	///
 7.497666	Je ne sais vraiment pas si nous devrions entrer, Niko…
 11.184364	C’est vraiment bizarre.
-11.184364	///	
+13.429522	///
 13.429522	Mais Layla,
 14.597667	nous devons le retrouver!
 15.989499	Il faut oser explorer, non?

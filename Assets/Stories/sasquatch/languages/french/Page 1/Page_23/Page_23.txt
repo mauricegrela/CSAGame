@@ -1,6 +1,6 @@
 0.340139	Nous t’entendons, Chewie!
 2.3927	Merci, créature-de-l’espace-qui-n’est-plus-si-seule-maintenant!
-2.3927	///	
+5.805816	///
 5.805816	L’équipage fait au revoir de la main,
 8.327534	alors que Gemma lance le vaisseau vers les aboiements
 11.113153	les moteurs à pleine puissance!

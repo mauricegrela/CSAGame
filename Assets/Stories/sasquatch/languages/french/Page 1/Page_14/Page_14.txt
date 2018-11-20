@@ -1,13 +1,13 @@
 0.247285	Tout à coup,
 1.404224	le silence
 2.10192	tombe
-2.10192	///	
+3.506145	///
 3.506145	Les enfants se tournent vers la Terre.
 5.890676	Elle ressemble à une bille bleue géante
 8.513661	et éblouissante
 10.121012	qui rapetisse rapidement
 11.993311	à mesure qu'ils s'en éloignent.
-11.993311	///	
+14.30719	///
 14.30719	Tous se disent qu’après tout,
 15.729077	ce n’est pas si effrayant de se trouver dans l’espace,
 18.581683	pour l’instant du moins.

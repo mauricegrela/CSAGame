@@ -2,7 +2,7 @@
 0.854363	qui avait aussi fait une petite sieste roulé en boule,
 3.730829	réveille tout le monde,
 4.901868	tout excité.
-4.901868	///	
+5.947555	///
 5.947555	OUAF!
 6.254335	OUAF!
 6.966854	OUAF!

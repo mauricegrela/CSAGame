@@ -3,10 +3,10 @@
 5.018902	ce qui arrive
 5.929389	quand un astronaute
 6.908951	est époustouflé.
-6.908951	///	
+8.304612	///
 8.304612	Enfin,
 9.207089	le parachute arc-en-ciel géant du vaisseau s’ouvre.
-9.207089	///	
+12.400149	///
 12.400149	Alors qu’ils descendent doucement en direction de leur cabane,
 15.420143	ils conviennent tous
 16.709482	que

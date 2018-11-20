@@ -1,5 +1,5 @@
 0.343001	BOUM!
-0.343001	///	
+1.089533	///
 1.089533	Puis un gros
 2.273223	toc-
 3.073559	toc-
@@ -7,7 +7,7 @@
 5.387135	Ça vient de l’extérieur.
 7.458593	C’est un…
 8.635558	un…
-8.635558	///	
+10.364015	///
 10.364015	UN MONSTRE DE L’ESPACE!
-10.364015	///	
+12.637238	///
 12.637238	Ils trouvent un endroit où se cacher dans le vaisseau.
