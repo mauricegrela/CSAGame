@@ -21,11 +21,9 @@ public class SentenceRow : MonoBehaviour
     public WordText AddText(string word)
     {
 		WordText wordClone;
-		if (word.Substring (0, 1) == "#") {
-			wordClone = Instantiate(wordPrefabDef, wordPrefab.transform.parent);	
-		} else {
+
 		wordClone = Instantiate(wordPrefab, wordPrefab.transform.parent);	
-		}
+		
         
         //Debug.Log(wordClone.text.text);
         //Debug.Log(word);
