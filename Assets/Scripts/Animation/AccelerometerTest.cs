@@ -41,12 +41,12 @@ public class AccelerometerTest : MonoBehaviour {
         transform.Translate(dir * 10);    
         
         // initially, the temporary vector should equal the player's position
-        Vector3 clampedPosition = transform.position;
+        Vector3 clampedPosition = transform.localPosition;
         // Now we can manipulte it to clamp the y element
-        clampedPosition.y = Mathf.Clamp(transform.position.y, -10.1f, 10.1f);
-        clampedPosition.x = Mathf.Clamp(transform.position.x, -10.1f, 10.1f);
+        clampedPosition.y = Mathf.Clamp(transform.localPosition.y, -150.1f, 150.1f);
+        clampedPosition.x = Mathf.Clamp(transform.localPosition.x, -150.1f, 150.1f);
         // re-assigning the transform's position will clamp it
-        transform.position = clampedPosition;
+        transform.localPosition = clampedPosition;
 
 
 	}

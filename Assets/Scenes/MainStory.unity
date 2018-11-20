@@ -6260,7 +6260,7 @@ GameObject:
   - component: {fileID: 959131527}
   - component: {fileID: 959131528}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: SkyBox_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7582,52 +7582,52 @@ Prefab:
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: 3.1237519
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: 3.123751
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.z
-      value: 3.123751
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -24.266
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 18.859
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: -3.1237514
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: -3.1237507
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.z
-      value: 3.123751
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -24.266
+      value: 37.000004
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 18.859
+      value: 58.000004
       objectReference: {fileID: 0}
     - target: {fileID: 224842488088950478, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
@@ -7653,6 +7653,36 @@ Prefab:
         type: 2}
       propertyPath: m_AnchoredPosition.y
       value: 18.859
+      objectReference: {fileID: 0}
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 2919.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 1955.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 2919.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 1955.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114723821768876546, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114699959899212138, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a4e3a9be33b34edcb05ad4d341fa468, type: 2}
@@ -11905,7 +11935,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
