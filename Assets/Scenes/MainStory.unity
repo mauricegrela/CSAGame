@@ -2725,6 +2725,7 @@ GameObject:
   - component: {fileID: 522785424}
   - component: {fileID: 522785423}
   - component: {fileID: 522785422}
+  - component: {fileID: 522785425}
   m_Layer: 0
   m_Name: French
   m_TagString: Untagged
@@ -2810,6 +2811,28 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 522785425}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1097418466}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2847,6 +2870,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522785420}
+--- !u!114 &522785425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 522785420}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9222808, g: 1, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: 0}
+  m_UseGraphicAlpha: 0
 --- !u!1 &525196938
 GameObject:
   m_ObjectHideFlags: 0
@@ -7352,6 +7389,7 @@ GameObject:
   - component: {fileID: 1097418465}
   - component: {fileID: 1097418464}
   - component: {fileID: 1097418463}
+  - component: {fileID: 1097418466}
   m_Layer: 0
   m_Name: English
   m_TagString: Untagged
@@ -7439,6 +7477,28 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1097418466}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 522785425}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1097418464
@@ -7474,6 +7534,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1097418461}
+--- !u!114 &1097418466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097418461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0.9222808, g: 1, b: 0, a: 1}
+  m_EffectDistance: {x: 10, y: 0}
+  m_UseGraphicAlpha: 0
 --- !u!1001 &1101756137
 Prefab:
   m_ObjectHideFlags: 0
@@ -7494,7 +7568,7 @@ Prefab:
     - target: {fileID: 224921631590075040, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalPosition.z
-      value: 35.54
+      value: 17.27
       objectReference: {fileID: 0}
     - target: {fileID: 224921631590075040, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
@@ -7582,17 +7656,17 @@ Prefab:
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.2014477
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.2014478
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.2014478
       objectReference: {fileID: 0}
     - target: {fileID: 224953580607912420, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
@@ -7607,17 +7681,17 @@ Prefab:
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.x
-      value: -1
+      value: -1.2014477
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.y
-      value: -1
+      value: -1.2014478
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.2014478
       objectReference: {fileID: 0}
     - target: {fileID: 224873708858735830, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
         type: 2}
@@ -7683,6 +7757,16 @@ Prefab:
         type: 2}
       propertyPath: m_Material
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114409933360155652, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 223162579887654334, guid: 0a4e3a9be33b34edcb05ad4d341fa468,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a4e3a9be33b34edcb05ad4d341fa468, type: 2}
@@ -11935,7 +12019,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0

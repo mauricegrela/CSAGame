@@ -25,6 +25,7 @@ public class DataManager
 
 	public static StoryObject LoadStory(string storyName, string packageToLoad)
     {
+        UnloadAssetBundle();
 
         ///Debug.Log("Story loaded");
 		SceneRefCounter = 0;
@@ -71,7 +72,7 @@ public class DataManager
 
     void OnDestroy()
     {
-        //   UnloadAssetBundle();
+        UnloadAssetBundle();
     }
 
     //We have to unload our asset, since we can't load it twice

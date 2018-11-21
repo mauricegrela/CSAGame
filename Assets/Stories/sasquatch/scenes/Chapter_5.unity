@@ -187,6 +187,7 @@ MonoBehaviour:
   - {fileID: 21300058, guid: d198644f77c9940b7ba8e0bdff1ced4a, type: 3}
   - {fileID: 21300060, guid: d198644f77c9940b7ba8e0bdff1ced4a, type: 3}
   - {fileID: 21300062, guid: d198644f77c9940b7ba8e0bdff1ced4a, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}
@@ -721,6 +722,7 @@ MonoBehaviour:
   - {fileID: 21300058, guid: f1381a22572144974af5ac95de8751b0, type: 3}
   - {fileID: 21300060, guid: f1381a22572144974af5ac95de8751b0, type: 3}
   - {fileID: 21300062, guid: f1381a22572144974af5ac95de8751b0, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}

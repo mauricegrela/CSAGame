@@ -182,7 +182,11 @@ public class PageManager : Singleton<PageManager>
         Resources.UnloadUnusedAssets();
 
         SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
-        SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().LastScene);
+
+        if (StoryManager.GetComponent<StoryManager>().LastScene != "None")
+        {
+            SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().LastScene);
+        }
 
         if (PreviousLevelTracker != EnvironmentTracker)
         { 
@@ -903,6 +907,7 @@ public class PageManager : Singleton<PageManager>
             yield return new WaitForSeconds(waitTime);
             prevWordGroup = wordGroup;
         }
+        Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
         foreach (SentenceRowContainer Child in sentenceContainer)
         {
@@ -940,6 +945,7 @@ public class PageManager : Singleton<PageManager>
     {
         Debug.Log("newNarrativeVolume" + newNarrativeVolume.value);
         audioSource.volume = newNarrativeVolume.value;
+        IsReadingAlong = newNarrativeVolume.value; 
     }
 
     public void ChangeTextStyle(Slider newTextStyle)
@@ -948,7 +954,7 @@ public class PageManager : Singleton<PageManager>
         //audioSource.volume = newTextStyle.value;
         //ScentenceContainer.GetComponent<SentenceRowContainer>().ReadAlongOn = newTextStyle.value;
 
-        IsReadingAlong = newTextStyle.value; 
+        //IsReadingAlong = newTextStyle.value; 
 
     }
 
