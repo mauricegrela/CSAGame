@@ -29,6 +29,7 @@ public class MenuChapterManager : MonoBehaviour {
 
     public void ReturnToMainMenu()
     {
+        DataManager.currentLanguage = "English";
         Application.LoadLevel("Menu");
     }
 
