@@ -185,7 +185,10 @@ public class PageManager : Singleton<PageManager>
         StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
         Resources.UnloadUnusedAssets();
 
-        SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
+        if (StoryManager.GetComponent<StoryManager>().NextScene != "None")
+        {
+            SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
+        }
 
         if (StoryManager.GetComponent<StoryManager>().LastScene != "None")
         {
@@ -285,7 +288,11 @@ public class PageManager : Singleton<PageManager>
 
             PreviousLevelTracker = EnvironmentTracker;
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
-            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            if(StoryManager.GetComponent<StoryManager>().NextScene != "None")
+            {
+              SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);   
+            }
+           
             SceneManager.LoadScene(EnvironmentTracker, LoadSceneMode.Additive);
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
 
@@ -402,17 +409,24 @@ public class PageManager : Singleton<PageManager>
 
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             Resources.UnloadUnusedAssets();
-            Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
-            SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
+            //Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
+            if (StoryManager.GetComponent<StoryManager>().NextScene != "None")
+            {
+                SceneManager.UnloadScene(StoryManager.GetComponent<StoryManager>().NextScene);
+            }
             SceneManager.UnloadScene(EnvironmentTracker);
 
 
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
 
-            Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
+            //Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
 
-            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            if (StoryManager.GetComponent<StoryManager>().LastScene != "None")
+            {
+                SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
+            }
+
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
             PreviousLevelTracker = StoryManager.GetComponent<StoryManager>().LastScene;
         }
@@ -567,6 +581,11 @@ public class PageManager : Singleton<PageManager>
     public void ChangeLanguage(string newLanguage)
     {
         StopAllCoroutines();
+        audioSource.Stop();
+        Resources.UnloadUnusedAssets();
+        sentenceContainerCounter = 0;
+        sentenceContainerCurrent = 0;
+
         foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if (Child != null)
@@ -919,7 +938,7 @@ public class PageManager : Singleton<PageManager>
             Child.HighlightWordGroup(null);
         }
 
-        if(isAutoChapterSkip ==1)
+        if(isAutoChapterSkip ==1&&audioIndex != 38)
         {
             GotoNext();
         }

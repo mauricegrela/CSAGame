@@ -1353,7 +1353,7 @@ MonoBehaviour:
   AudioIndexPosition: 38
   LevelName: Chapter_5-38
   pagesPerScene: 1
-  NextScene: Chapter_5-38
+  NextScene: None
   LastScene: Chapter_5-36
   isLastscene: 0
   isFirstscene: 0

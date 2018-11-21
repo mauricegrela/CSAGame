@@ -53,7 +53,10 @@ public class StoryManager : MonoBehaviour {
             PageManager.GetComponent<PageManager>().isLoading = false;
             PageManager.GetComponent<PageManager>().StoryManager = gameObject;
             SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
-            SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);
+                if(LastScene != "None")
+                {
+                    SceneManager.LoadScene(LastScene, LoadSceneMode.Additive);       
+                }
             PageManager.GetComponent<PageManager>().PreviousLevelTracker = LastScene;
 
         }
