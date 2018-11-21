@@ -104,6 +104,10 @@ public class PageManager : Singleton<PageManager>
 
     private bool LevelsLoaded = false;
 
+    private float isAutoChapterSkip = 0.0f;
+
+
+
     protected override void Awake()
     {
         base.Awake();
@@ -907,12 +911,17 @@ public class PageManager : Singleton<PageManager>
             yield return new WaitForSeconds(waitTime);
             prevWordGroup = wordGroup;
         }
-        Debug.Log("PointReached");
+        //Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
         foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if (Child != null)
             Child.HighlightWordGroup(null);
+        }
+
+        if(isAutoChapterSkip ==1)
+        {
+            GotoNext();
         }
     }
 
@@ -946,6 +955,11 @@ public class PageManager : Singleton<PageManager>
         Debug.Log("newNarrativeVolume" + newNarrativeVolume.value);
         audioSource.volume = newNarrativeVolume.value;
         IsReadingAlong = newNarrativeVolume.value; 
+            if (newNarrativeVolume.value == 0.0f)
+            {
+                NextButton.SetActive(true);
+                BackButton.SetActive(true);
+            }
     }
 
     public void ChangeTextStyle(Slider newTextStyle)
@@ -954,7 +968,19 @@ public class PageManager : Singleton<PageManager>
         //audioSource.volume = newTextStyle.value;
         //ScentenceContainer.GetComponent<SentenceRowContainer>().ReadAlongOn = newTextStyle.value;
 
-        //IsReadingAlong = newTextStyle.value; 
+        isAutoChapterSkip = newTextStyle.value; 
+
+        if(newTextStyle.value == 1.0f)
+        {
+        NextButton.SetActive(false);
+        BackButton.SetActive(false);
+        }
+            else
+            {
+            NextButton.SetActive(true);
+            BackButton.SetActive(true);
+            }
+
 
     }
 
