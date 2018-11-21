@@ -10,6 +10,10 @@ public class LoadingScript : MonoBehaviour {
     private Color Off;
     [SerializeField]
     private Color On;
+    [SerializeField]
+    private Color OnSides;
+    [SerializeField]
+    private Image[] Children;
 
 	// Use this for initialization
 	void Start () {
@@ -33,11 +37,15 @@ public class LoadingScript : MonoBehaviour {
         {
             //Debug.Log("TrunOn");
             GetComponent<Image>().color = On;
+            Children[0].GetComponent<Image>().color = OnSides;
+            Children[1].GetComponent<Image>().color = OnSides;
         }
         else
         {
             //Debug.Log("TrunOff");
             GetComponent<Image>().color = Off;
+            Children[0].GetComponent<Image>().color = Off;
+            Children[1].GetComponent<Image>().color = Off;
         }
     }
 }
