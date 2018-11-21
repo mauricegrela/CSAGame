@@ -1236,6 +1236,7 @@ MonoBehaviour:
   - {fileID: 21300058, guid: 2fd90f41f2c8f40d5a30251f19cd81a7, type: 3}
   - {fileID: 21300060, guid: 2fd90f41f2c8f40d5a30251f19cd81a7, type: 3}
   - {fileID: 21300062, guid: 2fd90f41f2c8f40d5a30251f19cd81a7, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}

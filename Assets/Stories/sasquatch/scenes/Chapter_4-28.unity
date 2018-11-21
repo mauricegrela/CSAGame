@@ -441,6 +441,7 @@ MonoBehaviour:
   - {fileID: 21300058, guid: 8f51f74eb35594202a480e1f8eaf61d8, type: 3}
   - {fileID: 21300060, guid: 8f51f74eb35594202a480e1f8eaf61d8, type: 3}
   - {fileID: 21300062, guid: 8f51f74eb35594202a480e1f8eaf61d8, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}
@@ -478,7 +479,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 11
   m_Sprite: {fileID: 21300000, guid: 8f51f74eb35594202a480e1f8eaf61d8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2064,8 +2065,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -2.71, y: -4.73}
-  m_SizeDelta: {x: 468.142, y: 273.062}
+  m_AnchoredPosition: {x: -2.79, y: -5.03}
+  m_SizeDelta: {x: 561.931, y: 245.273}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998289394
 MonoBehaviour:
