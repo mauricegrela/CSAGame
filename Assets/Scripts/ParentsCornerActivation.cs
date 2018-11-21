@@ -82,6 +82,14 @@ public class ParentsCornerActivation : MonoBehaviour {
     }
     public void redirect()
     {
-        Application.OpenURL("http://www.asc-csa.gc.ca/eng/astronauts/canadian/active/bio-david-saint-jacques.asp");
+        if(DataManager.currentLanguage == "English")
+        {
+            Application.OpenURL("http://asc-csa.gc.ca/eng/missions/expedition58-59");    
+        }
+            else
+            {
+            Application.OpenURL("http://asc-csa.gc.ca/fra/missions/expedition58-59");      
+            }
+            
     }
 }
