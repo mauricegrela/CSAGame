@@ -422,12 +422,14 @@ public class PageManager : Singleton<PageManager>
 
             //Debug.Log(StoryManager.GetComponent<StoryManager>().NextScene);
 
-            if (StoryManager.GetComponent<StoryManager>().LastScene != "None")
+            if (StoryManager.GetComponent<StoryManager>().NextScene != "None")
             {
                 SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
             }
-
-            SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
+            if (StoryManager.GetComponent<StoryManager>().LastScene != "None")
+            {
+                SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
+            }
             PreviousLevelTracker = StoryManager.GetComponent<StoryManager>().LastScene;
         }
         else

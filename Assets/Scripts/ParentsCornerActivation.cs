@@ -7,6 +7,7 @@ public class ParentsCornerActivation : MonoBehaviour {
 
 
     public string[] BootColNames;
+    public string[] FrenchBootColNames;
     public Sprite[] BootCols;
     public Image BootImg;
     public InputField InputRef;
@@ -43,7 +44,9 @@ public class ParentsCornerActivation : MonoBehaviour {
     public void CheckIfAnswerRight(string Answer)
     {
         Debug.Log(InputRef.text.ToLower() +"///////"+ BootColNames[CorrectAnswerIndex]);
-        if(InputRef.text.ToLower() == BootColNames[CorrectAnswerIndex])
+
+
+        if(InputRef.text.ToLower() == BootColNames[CorrectAnswerIndex]||InputRef.text.ToLower() == FrenchBootColNames[CorrectAnswerIndex])
         {//If the correct answer is input
             gameObject.SetActive(false);
             UnlockGame();
