@@ -356,7 +356,7 @@ Canvas:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 817028304}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
   m_Camera: {fileID: 0}
@@ -679,7 +679,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1619782563}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -888,7 +888,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1669927479}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
@@ -1024,6 +1024,7 @@ MonoBehaviour:
   - {fileID: 21300026, guid: 9cff53354a5914160ae6bad74afa835c, type: 3}
   - {fileID: 21300028, guid: 9cff53354a5914160ae6bad74afa835c, type: 3}
   - {fileID: 21300030, guid: 9cff53354a5914160ae6bad74afa835c, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}
