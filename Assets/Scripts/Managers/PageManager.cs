@@ -90,6 +90,7 @@ public class PageManager : Singleton<PageManager>
     [SerializeField]
     private GameObject NextButton;
 
+    public bool isIniAudioLoaded = false;
     //Audio Vars
     [SerializeField]
     private AudioClip[] OST; 
@@ -211,6 +212,17 @@ public class PageManager : Singleton<PageManager>
         //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
 
         sceneindex = 0;
+
+        GameObject Sound = GameObject.FindGameObjectWithTag("16_ThrusterSound");
+        if (Sound != null && sceneindex < 1)
+        {
+            Sound.GetComponent<AudioSource>().Play();
+        }
+        GameObject Fade = GameObject.FindGameObjectWithTag("16_PageFadeIn");
+        if (Fade != null && sceneindex < 1)
+        {
+            Fade.GetComponent<ImageFadeOut>().StartCo();
+        }
     }
 
     public void ChapterSkipToTheEnd(String LevelToLoad)
@@ -284,7 +296,9 @@ public class PageManager : Singleton<PageManager>
             SceneManager.UnloadScene(PreviousLevelTracker);   
             }
                 
-                
+            isGoingBack = false;
+            sceneindex = 0;
+
 
             PreviousLevelTracker = EnvironmentTracker;
             StoryManager = GameObject.FindGameObjectWithTag("StoryManager");
@@ -296,8 +310,6 @@ public class PageManager : Singleton<PageManager>
             SceneManager.LoadScene(EnvironmentTracker, LoadSceneMode.Additive);
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
 
-            isGoingBack = false;
-            sceneindex = 0;
 
 
             //Resetting logic for finding the 
@@ -506,6 +518,17 @@ public class PageManager : Singleton<PageManager>
     {
         //StoryManager.GetComponent<StoryManager>().
         GameObject Cam = GameObject.FindGameObjectWithTag("MainCamera");
+
+        GameObject Sound = GameObject.FindGameObjectWithTag("16_ThrusterSound");
+        if(Sound != null && sceneindex <1)
+        {
+            Sound.GetComponent<AudioSource>().Play();
+        }
+        GameObject Fade = GameObject.FindGameObjectWithTag("16_PageFadeIn");
+        if (Fade != null && sceneindex < 1)
+        {
+            Fade.GetComponent<ImageFadeOut>().StartCo();
+        }
         /*if (OST[audioIndex] != null && OST[audioIndex] != OST[audioIndex-1])
         {
             Cam.GetComponent<AudioSource>().clip = OST[audioIndex];
@@ -848,12 +871,8 @@ public class PageManager : Singleton<PageManager>
         Scenetext.GetComponent<Text>().text = currentAudio.name;
 
         //Scenetext.GetComponent<Text>().text = obj.clip.name;
-        if (obj.clip != null)
-        {
-            audioSource.clip = obj.clip;
-            audioSource.Play();
-        }
-            else
+
+            /*else
             {
             Debug.LogErrorFormat("Unable to read the audio from folder {0}. " +
             "Please ensure an audio file is in the folder, and it's set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
@@ -864,7 +883,7 @@ public class PageManager : Singleton<PageManager>
             Debug.LogErrorFormat("Unable to read the text from folder {0}. " +
             "Please ensure a text file is in the folder, and it's  set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
             yield break;
-        }
+        }*/
 
         //float PreviousWordTime =0;
         /*foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
@@ -899,6 +918,7 @@ public class PageManager : Singleton<PageManager>
 
         while (i < obj.sentence.wordGroups.Count)
         {
+
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
             //sentenceContainer.HighlightWordGroup(wordGroup);
                 foreach (SentenceRowContainer Child in sentenceContainer)
@@ -909,28 +929,41 @@ public class PageManager : Singleton<PageManager>
 
             //We calculate it like this because the times given are actually absolute times, not times per word
             //float waitTime = wordGroup.time;
-            float waitTime;
-            if(i == obj.sentence.wordGroups.Count-1)
-            {
-                waitTime = obj.sentence.wordGroups[i].time;
-            }
-                else
-                {
-                waitTime = obj.sentence.wordGroups[i + 1].time; 
-                }
-
+            i++;
+            //We calculate it like this because the times given are actually absolute times, not times per word
+            float waitTime = wordGroup.time;
             if (prevWordGroup != null && i > 1)
             {
-                waitTime -= obj.sentence.wordGroups[i].time;
-                    if (i == obj.sentence.wordGroups.Count - 1)
-                    {
-                    waitTime = obj.sentence.wordGroups[i].time - obj.sentence.wordGroups[i-1].time;
-                    }
+                waitTime -= prevWordGroup.time;
             }
-            //Debug.Log(waitTime+"///"+wordGroup.text);
-            i++;
-            yield return new WaitForSeconds(waitTime);
+                if (i == 1)
+                {
+                    if (obj.clip != null)
+                    {
+                        audioSource.clip = obj.clip;
+                        audioSource.Play();
+                    }
+
+                }
+
+            if (audioIndex == 37 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 1)
+            {
+                waitTime = 4.0f;
+            }
+
+
+
+            yield return new WaitForSecondsRealtime(waitTime);
+            if (audioIndex == 36 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 2)
+            {
+
+                Debug.Log(audioIndex + "///" + StoryManager.GetComponent<StoryManager>().pagesPerScene);
+                NextButton.SetActive(true);
+                BackButton.SetActive(true);
+                isAutoChapterSkip = 0;
+            }
             prevWordGroup = wordGroup;
+
         }
         //Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
@@ -940,8 +973,9 @@ public class PageManager : Singleton<PageManager>
             Child.HighlightWordGroup(null);
         }
 
-        if(isAutoChapterSkip ==1&&audioIndex != 38)
+        if(isAutoChapterSkip ==1 && audioIndex != 38)
         {
+
             GotoNext();
         }
     }

@@ -123,9 +123,10 @@ public class StoryManager : MonoBehaviour {
 
         Canvas = GameObject.FindGameObjectWithTag("Canvas");
         PageManager.GetComponent<PageManager>().LoadingScreen.GetComponent<Image>().enabled = true;
-        if (isLoadingLevel == true)
+        if (isLoadingLevel == true && PageManager.GetComponent<PageManager>().isIniAudioLoaded == false)
         {//If this is going to load a different streaming package, load it here. 
             PageManager.GetComponent<PageManager>().audioIndex = 0;
+            PageManager.GetComponent<PageManager>().isIniAudioLoaded = true;
             DataManager.LoadStory(DataManager.currentStoryName, StreamingAssetsCounter.ToString());
         }
         else if (StreamingAssetsCounter.ToString() != DataManager.CurrentAssetPackage.ToString())
