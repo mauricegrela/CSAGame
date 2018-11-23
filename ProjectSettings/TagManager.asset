@@ -19,6 +19,8 @@ TagManager:
   - panning target
   - LoadPageAnim
   - AnimTurnOff
+  - 16_ThrusterSound
+  - 16_PageFadeIn
   layers:
   - Default
   - TransparentFX
