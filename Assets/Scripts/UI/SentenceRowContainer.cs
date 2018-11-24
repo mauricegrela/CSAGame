@@ -27,7 +27,7 @@ public class SentenceRowContainer : MonoBehaviour
 
 
 
-    private Color HighlightedColor;
+    public Color HighlightedColor = Color.red;
 
 
     //Color.TryParseHexString("#d8314d", out HighlightedColor);
@@ -37,7 +37,11 @@ public class SentenceRowContainer : MonoBehaviour
 
     void Awake()
     {
-        ColorUtility.TryParseHtmlString("#d8314d", out HighlightedColor);
+        /*if(HighlightedColor == Color.white)
+        {
+            ColorUtility.TryParseHtmlString("#d8314d", out HighlightedColor);    
+        }*/
+
 		//ColorUtility.TryParseHtmlString("#ffffff", out NormalColor);
         rt = GetComponent<RectTransform>();
         layoutGroup = GetComponent<VerticalLayoutGroup>();
