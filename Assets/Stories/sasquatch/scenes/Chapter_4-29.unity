@@ -195,6 +195,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &97079231
 Canvas:
@@ -1311,7 +1312,7 @@ MonoBehaviour:
   isPanningLeft: 0
   isPanningRight: 0
   Page37Panning: {fileID: 0}
-  PageSong: {fileID: 8300000, guid: 9596ce4b04fe8491abdd8a8bb33f1ca4, type: 3}
+  PageSong: {fileID: 8300000, guid: bf5ee14c8cbb54a49ad295b063b29aea, type: 3}
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0
@@ -1510,6 +1511,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &1885472458
 Canvas:

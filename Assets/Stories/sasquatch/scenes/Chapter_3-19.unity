@@ -754,6 +754,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &309360149
 Canvas:
@@ -1810,6 +1811,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &610185130
 Canvas:
@@ -2069,7 +2071,7 @@ MonoBehaviour:
   isPanningLeft: 0
   isPanningRight: 0
   Page37Panning: {fileID: 0}
-  PageSong: {fileID: 8300000, guid: 0a1fd13bd283f445cb97718f80527fe1, type: 3}
+  PageSong: {fileID: 8300000, guid: f68f3a598ba4f4627a5ae922c3a538a1, type: 3}
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0
@@ -2769,6 +2771,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.09411765, g: 0.13333334, b: 0.1882353, a: 1}
 --- !u!223 &1577235696
 Canvas:
@@ -2898,6 +2901,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.09411765, g: 0.13333334, b: 0.1882353, a: 1}
 --- !u!223 &1857600657
 Canvas:
