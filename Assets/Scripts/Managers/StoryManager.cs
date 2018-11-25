@@ -41,6 +41,7 @@ public class StoryManager : MonoBehaviour {
     private GameObject Page37Panning;
 
     public AudioClip PageSong;
+    public AudioClip PanningPageSong2;
     //
     private Vector3 DistanceCounter;
 

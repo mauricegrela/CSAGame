@@ -558,6 +558,12 @@ public class PageManager : Singleton<PageManager>
                     Cam.GetComponent<AudioSource>().Stop();
                     }    
             }
+        if (sceneindex == 2 && StoryManager.GetComponent<StoryManager>().PanningPageSong2 != null)
+        {
+            StoryManager.GetComponent<StoryManager>().PageSong = StoryManager.GetComponent<StoryManager>().PanningPageSong2;
+            Cam.GetComponent<AudioSource>().clip = StoryManager.GetComponent<StoryManager>().PanningPageSong2;
+            Cam.GetComponent<AudioSource>().Play();
+        }
     }
 
     public void SetToLastPosition()
