@@ -6641,6 +6641,23 @@ MonoBehaviour:
   - Three
   - Four
   - Five
+  ButtonDescriptionText:
+  - {fileID: 614700340}
+  - {fileID: 800554958}
+  - {fileID: 1010446573}
+  - {fileID: 559984802}
+  - {fileID: 1230931943}
+  - {fileID: 470924545}
+  - {fileID: 1210577401}
+  Translations:
+  - Narrateur muet
+  - Lisez-moi
+  - Anglais
+  - "fran\xE7ais"
+  - Coin des parents
+  - Quelle couleur voyez-vous?
+  - " En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
+    canadienne David Saint-Jacques"
   ButtonTemplate: {fileID: 0}
 --- !u!1 &919435173 stripped
 GameObject:
@@ -12130,6 +12147,8 @@ MonoBehaviour:
   LoadingScreen: {fileID: 1313913501}
   BackButton: {fileID: 1362191583}
   NextButton: {fileID: 23125222}
+  FrenchCorrection: {fileID: 919223766}
+  isIniAudioLoaded: 0
   OST:
   - {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
   - {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
@@ -12170,7 +12189,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: daf8663e7d924464fbe941be6d761e72, type: 3}
   - {fileID: 8300000, guid: daf8663e7d924464fbe941be6d761e72, type: 3}
   Scenetext: {fileID: 2139804641}
-  ScenetextContainer: {fileID: 0}
+  ScenetextContainer: {fileID: 919223766}
 --- !u!4 &2054599092
 Transform:
   m_ObjectHideFlags: 0

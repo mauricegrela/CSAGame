@@ -7,7 +7,11 @@ public class MenuChapterManager : MonoBehaviour {
 
     private bool IsMenuSetUp = false;
 	public string[] ButtonDescription;
+    public Text[] ButtonDescriptionText;
 
+    public string[] Translations;
+
+    public GameObject[] buttons;
     private StoryObject currentStory
     {
         get
@@ -29,14 +33,27 @@ public class MenuChapterManager : MonoBehaviour {
 
     public void ReturnToMainMenu()
     {
-        DataManager.currentLanguage = "English";
+        //DataManager.currentLanguage = "English";
         Application.LoadLevel("Menu");
+    }
+
+    public void FrenchStructure()
+    {
+        for (int i = 0; i < 6; i++)
+        {
+            ButtonDescriptionText[i].text = Translations[i];//.ToString();
+            //Debug.Log (transform.GetChild(i).name);
+        }
+        buttons[0].GetComponent<Outline>().enabled = false;
+        buttons[1].GetComponent<Outline>().enabled = true;
     }
 
         public void ChapterINI()
     {
+
+
 		//Debug.Log (DataManager.currentStoryName);
-		for (int i = 0; i < transform.GetChildCount(); i++) {
+        /*for (int i = 0; i < transform.GetChildCount(); i++) {
 			if(transform.GetChild(i).name == ("BookMarks_"+DataManager.currentStoryName))
 			{
 			transform.GetChild (i).gameObject.SetActive (true);
@@ -44,7 +61,7 @@ public class MenuChapterManager : MonoBehaviour {
 			//Debug.Log (transform.GetChild(i).name);
 		}
       
-       /* if (IsMenuSetUp == false)
+        if (IsMenuSetUp == false)
         {//Set up the Chapter reference in the story
             RectTransform rt = gameObject.GetComponent<RectTransform>();
             float ScrollRoomHeight = 0;

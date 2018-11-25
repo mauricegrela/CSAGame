@@ -89,6 +89,8 @@ public class PageManager : Singleton<PageManager>
     private GameObject BackButton;
     [SerializeField]
     private GameObject NextButton;
+    [SerializeField]
+    private GameObject FrenchCorrection;
 
     public bool isIniAudioLoaded = false;
     //Audio Vars
@@ -137,6 +139,10 @@ public class PageManager : Singleton<PageManager>
             SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().NextScene, LoadSceneMode.Additive);
             StoryManager.GetComponent<StoryManager>().InitialSetUp();
             PreviousLevelTracker = StoryManager.GetComponent<StoryManager>().LastScene;
+                if(DataManager.currentLanguage == "French")
+                {
+                FrenchCorrection.GetComponent<MenuChapterManager>().FrenchStructure();
+                }
             //SceneManager.LoadScene(StoryManager.GetComponent<StoryManager>().LastScene, LoadSceneMode.Additive);
             //.SetActiveScene(SceneManager.GetSceneByName(CurrentLevel));
         }
