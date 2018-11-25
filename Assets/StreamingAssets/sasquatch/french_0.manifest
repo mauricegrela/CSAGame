@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 4000702653
+CRC: 2766680227
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ea4959cb169c509c5bfc2a76b8304ddb
+    Hash: 7250e95281d0f48eeafdcc84edfdc682
   TypeTreeHash:
     serializedVersion: 2
     Hash: a31e1505e189a9885bcbe2bbbab40e9b
@@ -15,7 +15,6 @@ ClassTypes:
   Script: {instanceID: 0}
 Assets:
 - Assets/Stories/sasquatch/languages/french/Page 1/Page_24/Page_24.txt
-- Assets/Stories/sasquatch/languages/french/Page 1/Page_37/FR_pg37.mp3
 - Assets/Stories/sasquatch/languages/french/Page 1/Page_15/Page_15.txt
 - Assets/Stories/sasquatch/languages/french/Page 1/Page_03/Page_3.txt
 - Assets/Stories/sasquatch/languages/french/Page 1/Page_20/Page_20.txt
