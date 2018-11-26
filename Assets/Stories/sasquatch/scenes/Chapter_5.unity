@@ -408,7 +408,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
+    m_Font: {fileID: 12800000, guid: e921d9514bfa34ea89c683435e566ea4, type: 3}
     m_FontSize: 26
     m_FontStyle: 0
     m_BestFit: 0
@@ -461,8 +461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 4.05, y: -5.63}
-  m_SizeDelta: {x: 510.148, y: 119.32}
+  m_AnchoredPosition: {x: 4.36, y: -5.58}
+  m_SizeDelta: {x: 453.121, y: 190.604}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273240674
 MonoBehaviour:
@@ -1047,6 +1047,7 @@ MonoBehaviour:
   isPanningRight: 0
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: c6ccc17ede12945dfacdd4c4ab37ccc4, type: 3}
+  PanningPageSong2: {fileID: 0}
 --- !u!4 &735929720
 Transform:
   m_ObjectHideFlags: 0
@@ -2735,7 +2736,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
+    m_Font: {fileID: 12800000, guid: e921d9514bfa34ea89c683435e566ea4, type: 3}
     m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0

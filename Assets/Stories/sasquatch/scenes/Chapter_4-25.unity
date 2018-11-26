@@ -377,6 +377,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 0.078431375, g: 0.23529412, b: 0.2509804, a: 1}
 --- !u!223 &518677672
 Canvas:
@@ -796,7 +797,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 0fe8847fb8f0742c9b5de974cb0fff72, type: 3}
+    m_Font: {fileID: 12800000, guid: e921d9514bfa34ea89c683435e566ea4, type: 3}
     m_FontSize: 34
     m_FontStyle: 0
     m_BestFit: 0
@@ -1153,6 +1154,7 @@ MonoBehaviour:
   isPanningRight: 0
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: 9596ce4b04fe8491abdd8a8bb33f1ca4, type: 3}
+  PanningPageSong2: {fileID: 0}
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0
