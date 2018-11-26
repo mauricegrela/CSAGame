@@ -2628,7 +2628,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1660200959297876, guid: 054bfaae36d06432b85dfa57220caf5b, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114813122308326624, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
@@ -2697,19 +2697,19 @@ Prefab:
         type: 2}
       propertyPath: BootCols.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: b703c0eb8b8cf46faae0831c656691e9,
+      objectReference: {fileID: 21300000, guid: c4fcbcfb6d3004aa4baf3892947e641e,
         type: 3}
     - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
       propertyPath: BootCols.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: aafa92ea9ac7b49b5996546879ab8442,
+      objectReference: {fileID: 21300000, guid: cbefc6243c3b14d999eca42b6045fbe8,
         type: 3}
     - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
       propertyPath: BootCols.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 5892ff60bec0048c8a6aa2b488a803fb,
+      objectReference: {fileID: 21300000, guid: 303614a5c9d3e4c058834e0eab7f16ac,
         type: 3}
     - target: {fileID: 1082500508417186, guid: 054bfaae36d06432b85dfa57220caf5b, type: 2}
       propertyPath: m_IsActive
@@ -2801,7 +2801,7 @@ Prefab:
     - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
       propertyPath: FrenchBootColNames.Array.data[2]
-      value: jaune
+      value: vert
       objectReference: {fileID: 0}
     - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
@@ -2915,6 +2915,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 29.77
       objectReference: {fileID: 0}
+    - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
+        type: 2}
+      propertyPath: BootColNames.Array.data[2]
+      value: green
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 054bfaae36d06432b85dfa57220caf5b, type: 2}
   m_IsPrefabParent: 0
@@ -2932,7 +2937,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &403345955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4504,7 +4509,7 @@ RectTransform:
   m_GameObject: {fileID: 592651031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 958440951}
   m_RootOrder: 3
@@ -6671,9 +6676,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0}
   m_Children:
-  - {fileID: 1867648120}
   - {fileID: 1361933922}
   - {fileID: 1913583953}
+  - {fileID: 1867648120}
   - {fileID: 1151933702}
   - {fileID: 1274272240}
   - {fileID: 555656304}
@@ -9273,7 +9278,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1313913500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9547,7 +9552,7 @@ RectTransform:
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0}
   m_Children: []
   m_Father: {fileID: 919223767}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -11441,7 +11446,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 919223767}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11461,7 +11466,7 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 1
+  m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
@@ -11566,7 +11571,7 @@ RectTransform:
   m_LocalScale: {x: 1.6456715, y: 1.6456716, z: 1.6456716}
   m_Children: []
   m_Father: {fileID: 919223767}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
