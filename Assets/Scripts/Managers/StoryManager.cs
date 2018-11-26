@@ -42,6 +42,7 @@ public class StoryManager : MonoBehaviour {
 
     public AudioClip PageSong;
     public AudioClip PanningPageSong2;
+    public float Volume = 0.2f;
     //
     private Vector3 DistanceCounter;
 
