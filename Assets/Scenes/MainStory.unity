@@ -4774,7 +4774,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mute Narrator
+  m_Text: Mute narrator
 --- !u!222 &614700341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5597,7 +5597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Read To Me
+  m_Text: Read to me
 --- !u!222 &800554959
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6658,6 +6658,7 @@ MonoBehaviour:
   - Quelle couleur voyez-vous?
   - " En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
     canadienne David Saint-Jacques"
+  buttons: []
   ButtonTemplate: {fileID: 0}
 --- !u!1 &919435173 stripped
 GameObject:
@@ -8844,7 +8845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ParentsCorner
+  m_Text: Parent's corner
 --- !u!222 &1230931944
 CanvasRenderer:
   m_ObjectHideFlags: 0
