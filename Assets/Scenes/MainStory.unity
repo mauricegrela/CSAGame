@@ -2806,7 +2806,7 @@ Prefab:
     - target: {fileID: 114602628111193452, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
       propertyPath: FrenchBootColNames.Array.data[1]
-      value: blue
+      value: bleu
       objectReference: {fileID: 0}
     - target: {fileID: 224528374418275308, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
@@ -4931,6 +4931,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 2122783536}
         m_MethodName: Stop
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2054599091}
+        m_MethodName: chapter3MenuFix
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8864,6 +8875,9 @@ GameObject:
   - component: {fileID: 1242897824}
   - component: {fileID: 1242897823}
   - component: {fileID: 1242897822}
+  - component: {fileID: 1242897825}
+  - component: {fileID: 1242897827}
+  - component: {fileID: 1242897826}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -8929,7 +8943,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 819202201}
+      - m_Target: {fileID: 1242897825}
         m_MethodName: redirect
         m_Mode: 1
         m_Arguments:
@@ -8975,6 +8989,53 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242897820}
+--- !u!114 &1242897825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242897820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de414a6a43b6b4192b7d8693f4822f83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1242897826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242897820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!223 &1242897827
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242897820}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 1729
+  m_TargetDisplay: 0
 --- !u!1 &1274099569
 GameObject:
   m_ObjectHideFlags: 0
@@ -12239,6 +12300,7 @@ MonoBehaviour:
   BackButton: {fileID: 1362191583}
   NextButton: {fileID: 23125222}
   FrenchCorrection: {fileID: 919223766}
+  isChapter3LoadedFromMenu: 0
   isIniAudioLoaded: 0
   OST:
   - {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}

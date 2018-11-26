@@ -91,6 +91,7 @@ public class PageManager : Singleton<PageManager>
     private GameObject NextButton;
     [SerializeField]
     private GameObject FrenchCorrection;
+    public bool isChapter3LoadedFromMenu = false;
 
     public bool isIniAudioLoaded = false;
     //Audio Vars
@@ -219,16 +220,7 @@ public class PageManager : Singleton<PageManager>
 
         sceneindex = 0;
 
-        GameObject Sound = GameObject.FindGameObjectWithTag("16_ThrusterSound");
-        if (Sound != null && sceneindex < 1)
-        {
-            Sound.GetComponent<AudioSource>().Play();
-        }
-        GameObject Fade = GameObject.FindGameObjectWithTag("16_PageFadeIn");
-        if (Fade != null && sceneindex < 1)
-        {
-            Fade.GetComponent<ImageFadeOut>().StartCo();
-        }
+
     }
 
     public void ChapterSkipToTheEnd(String LevelToLoad)
@@ -1054,6 +1046,13 @@ public class PageManager : Singleton<PageManager>
     public void changeClickDragFunctionality(bool state)
     {
         CanSwipe = state;
+    }
+
+    public void chapter3MenuFix()
+    {
+
+        isChapter3LoadedFromMenu = true;
+
     }
 
 }

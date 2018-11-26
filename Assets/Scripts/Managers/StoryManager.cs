@@ -61,6 +61,21 @@ public class StoryManager : MonoBehaviour {
             PageManager.GetComponent<PageManager>().PreviousLevelTracker = LastScene;
 
         }
+
+        if(PageManager.GetComponent<PageManager>().isChapter3LoadedFromMenu == true)
+        {
+            GameObject Sound = GameObject.FindGameObjectWithTag("16_ThrusterSound");
+            if (Sound != null)
+            {
+                Sound.GetComponent<AudioSource>().Play();
+            }
+            GameObject Fade = GameObject.FindGameObjectWithTag("16_PageFadeIn");
+            if (Fade != null)
+            {
+                Fade.GetComponent<ImageFadeOut>().StartCo();
+            }
+            PageManager.GetComponent<PageManager>().isChapter3LoadedFromMenu = false;
+        }
     }
 
     public void InitialSetUp()///Awake()
