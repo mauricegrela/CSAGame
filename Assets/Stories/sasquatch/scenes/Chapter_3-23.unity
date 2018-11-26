@@ -663,6 +663,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: 0a1fd13bd283f445cb97718f80527fe1, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0
@@ -1098,8 +1099,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.08, y: 5.89}
-  m_SizeDelta: {x: 322.397, y: 144.277}
+  m_AnchoredPosition: {x: -0.805, y: 6.15}
+  m_SizeDelta: {x: 359.874, y: 144.277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613247278
 MonoBehaviour:

@@ -753,8 +753,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2.625, y: 3.04}
-  m_SizeDelta: {x: 218.351, y: 104.643}
+  m_AnchoredPosition: {x: 3.045, y: 3.04}
+  m_SizeDelta: {x: 275.552, y: 104.643}
   m_Pivot: {x: 0.50000006, y: 0.5}
 --- !u!114 &1298364629
 MonoBehaviour:
@@ -1230,6 +1230,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: bf5ee14c8cbb54a49ad295b063b29aea, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0

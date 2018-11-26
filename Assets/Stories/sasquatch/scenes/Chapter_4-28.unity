@@ -613,7 +613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -5.76, y: 3.66}
+  m_AnchoredPosition: {x: -5.41, y: 3.89}
   m_SizeDelta: {x: 270.782, y: 146.376}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &984744869
@@ -1078,8 +1078,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 4.56, y: -4.33}
-  m_SizeDelta: {x: 304.911, y: 140.299}
+  m_AnchoredPosition: {x: 4.57, y: -4.33}
+  m_SizeDelta: {x: 334.497, y: 140.299}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1372534903
 MonoBehaviour:
@@ -1927,6 +1927,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: bf5ee14c8cbb54a49ad295b063b29aea, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0

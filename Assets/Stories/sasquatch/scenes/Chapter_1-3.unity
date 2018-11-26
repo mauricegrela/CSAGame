@@ -2568,6 +2568,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!1 &1844707455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2976,7 +2977,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -1.892, y: 5.22}
+  m_AnchoredPosition: {x: -1.82, y: 5.28}
   m_SizeDelta: {x: 520.737, y: 292.543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2057423403

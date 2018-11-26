@@ -2035,7 +2035,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 27.39, y: 1.41}
+  m_AnchoredPosition: {x: 27.85, y: 1.67}
   m_SizeDelta: {x: 247.344, y: 231.294}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256655920
@@ -2653,6 +2653,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: ac14b815e0e68456c8284359f258e5ff, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!1 &1780777258
 GameObject:
   m_ObjectHideFlags: 0
