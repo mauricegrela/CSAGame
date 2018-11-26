@@ -548,6 +548,7 @@ public class PageManager : Singleton<PageManager>
                 if (StoryManager.GetComponent<StoryManager>().PageSong != null)
                 {
                 Cam.GetComponent<AudioSource>().clip = StoryManager.GetComponent<StoryManager>().PageSong;
+                Cam.GetComponent<AudioSource>().volume = StoryManager.GetComponent<StoryManager>().Volume;
                 Cam.GetComponent<AudioSource>().Play();
                 }
                     else
@@ -556,10 +557,11 @@ public class PageManager : Singleton<PageManager>
                     Cam.GetComponent<AudioSource>().Stop();
                     }    
             }
-        if (sceneindex == 2 && StoryManager.GetComponent<StoryManager>().PanningPageSong2 != null)
+        if (sceneindex == 1 && StoryManager.GetComponent<StoryManager>().PanningPageSong2 != null)
         {
             StoryManager.GetComponent<StoryManager>().PageSong = StoryManager.GetComponent<StoryManager>().PanningPageSong2;
             Cam.GetComponent<AudioSource>().clip = StoryManager.GetComponent<StoryManager>().PanningPageSong2;
+            Cam.GetComponent<AudioSource>().volume = StoryManager.GetComponent<StoryManager>().Volume;
             Cam.GetComponent<AudioSource>().Play();
         }
     }

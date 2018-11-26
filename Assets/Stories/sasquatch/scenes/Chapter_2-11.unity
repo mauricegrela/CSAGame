@@ -1193,6 +1193,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: ac14b815e0e68456c8284359f258e5ff, type: 3}
   PanningPageSong2: {fileID: 0}
+  Volume: 0.1
 --- !u!4 &2095002486
 Transform:
   m_ObjectHideFlags: 0
@@ -1218,7 +1219,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dd7a9744e6dfe46a1b7e8ec198a8e45b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 1
   Mute: 0
