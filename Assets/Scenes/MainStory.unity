@@ -3546,8 +3546,8 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.9222808, g: 1, b: 0, a: 1}
-  m_EffectDistance: {x: 10, y: 0}
+  m_EffectColor: {r: 0.02745098, g: 0.06666667, b: 0.20392157, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 0
 --- !u!1 &525196938
 GameObject:
@@ -8338,8 +8338,8 @@ MonoBehaviour:
   m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.9222808, g: 1, b: 0, a: 1}
-  m_EffectDistance: {x: 10, y: 0}
+  m_EffectColor: {r: 0.027450982, g: 0.06666667, b: 0.20392159, a: 1}
+  m_EffectDistance: {x: 2, y: -2}
   m_UseGraphicAlpha: 0
 --- !u!1001 &1101756137
 Prefab:
