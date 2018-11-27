@@ -368,11 +368,11 @@ RectTransform:
   m_LocalScale: {x: 1.0000044, y: 1.0000045, z: 0}
   m_Children: []
   m_Father: {fileID: 1546872823}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: -106}
+  m_AnchoredPosition: {x: -7, y: -116.78}
   m_SizeDelta: {x: 899.3, y: 493.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36579696
@@ -387,7 +387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -395,8 +395,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -407,29 +407,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Canadian Space Agency (with logo)
-
-
-    PUG PHARM
-
-    Original Story: Steve Bocska
-
-    Art Direction: Martin Bae
-
-    Story Consultants: Craig Dixon, Kristina Dixon, Jodi Regts
-
-
-    RIVAL SCHOOLS
-
-    Producer: David Lam
-
-    UX / Art Director: Terry Dee
-
-    Unity Developer: Maurice Grela
-
-    Illustrator: Audrey Kare
-
-    Writer: Terry Dee, Marilyn Thomas'
+  m_Text: "Pug Pharm: \nOriginal Story: Steve Bocska\nArt Direction: Martin Bae\nStory
+    Consultants: Craig Dixon, Kristina Dixon, Jodi Regts\n\nRival Schools:\nProducer:
+    David Lam\nWriter: Terry Dee, Marilyn Thomas\nUX / Art Director: Terry Dee\nUnity
+    Developer: Maurice Grela\nIllustrator: Audrey Kare\nEnglish Voice Actor: Michelle
+    Dyan Whitehead\nFrench Voice Actor: Linda Laplante\nFrench Translation: Rome Lavrencic
+    + B\xE9atrice Bigras"
 --- !u!222 &36579697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2937,7 +2920,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &403345955
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7367,6 +7350,95 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1010446571}
+--- !u!1 &1014049040
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1014049041}
+  - component: {fileID: 1014049044}
+  - component: {fileID: 1014049043}
+  - component: {fileID: 1014049042}
+  m_Layer: 0
+  m_Name: CSA Logo (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1014049041
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014049040}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.65638345, y: 0.6563835, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1546872823}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -4, y: 28.9}
+  m_SizeDelta: {x: 263, y: 112.79}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &1014049042
+Canvas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014049040}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 200
+  m_TargetDisplay: 0
+--- !u!114 &1014049043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014049040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 936f9a7d773014786ad40b3738268b03, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1014049044
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1014049040}
 --- !u!1 &1014635017
 GameObject:
   m_ObjectHideFlags: 0
@@ -8824,7 +8896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7, y: 131.4}
+  m_AnchoredPosition: {x: -7, y: 149}
   m_SizeDelta: {x: 899.3, y: 493.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1210577401
@@ -8839,7 +8911,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -8847,8 +8919,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 15
+    m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
+    m_FontSize: 13
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -8974,11 +9046,11 @@ RectTransform:
   m_Children:
   - {fileID: 1702429626}
   m_Father: {fileID: 1546872823}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.8, y: 92.3}
+  m_AnchoredPosition: {x: -2.8, y: 109.2}
   m_SizeDelta: {x: 74.2, y: 35.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242897822
@@ -9278,7 +9350,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1313913500
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9823,7 +9895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 47}
+  m_AnchoredPosition: {x: 208, y: -9.23}
   m_SizeDelta: {x: 1763, y: 1440}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378463441
@@ -9845,7 +9917,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7a2f6527ea8e5da4da5dab821e1e0256, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 71a3e1be8e4d0478186936743e5695c5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10202,7 +10274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1546872823
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10216,6 +10288,7 @@ RectTransform:
   - {fileID: 1378463440}
   - {fileID: 114055698}
   - {fileID: 1210577400}
+  - {fileID: 1014049041}
   - {fileID: 1242897821}
   - {fileID: 36579695}
   m_Father: {fileID: 403345955}
@@ -10727,7 +10800,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
