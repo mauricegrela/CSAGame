@@ -8294,7 +8294,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'Read To Me '
+          m_StringArgument: 'Read to me '
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 614700340}
@@ -8305,7 +8305,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Mute Narrator
+          m_StringArgument: Mute narrator
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1010446573}
@@ -8338,7 +8338,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Parents Corner
+          m_StringArgument: Parents sorner
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 470924545}
