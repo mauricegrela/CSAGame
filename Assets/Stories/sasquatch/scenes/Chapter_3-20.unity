@@ -1103,7 +1103,7 @@ MonoBehaviour:
   Definition: {fileID: 0}
   ReadAlongOn: 0
   HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
-  NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  NormalColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!223 &891676363
 Canvas:
   m_ObjectHideFlags: 0
