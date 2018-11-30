@@ -6,6 +6,7 @@ using UnityEngine;
 public class LoadingScript : MonoBehaviour {
 
 	public Sprite[] loadingscreens;
+    public Sprite[] loadingscreens_FR;
     [SerializeField]
     private Color Off;
     [SerializeField]
@@ -28,7 +29,17 @@ public class LoadingScript : MonoBehaviour {
 	public void LoadingScreenAssigner()
 	{
 
-		GetComponent<Image>().sprite = loadingscreens[Random.Range(0,loadingscreens.Length-1)];
+        if (DataManager.currentLanguage == "english")
+        {
+            GetComponent<Image>().sprite = loadingscreens[Random.Range(0, loadingscreens.Length - 1)];
+        }
+        //Otherwise, if the system is English, output the message in the console
+        else if (DataManager.currentLanguage == "French")
+        {
+            GetComponent<Image>().sprite = loadingscreens_FR[Random.Range(0, loadingscreens.Length - 1)];
+        }
+
+		
 	}
 
     public void VisualToggle(bool Switch)

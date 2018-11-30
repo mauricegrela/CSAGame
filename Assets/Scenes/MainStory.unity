@@ -3483,6 +3483,17 @@ MonoBehaviour:
             l\u2019Agence spatiale canadienne David Saint-Jacques"
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2106613727}
+        m_MethodName: FlipSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &522785423
@@ -8364,6 +8375,17 @@ MonoBehaviour:
             Saint-Jacques\u2019 mission"
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2106613727}
+        m_MethodName: FlipSwitch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1097418464
@@ -9343,6 +9365,7 @@ GameObject:
   - component: {fileID: 1313913500}
   - component: {fileID: 1313913502}
   - component: {fileID: 1313913501}
+  - component: {fileID: 1313913504}
   - component: {fileID: 1313913503}
   m_Layer: 5
   m_Name: LoadingScreen
@@ -9421,12 +9444,31 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d1fdfa989d9be480fac5dd718c6e0bab, type: 3}
   - {fileID: 21300000, guid: 456b7dbe217db4d51a09c349f3eb07b3, type: 3}
   - {fileID: 21300000, guid: 2df4c015108654ac4b828f4aabe7a9b8, type: 3}
+  loadingscreens_FR:
+  - {fileID: 21300000, guid: bf2fcabfc9c0447308324284b185849a, type: 3}
+  - {fileID: 21300000, guid: 3e44e136ec67e47e695d3a9c689b3ac6, type: 3}
+  - {fileID: 21300000, guid: 13d07759487974808824b2ac26fc4073, type: 3}
+  - {fileID: 21300000, guid: 96adf477ea7fb41c0833d6357e76a2e0, type: 3}
+  - {fileID: 21300000, guid: 48965e990204d468889cce8b439c24dd, type: 3}
   Off: {r: 1, g: 1, b: 1, a: 0}
   On: {r: 1, g: 1, b: 1, a: 1}
   OnSides: {r: 0.87843144, g: 0.8196079, b: 0.67058825, a: 1}
   Children:
   - {fileID: 1274099571}
   - {fileID: 565447213}
+--- !u!114 &1313913504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1313913499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5fb42199f7d47e49756a833799436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fr_asset: {fileID: 21300000, guid: cf50438372b5d4601b2d314c217a36c6, type: 3}
+  en_asset: {fileID: 21300000, guid: 4d0671f4a0d814357b9d3d7797306169, type: 3}
 --- !u!1 &1338087635
 GameObject:
   m_ObjectHideFlags: 0
@@ -12912,6 +12954,7 @@ GameObject:
   - component: {fileID: 2106613726}
   - component: {fileID: 2106613731}
   - component: {fileID: 2106613730}
+  - component: {fileID: 2106613727}
   - component: {fileID: 2106613729}
   m_Layer: 0
   m_Name: MainMenu (1)
@@ -12938,6 +12981,19 @@ RectTransform:
   m_AnchoredPosition: {x: 155.6, y: -54.1}
   m_SizeDelta: {x: 630, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2106613727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2106613725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5fb42199f7d47e49756a833799436f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fr_asset: {fileID: 21300000, guid: b17d83998d1bc4424860445c9ff40963, type: 3}
+  en_asset: {fileID: 21300000, guid: af563cfc9f1b44a2ead17acf96cde0ab, type: 3}
 --- !u!114 &2106613729
 MonoBehaviour:
   m_ObjectHideFlags: 0
