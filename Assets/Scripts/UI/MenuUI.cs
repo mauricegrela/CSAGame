@@ -26,6 +26,21 @@ public class MenuUI : MonoBehaviour
     void Start()
     {
 
+        //This checks if your computer's operating system is in the French language
+        if (Application.systemLanguage == SystemLanguage.English)
+        {
+            DataManager.currentLanguage = "english";
+            //Outputs into console that the system is French
+            //Debug.Log("This system is in French. ");
+        }
+        //Otherwise, if the system is English, output the message in the console
+        else if (Application.systemLanguage == SystemLanguage.French)
+        {
+            DataManager.currentLanguage = "French";
+            //Debug.Log("This system is in English. ");
+        }
+
+
     }
 
     public void StartGame(string LeveltoLoad)
