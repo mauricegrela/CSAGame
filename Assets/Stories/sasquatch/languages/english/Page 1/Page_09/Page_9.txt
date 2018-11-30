@@ -3,7 +3,7 @@
 1.194571	busy
 1.589588	busy
 1.946532	minutes
-2.351068	laters,
+2.351068	later,
 2.860307	the
 3.136344	kids
 3.402861	stood
