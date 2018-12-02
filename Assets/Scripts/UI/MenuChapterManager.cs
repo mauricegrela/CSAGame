@@ -39,7 +39,7 @@ public class MenuChapterManager : MonoBehaviour {
 
     public void FrenchStructure()
     {
-        for (int i = 0; i < 6; i++)
+        for (int i = 0; i < ButtonDescriptionText.Length; i++)
         {
             ButtonDescriptionText[i].text = Translations[i];//.ToString();
             //Debug.Log (transform.GetChild(i).name);

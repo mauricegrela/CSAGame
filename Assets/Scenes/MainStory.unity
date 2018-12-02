@@ -2906,6 +2906,12 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 054bfaae36d06432b85dfa57220caf5b, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &388879095 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114091320139756572, guid: 054bfaae36d06432b85dfa57220caf5b,
+    type: 2}
+  m_PrefabInternal: {fileID: 388879094}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &403345954
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,6 +3498,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 388879095}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\xC9crivez ici"
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -6732,6 +6749,7 @@ MonoBehaviour:
   - {fileID: 1230931943}
   - {fileID: 470924545}
   - {fileID: 1210577401}
+  - {fileID: 388879095}
   Translations:
   - Narrateur muet
   - Lisez-moi
@@ -6741,6 +6759,7 @@ MonoBehaviour:
   - Quelle couleur voyez-vous?
   - " En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
     canadienne David Saint-Jacques"
+  - "\xC9crivez ici"
   buttons:
   - {fileID: 1097418461}
   - {fileID: 522785420}
@@ -8386,6 +8405,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 388879095}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Enter text...
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
