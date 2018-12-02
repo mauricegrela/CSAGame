@@ -6741,7 +6741,9 @@ MonoBehaviour:
   - Quelle couleur voyez-vous?
   - " En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
     canadienne David Saint-Jacques"
-  buttons: []
+  buttons:
+  - {fileID: 1097418461}
+  - {fileID: 522785420}
   ButtonTemplate: {fileID: 0}
 --- !u!1 &919435173 stripped
 GameObject:
