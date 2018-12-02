@@ -12,6 +12,7 @@ public class DataManager
 {
     public static string currentLanguage = "english";
     public static string currentStoryName = "sasquatch";
+    public static bool isINISet = false;
     public static StoryObject currentStory;
     public static string[] languageManager;
 	public static string[] SceneRef;

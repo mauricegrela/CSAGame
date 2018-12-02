@@ -27,16 +27,18 @@ public class MenuUI : MonoBehaviour
     {
 
         //This checks if your computer's operating system is in the French language
-        if (Application.systemLanguage == SystemLanguage.English)
+        if (Application.systemLanguage == SystemLanguage.English && DataManager.isINISet == false)
         {
             DataManager.currentLanguage = "english";
+            DataManager.isINISet = true;
             //Outputs into console that the system is French
             //Debug.Log("This system is in French. ");
         }
         //Otherwise, if the system is English, output the message in the console
-        else if (Application.systemLanguage == SystemLanguage.French)
+        else if (Application.systemLanguage == SystemLanguage.French && DataManager.isINISet == false)
         {
             DataManager.currentLanguage = "French";
+            DataManager.isINISet = true;
             //Debug.Log("This system is in English. ");
         }
 
