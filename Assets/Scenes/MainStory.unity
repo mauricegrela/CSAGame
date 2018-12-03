@@ -396,7 +396,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
-    m_FontSize: 13
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -407,12 +407,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Pug Pharm: \nOriginal Story: Steve Bocska\nArt Direction: Martin Bae\nStory
-    Consultants: Craig Dixon, Kristina Dixon, Jodi Regts\n\nRival Schools:\nProducer:
-    David Lam\nWriter: Terry Dee, Marilyn Thomas\nUX / Art Director: Terry Dee\nUnity
-    Developer: Maurice Grela\nIllustrator: Audrey Kare\nEnglish Voice Actor: Michelle
-    Dyan Whitehead\nFrench Voice Actor: Linda Laplante\nFrench Translation: Rome Lavrencic
-    + B\xE9atrice Bigras"
+  m_Text: "This e-book is provided by the Canadian Space Agency\n\nPug Pharm: \nOriginal
+    Story: Steve Bocska\nArt Direction: Martin Bae\nStory Consultants: Craig Dixon,
+    Kristina Dixon, Jodi Regts\n\nRival Schools:\nProducer: David Lam\nWriter: Terry
+    Dee, Marilyn Thomas\nUX / Art Director: Terry Dee\nUnity Developer: Maurice Grela\nIllustrator:
+    Audrey Kare\nEnglish Voice Actor: Michelle Dyan Whitehead\nFrench Voice Actor:
+    Linda Laplante\nFrench Translation: Rome Lavrencic + B\xE9atrice Bigras"
 --- !u!222 &36579697
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7415,7 +7415,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220.7, y: 153.2}
+  m_AnchoredPosition: {x: -16.6, y: 153.2}
   m_SizeDelta: {x: 263, y: 112.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1014049042
