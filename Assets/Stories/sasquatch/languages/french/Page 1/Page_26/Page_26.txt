@@ -1,5 +1,5 @@
-0.089843	Oh non,
-1.124322	notre propulseur-9000
-2.918617	vient de se casser!
-4.594833	À l’aide, Niko!
+0.089843	Vif d'esprit,
+1.124322	Niko saisit
+2.918617	un cure-pipe de rechange
+4.594833	et le fixe
 4.413881	au vaisseau spatial.

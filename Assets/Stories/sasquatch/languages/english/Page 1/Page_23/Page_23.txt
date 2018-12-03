@@ -4,9 +4,7 @@
 0.775289	Chewie!
 1.66664	Thank
 1.917332	you,
-2.172667	not-
-2.38622	so-
-2.544063	lonely-
+2.172667	not-so-lonely
 3.073303	anymore
 3.621112	space
 3.908944	creature!
