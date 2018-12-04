@@ -46,7 +46,10 @@ public class MenuChapterManager : MonoBehaviour {
         }
         buttons[0].GetComponent<Outline>().enabled = false;
         buttons[1].GetComponent<Outline>().enabled = true;
+        buttons[2].GetComponent<Outline>().enabled = false;
+        buttons[3].GetComponent<Outline>().enabled = true;
     }
+
 
         public void ChapterINI()
     {

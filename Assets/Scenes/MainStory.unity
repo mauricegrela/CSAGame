@@ -351,7 +351,7 @@ GameObject:
   - component: {fileID: 36579697}
   - component: {fileID: 36579696}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: English Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3510,6 +3510,28 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: "\xC9crivez ici"
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 36579694}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1264038963}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -8418,6 +8440,28 @@ MonoBehaviour:
           m_StringArgument: Enter text...
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 36579694}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1264038963}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1097418464
@@ -9239,6 +9283,86 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 1729
   m_TargetDisplay: 0
+--- !u!1 &1264038963
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1264038964}
+  - component: {fileID: 1264038966}
+  - component: {fileID: 1264038965}
+  m_Layer: 5
+  m_Name: French Credits
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1264038964
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264038963}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000038, y: 1.0000038, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1546872823}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -7.000122, y: -82.80002}
+  m_SizeDelta: {x: 899.3, y: 493.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1264038965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264038963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
+    m_FontSize: 12
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 156
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Ce livre \xE9lectronique est fourni par l'Agence spatiale canadienne\n\nCarlin
+    Pharm: \nHistoire originale: Steve Bocska\nDirection artistique: Martin Bae\nConsultants
+    d'histoire: Craig Dixon, Kristina Dixon, Jodi Regts\n\n\xC9coles rivales:\nProducteur:
+    David Lam\n\xC9crivain: Terry Dee, Marilyn Thomas\nDirecteur artistique / UX:
+    Terry Dee\nD\xE9veloppeur Unity: Maurice Grela\nIllustrateur: Audrey Kare\nCom\xE9dien
+    anglais: Michelle Dyan Whitehead\nActeur de voix fran\xE7aise: Linda Laplante\nTraduction
+    fran\xE7aise: Rome Lavrencic + B\xE9atrice Bigras"
+--- !u!222 &1264038966
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1264038963}
 --- !u!1 &1274099569
 GameObject:
   m_ObjectHideFlags: 0
@@ -10365,6 +10489,7 @@ RectTransform:
   - {fileID: 1014049041}
   - {fileID: 1242897821}
   - {fileID: 36579695}
+  - {fileID: 1264038964}
   m_Father: {fileID: 403345955}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
