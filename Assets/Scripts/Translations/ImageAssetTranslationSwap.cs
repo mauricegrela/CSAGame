@@ -15,7 +15,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
 		
         if (DataManager.currentLanguage == "english")
         {
-            GetComponent<Image>().sprite = fr_asset;
+            GetComponent<Image>().sprite = en_asset;
             //DataManager.currentLanguage = "english";
             //Outputs into console that the system is French
             //Debug.Log("This system is in French. ");
@@ -25,7 +25,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
         {
             //.currentLanguage = "French";
             //Debug.Log("This system is in English. ");
-            GetComponent<Image>().sprite = en_asset;
+            GetComponent<Image>().sprite = fr_asset;
         }
 	}
 	
@@ -38,7 +38,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
     {
         if (DataManager.currentLanguage == "english")
         {
-            GetComponent<Image>().sprite = fr_asset;
+            GetComponent<Image>().sprite = en_asset;
             //DataManager.currentLanguage = "english";
             //Outputs into console that the system is French
             //Debug.Log("This system is in French. ");
@@ -48,7 +48,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
         {
             //.currentLanguage = "French";
             //Debug.Log("This system is in English. ");
-            GetComponent<Image>().sprite = en_asset;
+            GetComponent<Image>().sprite = fr_asset;
         }
     }
 }
