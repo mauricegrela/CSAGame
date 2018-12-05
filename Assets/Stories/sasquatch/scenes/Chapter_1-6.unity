@@ -828,7 +828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3750899a44d83427f98ef2b6ffd29416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nRows: 5
+  nRows: 10
   sentenceRowPrefab: {fileID: 1836607239}
   narrator: 
   Definition: {fileID: 0}
@@ -1197,7 +1197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3750899a44d83427f98ef2b6ffd29416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nRows: 5
+  nRows: 10
   sentenceRowPrefab: {fileID: 615650702}
   narrator: 
   Definition: {fileID: 0}
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3750899a44d83427f98ef2b6ffd29416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nRows: 5
+  nRows: 10
   sentenceRowPrefab: {fileID: 1162392768}
   narrator: 
   Definition: {fileID: 0}
@@ -1995,8 +1995,8 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1012617785}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 22.51}
-  m_LocalScale: {x: 0.013058865, y: 0.013058869, z: 0.013058867}
+  m_LocalPosition: {x: 0, y: 0, z: 18.419}
+  m_LocalScale: {x: 0.011041271, y: 0.011041273, z: 0.0110412715}
   m_Children:
   - {fileID: 699126468}
   m_Father: {fileID: 268476902}
@@ -2004,8 +2004,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 5.64, y: -4.26}
-  m_SizeDelta: {x: 183.688, y: 124.381}
+  m_AnchoredPosition: {x: 5.788, y: -3.8358}
+  m_SizeDelta: {x: 229.765, y: 155.581}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1012617787
 MonoBehaviour:
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3750899a44d83427f98ef2b6ffd29416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nRows: 5
+  nRows: 10
   sentenceRowPrefab: {fileID: 699126469}
   narrator: 
   Definition: {fileID: 0}
