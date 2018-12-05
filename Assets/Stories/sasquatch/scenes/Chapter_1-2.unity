@@ -222,8 +222,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.66, y: 2.6}
-  m_SizeDelta: {x: 618.128, y: 245.211}
+  m_AnchoredPosition: {x: -1.023, y: 3.841}
+  m_SizeDelta: {x: 568.05, y: 252.04}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46771754
 MonoBehaviour:
@@ -241,6 +241,7 @@ MonoBehaviour:
   narrator: 
   Definition: {fileID: 0}
   ReadAlongOn: 0
+  HighlightedColor: {r: 1, g: 0, b: 0, a: 1}
   NormalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!223 &46771755
 Canvas:
@@ -1210,6 +1211,7 @@ MonoBehaviour:
   - {fileID: 21300058, guid: 4a41a2e1713334478bcaec7bfad1962b, type: 3}
   - {fileID: 21300060, guid: 4a41a2e1713334478bcaec7bfad1962b, type: 3}
   - {fileID: 21300062, guid: 4a41a2e1713334478bcaec7bfad1962b, type: 3}
+  animationSpeed: 0.02
   IsLooping: 1
   SFXSource: {fileID: 0}
   PlaceSound: {fileID: 0}
@@ -1482,6 +1484,8 @@ MonoBehaviour:
   isPanningRight: 0
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: 2ddb22820f1f646e8b79183f5849b52f, type: 3}
+  PanningPageSong2: {fileID: 0}
+  Volume: 0.2
 --- !u!1 &1920348477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,7 +1688,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146, type: 3}
-    m_FontSize: 24
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
