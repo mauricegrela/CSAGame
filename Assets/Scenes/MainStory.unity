@@ -3485,7 +3485,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: " En savoir plus sur la mission de l\u2019astronaute de
+          m_StringArgument: "En savoir plus sur la mission de l\u2019astronaute de
             l\u2019Agence spatiale canadienne David Saint-Jacques"
           m_BoolArgument: 0
         m_CallState: 2
@@ -6779,7 +6779,7 @@ MonoBehaviour:
   - "fran\xE7ais"
   - Coin des parents
   - Quelle couleur voyez-vous?
-  - " En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
+  - "En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
     canadienne David Saint-Jacques"
   - "\xC9crivez ici"
   buttons:
