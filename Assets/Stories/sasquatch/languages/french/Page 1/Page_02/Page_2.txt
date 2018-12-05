@@ -7,7 +7,7 @@
 3.894409	cabane
 4.698469	lorsque
 5.01928     l’ancienne
-5.636538	télévision
+5.636538    télévision
 6.18476	    brisée
 6.31877     des
 6.684252    parents
