@@ -11,7 +11,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
     [SerializeField]
     private Sprite en_asset;
 	// Use this for initialization
-	void Start () {
+    void Awake() {
 		
         if (DataManager.currentLanguage == "english")
         {
@@ -27,6 +27,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
             //Debug.Log("This system is in English. ");
             GetComponent<Image>().sprite = fr_asset;
         }
+        Debug.Log(DataManager.currentLanguage);
 	}
 	
 	// Update is called once per frame

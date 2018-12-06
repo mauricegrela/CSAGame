@@ -11,19 +11,17 @@ public class MenuUI : MonoBehaviour
     public Dropdown storyDropdown;
 
     //TODO Dry this code up
-    void Awake()
-    {
-      
-    }
 
+    public Sprite[] FrenchTransAssetsINI;
 
+    public Image[] AssetsINIRef;
     // In this example we show how to invoke a coroutine and
     // continue executing the function in parallel.
 
     private IEnumerator coroutine;
     private int Counter = 0;
 
-    void Start()
+    void Awake()
     {
 
         //This checks if your computer's operating system is in the French language
@@ -39,6 +37,9 @@ public class MenuUI : MonoBehaviour
         {
             DataManager.currentLanguage = "French";
             DataManager.isINISet = true;
+            AssetsINIRef[0].sprite = FrenchTransAssetsINI[0];
+            AssetsINIRef[1].sprite = FrenchTransAssetsINI[1];
+            AssetsINIRef[2].sprite = FrenchTransAssetsINI[2];
             //Debug.Log("This system is in English. ");
         }
 
