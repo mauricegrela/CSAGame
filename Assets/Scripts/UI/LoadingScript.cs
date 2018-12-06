@@ -48,8 +48,8 @@ public class LoadingScript : MonoBehaviour {
         {
             //Debug.Log("TrunOn");
             GetComponent<Image>().color = On;
-            Children[0].GetComponent<Image>().color = On;
-            Children[1].GetComponent<Image>().color = On;
+            Children[0].GetComponent<Image>().color = OnSides;
+            Children[1].GetComponent<Image>().color = OnSides;
         }
         else
         {

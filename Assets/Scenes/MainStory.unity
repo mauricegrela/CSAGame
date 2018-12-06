@@ -9606,8 +9606,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 13d07759487974808824b2ac26fc4073, type: 3}
   - {fileID: 21300000, guid: 96adf477ea7fb41c0833d6357e76a2e0, type: 3}
   - {fileID: 21300000, guid: 48965e990204d468889cce8b439c24dd, type: 3}
-  Off: {r: 1, g: 1, b: 1, a: 0}
-  On: {r: 1, g: 1, b: 1, a: 1}
+  Off: {r: 0.8784314, g: 0.81960785, b: 0.67058825, a: 0}
+  On: {r: 0.8784314, g: 0.81960785, b: 0.67058825, a: 1}
   OnSides: {r: 0.87843144, g: 0.8196079, b: 0.67058825, a: 1}
   Children:
   - {fileID: 1274099571}
