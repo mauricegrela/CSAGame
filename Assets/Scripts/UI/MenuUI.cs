@@ -52,6 +52,12 @@ public class MenuUI : MonoBehaviour
         SceneManager.LoadScene("MainStory");
     }
 
+    public void LoadNewLanguage(string LeveltoLoad)
+    {
+        DataManager.currentLanguage = LeveltoLoad;
+        SceneManager.LoadScene("Menu");
+    }
+
 
     public void SkyboxTest()
     {
