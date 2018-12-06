@@ -28,6 +28,7 @@ public class LoadingScript : MonoBehaviour {
 
 	public void LoadingScreenAssigner()
 	{
+        Debug.Log("Test");
 
         if (DataManager.currentLanguage == "english")
         {
