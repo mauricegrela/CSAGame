@@ -58,10 +58,6 @@ public class MenuLanguageChange : MonoBehaviour {
 		*/
     }
 
-    // Update is called once per frame
-    void Update() {
-
-    }
 
 	public void LanguageUpdate(string Language)
     {

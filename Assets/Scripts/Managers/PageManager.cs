@@ -290,7 +290,7 @@ public class PageManager : Singleton<PageManager>
 
             if(PreviousLevelTracker != EnvironmentTracker &&PreviousLevelTracker != "None" )
             {
-            Debug.Log(PreviousLevelTracker.ToString());
+            //Debug.Log(PreviousLevelTracker.ToString());
             SceneManager.UnloadScene(PreviousLevelTracker);   
             }
                 
@@ -851,7 +851,7 @@ public class PageManager : Singleton<PageManager>
 
     IEnumerator RunSequence(AudioObject obj)
     {
-        Debug.Log(obj.clip);
+        //.Log(obj.clip);
 
         //if(audioIndex == 0)\
         if (audioIndex == 0 )

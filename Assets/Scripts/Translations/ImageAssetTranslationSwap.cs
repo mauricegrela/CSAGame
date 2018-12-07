@@ -29,11 +29,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
         }
         Debug.Log(DataManager.currentLanguage);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 
     public void FlipSwitch ()
     {
