@@ -17,7 +17,7 @@ public class ImageAnimator : MonoBehaviour {
     void Start()
     {
         OGPose = transform.position;
-		StartCoroutine("nukeMethod");
+		//StartCoroutine("nukeMethod");
         /*if (isAnimated == true)
         { 
         StartCoroutine("nukeMethod");
@@ -79,13 +79,13 @@ public class ImageAnimator : MonoBehaviour {
     {
         
         StartCoroutine("nukeMethod"); 
-        Debug.Log("Triggered");
+        //Debug.Log("Triggered");
     }
 
     void OnDisable()
     {
         StopAllCoroutines();
-        Debug.Log("Triggered");
+        //Debug.Log("Triggered");
     }
 
 }
