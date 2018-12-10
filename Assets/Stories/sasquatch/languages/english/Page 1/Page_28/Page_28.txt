@@ -5,8 +5,7 @@
 1.574622	Station!
 2.32111		///
 2.32111	David
-2.851816	Saint-
-3.102589	Jacques
+2.851816	Saint-Jacques	
 3.478749	waved
 3.758682	to
 3.889901	them
