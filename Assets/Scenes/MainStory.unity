@@ -5281,7 +5281,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.27450982, g: 0.58431375, b: 0.6, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.3372549, g: 0.72156864, b: 0.7411765, a: 1}
     m_PressedColor: {r: 0.27450982, g: 0.58431375, b: 0.6, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -5460,13 +5460,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ce livre \xE9lectronique est fourni par l'Agence spatiale canadienne\n\nCarlin
-    Pharm: \nHistoire originale: Steve Bocska\nDirection artistique: Martin Bae\nConsultants
-    d'histoire: Craig Dixon, Kristina Dixon, Jodi Regts\n\n\xC9coles rivales:\nProducteur:
-    David Lam\n\xC9crivain: Terry Dee, Marilyn Thomas\nDirecteur artistique / UX:
-    Terry Dee\nD\xE9veloppeur Unity: Maurice Grela\nIllustrateur: Audrey Kare\nCom\xE9dien
-    anglais: Michelle Dyan Whitehead\nActeur de voix fran\xE7aise: Linda Laplante\nTraduction
-    fran\xE7aise: Rome Lavrencic + B\xE9atrice Bigras"
+  m_Text: "Ce livre \xE9lectronique est fourni offert par l'Agence spatiale canadienne\n\nCarlin
+    Pug Pharm\nHistoire originale: Steve Bocska\nDirection artistique: Martin Bae\nConsultants
+    d'histoire: Craig Dixon, Kristina Dixon, Jodi Regts\n\n\xC9coles rivales Rival
+    Schools\nProducteur: David Lam\n\xC9crivain: Terry Dee, Marilyn Thomas\nDirecteur
+    artistique / UX: Terry Dee\nD\xE9veloppeur Unity: Maurice Grela\nIllustrateur:
+    Audrey Kare\nCom\xE9dien anglais Voix anglaise: Michelle Dyan Whitehead\nActeur
+    de voix fran\xE7aise Voix fran\xE7aise: Linda Laplante\nTraduction fran\xE7aise:
+    Rome Lavrencic et + B\xE9atrice Bigras"
 --- !u!222 &1264038966
 CanvasRenderer:
   m_ObjectHideFlags: 0
