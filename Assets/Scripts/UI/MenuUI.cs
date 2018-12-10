@@ -43,7 +43,7 @@ public class MenuUI : MonoBehaviour
             //Debug.Log("This system is in English. ");
         }
 
-
+        //DataManager.LoadStory(DataManager.currentStoryName, "0");
     }
 
     public void StartGame(string LeveltoLoad)
