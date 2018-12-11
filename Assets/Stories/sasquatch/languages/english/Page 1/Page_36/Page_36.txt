@@ -9,8 +9,7 @@
 2.650273	explorers
 3.322786	looked
 3.581349	up
-3.747924	at
-            the
+3.747924	at the 
 3.899581	night
 4.35331	sky,
 4.905243	now
