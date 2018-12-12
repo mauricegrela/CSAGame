@@ -27,7 +27,7 @@ public class SentenceRowContainer : MonoBehaviour
 
 
 
-    public Color HighlightedColor = Color.red;
+    public Color HighlightedColor = Color.white;
 
 
     //Color.TryParseHexString("#d8314d", out HighlightedColor);
@@ -77,7 +77,7 @@ public class SentenceRowContainer : MonoBehaviour
 
 				SentenceRow currentRow = rows [rowIndex];
 				WordText newText = currentRow.AddText (word);
-
+                newText.text.color = NormalColor;
 				//wordClone.GetComponent<Button> ().color.normalColor = Color.cyan;
 
 				//To enforce the layout to rebuild, which makes the horizontal layoutgroup resize
@@ -123,7 +123,7 @@ public class SentenceRowContainer : MonoBehaviour
         {
             if (text.wordGroup == wordGroup && PageManagerRefScript.IsReadingAlong == 1.0f)
             {
-                text.text.color = HighlightedColor;
+                text.text.color = NormalColor;
                 //Debug.Log(text.text);
             }
             else

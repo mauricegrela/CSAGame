@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 1fdd1792365ef4321bffaf2552369073
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/c8ac8b1e1b0ca40579dbe30657eb2a3a
+    path: 
     guid: c8ac8b1e1b0ca40579dbe30657eb2a3a
+  - enabled: 1
+    path: Assets/Scenes/MainStory.unity
+    guid: 6844ce2bb51054a1d951bfd76e21c56b
   - enabled: 1
     path: Assets/Scenes/Accelerometer_Test.unity
     guid: 17ffb632ad6c14f1989b9c2382f0a6a9

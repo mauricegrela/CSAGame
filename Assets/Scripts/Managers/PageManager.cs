@@ -927,11 +927,11 @@ public class PageManager : Singleton<PageManager>
 
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
             //sentenceContainer.HighlightWordGroup(wordGroup);
-                foreach (SentenceRowContainer Child in sentenceContainer)
+                /*foreach (SentenceRowContainer Child in sentenceContainer)
                 {
                     if (Child != null)
                     Child.HighlightWordGroup(wordGroup);
-                }
+                }*/
 
             //We calculate it like this because the times given are actually absolute times, not times per word
             //float waitTime = wordGroup.time;
