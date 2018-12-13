@@ -1633,6 +1633,56 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 198585707737817924, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198585707737817924, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198817334619058906, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.ctime2
+      value: 65150
+      objectReference: {fileID: 0}
+    - target: {fileID: 198817334619058906, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198817334619058906, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198179307705513886, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198179307705513886, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198720272539987646, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198720272539987646, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198720272539987646, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: InitialModule.startColor.maxGradient.key2.b
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c89b38a65e6942c2a9893ed63545764, type: 2}
   m_IsPrefabParent: 0
