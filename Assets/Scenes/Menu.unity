@@ -1529,7 +1529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: French
+  m_Text: Francais
 --- !u!222 &1651699301
 CanvasRenderer:
   m_ObjectHideFlags: 0
