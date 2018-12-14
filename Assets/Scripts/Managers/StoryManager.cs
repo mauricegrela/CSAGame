@@ -369,27 +369,20 @@ public class StoryManager : MonoBehaviour {
 
                 GameObject[] AnimRef = GameObject.FindGameObjectsWithTag("LoadPageAnim");
 
-                foreach (GameObject child in AnimRef)
-                {
-                    if (child.gameObject.GetComponent<SpriteRenderer>())
-                    {
-                        child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
-                    }
+	                foreach (GameObject child in AnimRef)
+	                {
+	                    if (child.gameObject.GetComponent<SpriteRenderer>())
+	                    {
+	                        child.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+	                    }
 
-                    if (child.gameObject.GetComponent<Animator>())
-                    {
-                        child.gameObject.GetComponent<Animator>().enabled = true;
-                    }
-                }
-
-
+	                    if (child.gameObject.GetComponent<Animator>())
+	                    {
+	                        child.gameObject.GetComponent<Animator>().enabled = true;
+	                    }
+	                }
                 isPanningRight = false;
-
-
-
                 PageManager.GetComponent<PageManager>().SetUpNewTextFoward();
-
-
                 }
         }
 

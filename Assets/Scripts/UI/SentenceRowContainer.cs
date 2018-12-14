@@ -119,12 +119,14 @@ public class SentenceRowContainer : MonoBehaviour
 
     public void HighlightWordGroup(WordGroupObject wordGroup)
     {
+		
         foreach (WordText text in texts)
         {
+			Debug.Log(text.text);
             if (text.wordGroup == wordGroup && PageManagerRefScript.IsReadingAlong == 1.0f)
             {
                 text.text.color = NormalColor;
-                //Debug.Log(text.text);
+                Debug.Log(text.text);
             }
             else
             {
