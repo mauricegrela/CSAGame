@@ -21,7 +21,8 @@ public class MenuUI : MonoBehaviour
     private IEnumerator coroutine;
     private int Counter = 0;
 
-
+	public GameObject English_Button;
+	public GameObject French_Button;
 
     void Awake()
     {
@@ -31,21 +32,19 @@ public class MenuUI : MonoBehaviour
         {
             DataManager.currentLanguage = "english";
             DataManager.isINISet = true;
-            //Outputs into console that the system is French
-            //Debug.Log("This system is in French. ");
         }
         //Otherwise, if the system is English, output the message in the console
         else if (Application.systemLanguage == SystemLanguage.French && DataManager.isINISet == false)
         {
+			Vector3 English_Button_Pos = English_Button.transform.position;
+			Vector3 French_Button_Pos = French_Button.transform.position;
+			English_Button.transform.position = French_Button_Pos;
+			French_Button.transform.position = English_Button_Pos;
             DataManager.currentLanguage = "French";
             DataManager.isINISet = true;
             AssetsINIRef[0].sprite = FrenchTransAssetsINI[0];
             AssetsINIRef[1].sprite = FrenchTransAssetsINI[1];
-            AssetsINIRef[2].sprite = FrenchTransAssetsINI[2];
-            //Debug.Log("This system is in English. ");
         }
-
-        //DataManager.LoadStory(DataManager.currentStoryName, "0");
     }
 
     public void StartGame(string LeveltoLoad)
