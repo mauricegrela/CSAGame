@@ -97,7 +97,8 @@ public class PageManager : Singleton<PageManager>
     //Audio Vars
     [SerializeField]
     private AudioClip[] OST; 
-
+	[SerializeField]
+	private AudioClip PageDone;
     //Debuging Vars
     public GameObject Scenetext;
 
@@ -984,6 +985,12 @@ public class PageManager : Singleton<PageManager>
             if (Child != null)
             Child.HighlightWordGroup(null);
         }*/
+
+		if (isAutoChapterSkip == 0) {
+			
+			audioSource.clip = PageDone;
+			audioSource.Play ();
+		}
 
         if(isAutoChapterSkip ==1 && audioIndex != 38)
         {

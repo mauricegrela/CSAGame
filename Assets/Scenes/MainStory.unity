@@ -6674,7 +6674,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 919223772}
         m_MethodName: ReturnToMainMenu
         m_Mode: 1
         m_Arguments:
@@ -7858,6 +7858,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: daf8663e7d924464fbe941be6d761e72, type: 3}
   - {fileID: 8300000, guid: daf8663e7d924464fbe941be6d761e72, type: 3}
   - {fileID: 8300000, guid: daf8663e7d924464fbe941be6d761e72, type: 3}
+  PageDone: {fileID: 8300000, guid: adcd340a38b4e474584828f6ab7ff7d9, type: 3}
   Scenetext: {fileID: 2139804641}
   ScenetextContainer: {fileID: 919223766}
 --- !u!4 &2054599092
