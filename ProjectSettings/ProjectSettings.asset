@@ -154,11 +154,11 @@ PlayerSettings:
     Android: com.rs.bbtscenetest
     Standalone: unity.DefaultCompany.BBT Test
     Tizen: com.rs.bbtscenetest
-    iOS: explorersclub.csa.gc.ca
+    iOS: ca.csa.explorersclub
     tvOS: com.rs.bbtscenetest
   buildNumber:
     Standalone: 1.6.2
-    iOS: 0.5.8
+    iOS: 1.0.0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
@@ -239,17 +239,17 @@ PlayerSettings:
   iOSLaunchScreenCustomStoryboardPath: 
   iOSDeviceRequirements: []
   iOSURLSchemes: []
-  iOSBackgroundModes: 32
+  iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 0
   metalAPIValidation: 1
   iOSRenderExtraFrameOnPause: 1
-  appleDeveloperTeamID: maurice.grela@gmail.com
+  appleDeveloperTeamID: david@rivalschoolsonline.com
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
   iOSManualSigningProvisioningProfileType: 2
   tvOSManualSigningProvisioningProfileType: 0
-  appleEnableAutomaticSigning: 2
+  appleEnableAutomaticSigning: 1
   iOSRequireARKit: 0
   appleEnableProMotion: 0
   clonedFromGUID: 00000000000000000000000000000000
