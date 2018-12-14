@@ -1778,6 +1778,8 @@ MonoBehaviour:
   - {fileID: 825625981}
   - {fileID: 389069181}
   - {fileID: 1800415569}
+  English_Button: {fileID: 973955932}
+  French_Button: {fileID: 1464304612}
 --- !u!114 &1845271213
 MonoBehaviour:
   m_ObjectHideFlags: 0

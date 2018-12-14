@@ -924,7 +924,7 @@ public class PageManager : Singleton<PageManager>
 
 		while (i < obj.sentence.wordGroups.Count)//(i < obj.sentence.wordGroups.Count)
         {
-			Debug.Log ("Wokring");
+			
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
             //sentenceContainer.HighlightWordGroup(wordGroup);
                 /*foreach (SentenceRowContainer Child in sentenceContainer)
@@ -940,7 +940,13 @@ public class PageManager : Singleton<PageManager>
             float waitTime = wordGroup.time;
             if (prevWordGroup != null && i > 1)
             {
-                waitTime -= prevWordGroup.time;
+				if (i == obj.sentence.wordGroups.Count - 1) {
+					waitTime = 1.5f;
+					Debug.Log ("WordLength"+waitTime.ToString());
+				} else {
+					
+					waitTime -= prevWordGroup.time;
+				}
             }
                 if (i == 1)
                 {
