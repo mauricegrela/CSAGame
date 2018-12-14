@@ -309,7 +309,7 @@ Animator:
   m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 0c7c9025049e249bdb77cca9b3ce4cba, type: 2}
-  m_CullingMode: 2
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -1775,7 +1775,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: c6ccc17ede12945dfacdd4c4ab37ccc4, type: 3}
   PanningPageSong2: {fileID: 0}
-  Volume: 0.15
+  Volume: 0.1
 --- !u!4 &1786498410
 Transform:
   m_ObjectHideFlags: 0
