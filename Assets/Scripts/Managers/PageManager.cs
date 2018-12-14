@@ -922,9 +922,9 @@ public class PageManager : Singleton<PageManager>
 
         WordGroupObject prevWordGroup = null;
 
-        while (i < obj.sentence.wordGroups.Count)
+		while (i < obj.sentence.wordGroups.Count)//(i < obj.sentence.wordGroups.Count)
         {
-
+			Debug.Log ("Wokring");
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
             //sentenceContainer.HighlightWordGroup(wordGroup);
                 /*foreach (SentenceRowContainer Child in sentenceContainer)
@@ -973,11 +973,11 @@ public class PageManager : Singleton<PageManager>
         }
         //Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
-        foreach (SentenceRowContainer Child in sentenceContainer)
+        /*foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if (Child != null)
             Child.HighlightWordGroup(null);
-        }
+        }*/
 
         if(isAutoChapterSkip ==1 && audioIndex != 38)
         {
