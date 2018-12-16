@@ -39,15 +39,15 @@ public class MenuChapterManager : MonoBehaviour {
 
     public void FrenchStructure()
     {
-        for (int i = 0; i < ButtonDescriptionText.Length-1; i++)
+        for (int i = 0; i <= ButtonDescriptionText.Length-1; i++)
         {
             ButtonDescriptionText[i].text = Translations[i];//.ToString();
-            //Debug.Log (transform.GetChild(i).name);
+			Debug.Log (ButtonDescriptionText[i].text);
         }
         buttons[0].GetComponent<Outline>().enabled = false;
         buttons[1].GetComponent<Outline>().enabled = true;
-        buttons[2].GetComponent<Outline>().enabled = false;
-        buttons[3].GetComponent<Outline>().enabled = true;
+        //buttons[2].GetComponent<Outline>().enabled = false;
+        //buttons[3].GetComponent<Outline>().enabled = true;
     }
 
 

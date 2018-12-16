@@ -2142,7 +2142,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Anglais
+          m_StringArgument: English
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 559984802}
@@ -2233,6 +2233,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1819620758}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\xA9 Sa Majest\xE9 la Reine du chef du Canada, repr\xE9sent\xE9e
+            par l'Agence spatiale canadienne, 2018."
           m_BoolArgument: 1
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2460,7 +2472,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: French
+  m_Text: "Fran\xE7ais"
 --- !u!222 &559984803
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3793,6 +3805,7 @@ MonoBehaviour:
   - {fileID: 470924545}
   - {fileID: 1210577401}
   - {fileID: 388879095}
+  - {fileID: 1819620758}
   Translations:
   - Narrateur muet
   - Lisez-moi
@@ -3803,6 +3816,8 @@ MonoBehaviour:
   - "En savoir plus sur la mission de l\u2019astronaute de l\u2019Agence spatiale
     canadienne David Saint-Jacques"
   - "\xC9crivez ici"
+  - "\xA9 Sa Majest\xE9 la Reine du chef du Canada, repr\xE9sent\xE9e par l'Agence
+    spatiale canadienne, 2018."
   buttons:
   - {fileID: 1097418461}
   - {fileID: 522785420}
@@ -4756,7 +4771,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 'French '
+          m_StringArgument: "Fran\xE7ais "
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1230931943}
@@ -4836,6 +4851,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1819620758}
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: "\xA9 Her Majesty the Queen in right of Canada, represented
+            by the Canadian Space Agency, 2018."
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
