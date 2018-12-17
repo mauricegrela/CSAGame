@@ -942,8 +942,11 @@ public class PageManager : Singleton<PageManager>
             if (prevWordGroup != null && i > 1)
             {
 				if (i == obj.sentence.wordGroups.Count - 1) {
-					waitTime = 1.5f;
-					Debug.Log ("WordLength"+waitTime.ToString());
+					if (audioIndex == 38) {
+						waitTime = 3.5f;
+					} else {
+						waitTime = 1.5f;
+					}
 				} else {
 					
 					waitTime -= prevWordGroup.time;
