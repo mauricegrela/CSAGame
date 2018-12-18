@@ -1529,7 +1529,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Francais
+  m_Text: "Fran\xE7ais"
 --- !u!222 &1651699301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1780,6 +1780,8 @@ MonoBehaviour:
   - {fileID: 1800415569}
   English_Button: {fileID: 973955932}
   French_Button: {fileID: 1464304612}
+  English_Button_Pos: {x: 0, y: 0, z: 0}
+  French_Button_Pos: {x: 0, y: 0, z: 0}
 --- !u!114 &1845271213
 MonoBehaviour:
   m_ObjectHideFlags: 0
