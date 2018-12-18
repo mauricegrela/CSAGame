@@ -929,11 +929,11 @@ public class PageManager : Singleton<PageManager>
 			
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
             //sentenceContainer.HighlightWordGroup(wordGroup);
-                /*foreach (SentenceRowContainer Child in sentenceContainer)
+                foreach (SentenceRowContainer Child in sentenceContainer)
                 {
                     if (Child != null)
                     Child.HighlightWordGroup(wordGroup);
-                }*/
+                }
 
             //We calculate it like this because the times given are actually absolute times, not times per word
             //float waitTime = wordGroup.time;
@@ -950,15 +950,11 @@ public class PageManager : Singleton<PageManager>
 						waitTime = 3.0f;
 						//Debug.Log ("Working");
 					}
-					else {
-
-						/*if (DataManager.currentLanguage == "French") {
-							waitTime = obj.clip.length-wordGroup.time;
-							Debug.Log ("Working");
-						} else {*/
-							waitTime = 1.5f;
-						//}
-					}
+						else
+						{
+						waitTime = obj.clip.length-wordGroup.time;
+						Debug.Log (waitTime);
+						}
 				} else {
 					
 					waitTime -= prevWordGroup.time;
@@ -993,11 +989,11 @@ public class PageManager : Singleton<PageManager>
         }
         //Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
-        /*foreach (SentenceRowContainer Child in sentenceContainer)
+        foreach (SentenceRowContainer Child in sentenceContainer)
         {
             if (Child != null)
             Child.HighlightWordGroup(null);
-        }*/
+        }
 
 		if (isAutoChapterSkip == 0) {
 			
