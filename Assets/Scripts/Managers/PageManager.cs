@@ -944,7 +944,11 @@ public class PageManager : Singleton<PageManager>
 				if (i == obj.sentence.wordGroups.Count - 1) {
 					if (audioIndex == 38) {
 						waitTime = 3.5f;
-					} else {
+					} 
+					else if (audioIndex == 23) {
+						waitTime = 2.0f;
+					}
+					else {
 						waitTime = 1.5f;
 					}
 				} else {

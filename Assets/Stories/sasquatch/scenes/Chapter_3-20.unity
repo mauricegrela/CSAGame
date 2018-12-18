@@ -1383,7 +1383,7 @@ MonoBehaviour:
   Page37Panning: {fileID: 0}
   PageSong: {fileID: 8300000, guid: f68f3a598ba4f4627a5ae922c3a538a1, type: 3}
   PanningPageSong2: {fileID: 0}
-  Volume: 0.1
+  Volume: 0.3
 --- !u!4 &1103330673
 Transform:
   m_ObjectHideFlags: 0
