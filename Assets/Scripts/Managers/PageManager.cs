@@ -28,6 +28,7 @@ public class PageManager : Singleton<PageManager>
             return currentStory.pageObjects[pageIndex];
         }
     }
+
     //PageKeepers
     private int pageIndex;
     public int audioIndex;
@@ -946,10 +947,17 @@ public class PageManager : Singleton<PageManager>
 						waitTime = 3.5f;
 					} 
 					else if (audioIndex == 23) {
-						waitTime = 2.0f;
+						waitTime = 3.0f;
+						//Debug.Log ("Working");
 					}
 					else {
-						waitTime = 1.5f;
+
+						/*if (DataManager.currentLanguage == "French") {
+							waitTime = obj.clip.length-wordGroup.time;
+							Debug.Log ("Working");
+						} else {*/
+							waitTime = 1.5f;
+						//}
 					}
 				} else {
 					
@@ -970,8 +978,6 @@ public class PageManager : Singleton<PageManager>
             {
                 waitTime = 4.0f;
             }
-
-
 
             yield return new WaitForSecondsRealtime(waitTime);
             if (audioIndex == 36 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 2)
@@ -995,8 +1001,8 @@ public class PageManager : Singleton<PageManager>
 
 		if (isAutoChapterSkip == 0) {
 			
-			audioSource.clip = PageDone;
-			audioSource.Play ();
+			//audioSource.clip = PageDone;
+			//audioSource.Play ();
 		}
 
         if(isAutoChapterSkip ==1 && audioIndex != 38)
@@ -1046,11 +1052,7 @@ public class PageManager : Singleton<PageManager>
     public void ChangeTextStyle(Slider newTextStyle)
     {
         Debug.Log("newTextStyle" + newTextStyle.value);
-        //audioSource.volume = newTextStyle.value;
-        //ScentenceContainer.GetComponent<SentenceRowContainer>().ReadAlongOn = newTextStyle.value;
-
         isAutoChapterSkip = newTextStyle.value; 
-
         if(newTextStyle.value == 1.0f)
         {
         NextButton.SetActive(false);
