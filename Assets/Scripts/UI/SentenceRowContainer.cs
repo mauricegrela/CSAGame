@@ -122,27 +122,22 @@ public class SentenceRowContainer : MonoBehaviour
 		
         foreach (WordText text in texts)
         {
-			Debug.Log(text.text);
+			//Debug.Log(text.text);
             if (text.wordGroup == wordGroup && PageManagerRefScript.IsReadingAlong == 1.0f)
             {
-                text.text.color = NormalColor;
-                Debug.Log(text.text);
+				text.text.color = HighlightedColor;
+                Debug.Log(text.text.text);
             }
-            else
-            {
-                text.text.color = NormalColor;
-            }
+	            else
+	            {
+	                text.text.color = NormalColor;
+	            }
         }
     }
 
     public void OnTextButton(WordText clickedText)
     {
 		Definition.GetComponent<Canvas> ().enabled = true;
-		//Definition.GetComponentInChildren<Text>().text = clickedText.text.text;
-		//Definition.GetComponentInChildren<DefinitionRenderer> ().SetUpText (clickedText.text.text);
-
-		//Debug.Log(clickedText.text.text);
-		//Definition.GetComponent<Canvas>().enable = true;
         foreach (WordText text in texts)
         {
             if (text.wordGroup == clickedText.wordGroup)

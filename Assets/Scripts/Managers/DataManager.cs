@@ -28,6 +28,8 @@ public class DataManager
     {
         UnloadAssetBundle();
 
+		Debug.Log (CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString()));
+
         ///Debug.Log("Story loaded");
 		SceneRefCounter = 0;
 
@@ -45,7 +47,7 @@ public class DataManager
 		CurrentAssetPackage = packageToLoad.ToString ();
 
 		//AssetStreamingCounter++;
-        Debug.Log (CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString()));
+        //Debug.Log (CombinePaths(Application.streamingAssetsPath, storyName, currentLanguage.ToLower() + "_" + packageToLoad.ToString()));
 			
         if (myLoadedAssetBundle == null)
         {

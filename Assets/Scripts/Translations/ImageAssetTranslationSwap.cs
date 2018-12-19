@@ -27,7 +27,7 @@ public class ImageAssetTranslationSwap : MonoBehaviour {
             //Debug.Log("This system is in English. ");
             GetComponent<Image>().sprite = fr_asset;
         }
-        Debug.Log(DataManager.currentLanguage);
+        //Debug.Log(DataManager.currentLanguage);
 	}
 
 
