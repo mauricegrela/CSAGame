@@ -1683,6 +1683,46 @@ Prefab:
       propertyPath: InitialModule.startColor.maxGradient.key2.b
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 198993374235818868, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.minScalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198818021969652872, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.minScalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198468202014029074, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.minScalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198192260390402926, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.minScalar
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198993374235818868, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 198818021969652872, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 198468202014029074, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 198192260390402926, guid: 8c89b38a65e6942c2a9893ed63545764,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c89b38a65e6942c2a9893ed63545764, type: 2}
   m_IsPrefabParent: 0
