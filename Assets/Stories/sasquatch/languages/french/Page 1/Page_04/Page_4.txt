@@ -1,19 +1,30 @@
-0.171474	Quand j’étais
-0.718559	un petit garçon,
-2.221001	je rêvais
-2.653769	de l’espace
-3.535637	et des vaisseaux
-4.254196	spatiaux.
-5.136064	///
-5.136064	À l’époque,
-6.050593	cela me paraissait
-7.308072	impossible,
-8.614543	mais me voici
-9.471914	aujourd’hui
-9.953675	dans l'espace.
-11.423455	Ayez
-11.864389	un rêve,
-12.803415	voyez grand
-14.052728	et vous pourrez décrocher la Lune!
+0.171474	Quand
+0.483642	j’étais
+0.767156	un petit
+0.958945	garçon,
+2.234758	je rêvais
+2.885173	de l’espace
+3.652329	et
+3.819102	de vaisseaux
+4.119293	spatiaux.
+5.245011	///
+5.245011	À l’époque,
+6.237311	cela
+6.404084	me paraissait
+7.112869	impossible,
+8.580472	mais
+8.755583	me
+8.872324	voici
+9.114145	aujourd’hui
+9.547755	dans
+9.697851	l'espace.
+11.448967	Ayez
+11.807529	un rêve,
+12.841522	voyez
+13.175068	grand
+14.052728	et vous
+14.292447	pourrez
+14.701041	décrocher
+15.026249	la Lune!
 16.339052	Osez
-17.359732	explorer!
+17.344394	explorer!

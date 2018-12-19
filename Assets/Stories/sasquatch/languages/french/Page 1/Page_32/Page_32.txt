@@ -1,3 +1,8 @@
-0.150835	Ils filent à
-0.79062	toute allure
-1.186436	vers la Terre...
+0.149823	Ils
+0.482876	filent
+0.601317	à
+0.798719	toute
+1.101402	allure
+1.309939	vers
+1.432429	la
+1.671336	Terre,

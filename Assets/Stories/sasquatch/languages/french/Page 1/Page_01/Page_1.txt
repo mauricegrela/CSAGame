@@ -1,11 +1,28 @@
-0.122874	Voici le Club des explorateurs :
+0.118749	Voici
+0.445307	le
+0.718429	Club
+0.884677	des explorateurs:
 2.267033	Niko,
 3.07186	Layla,
 3.8644	Mathias
-4.564785	et Gemma,
-5.775097	sans oublier leur
-6.764237	petit chiot curieux,
+4.619322	et Gemma,
+5.771183	sans
+6.115554	oublier
+6.453988	leur
+6.764237	petit
+7.113043	chiot
+7.433664	curieux,
 8.244873	Chewie.
-9.458258	C’est le chien le plus aventureux de l’Univers,
-12.066268	ou du moins,
-12.874167	de son quartier.
+9.464266	C’est
+9.773012	le
+9.91551	chien
+10.164882	le
+10.289569	plus
+10.491441	aventureux
+10.942686	de
+11.138621	l’Univers,
+12.058923	ou
+12.231109	du moins,
+12.874167	de
+13.044537	son
+13.305784	quartier.
