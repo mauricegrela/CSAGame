@@ -953,7 +953,7 @@ public class PageManager : Singleton<PageManager>
 						else
 						{
 						waitTime = obj.clip.length-wordGroup.time;
-						Debug.Log (waitTime);
+						//Debug.Log (waitTime);
 							/*if (isAutoChapterSkip == 1) {
 							waitTime += 0.5;
 							}*/

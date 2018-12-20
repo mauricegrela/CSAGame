@@ -28,9 +28,9 @@ public class LoadingScript : MonoBehaviour {
 
 	public void LoadingScreenAssigner()
 	{
-        Debug.Log("Test");
+      
 
-        if (DataManager.currentLanguage == "english")
+        if (DataManager.currentLanguage == "English")
         {
             GetComponent<Image>().sprite = loadingscreens[Random.Range(0, loadingscreens.Length - 1)];
         }
@@ -40,7 +40,7 @@ public class LoadingScript : MonoBehaviour {
             GetComponent<Image>().sprite = loadingscreens_FR[Random.Range(0, loadingscreens.Length - 1)];
         }
 
-		
+		Debug.Log(DataManager.currentLanguage);
 	}
 
     public void VisualToggle(bool Switch)
