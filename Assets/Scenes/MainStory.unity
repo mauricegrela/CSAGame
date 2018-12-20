@@ -1045,7 +1045,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e853d9000f0b047e2bda35a1611dc8fe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 441c8531cc5d14b7ca90ad556bae26e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1628,7 +1628,7 @@ Prefab:
         type: 2}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e853d9000f0b047e2bda35a1611dc8fe,
+      objectReference: {fileID: 21300000, guid: 441c8531cc5d14b7ca90ad556bae26e0,
         type: 3}
     - target: {fileID: 114751684859933958, guid: 054bfaae36d06432b85dfa57220caf5b,
         type: 2}
@@ -1862,6 +1862,27 @@ Prefab:
         type: 2}
       propertyPath: BootColNames.Array.data[2]
       value: green
+      objectReference: {fileID: 0}
+    - target: {fileID: 114096026069943422, guid: 054bfaae36d06432b85dfa57220caf5b,
+        type: 2}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 12f128fa2853d459d9abd5cd065a2146,
+        type: 3}
+    - target: {fileID: 114096026069943422, guid: 054bfaae36d06432b85dfa57220caf5b,
+        type: 2}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114096026069943422, guid: 054bfaae36d06432b85dfa57220caf5b,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 114096026069943422, guid: 054bfaae36d06432b85dfa57220caf5b,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 054bfaae36d06432b85dfa57220caf5b, type: 2}
