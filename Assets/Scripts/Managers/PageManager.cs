@@ -947,13 +947,20 @@ public class PageManager : Singleton<PageManager>
 						waitTime = 3.5f;
 					} 
 					else if (audioIndex == 23) {
-						waitTime = 3.0f;
-						//Debug.Log ("Working");
+						if (DataManager.currentLanguage == "French") {
+							waitTime = obj.clip.length-wordGroup.time;
+							Debug.Log ("Working");
+						} else {
+							waitTime = 0.5f;
+						}
+
+
+						//waitTime = obj.clip.length-wordGroup.time;
 					}
 						else
 						{
 						waitTime = obj.clip.length-wordGroup.time;
-						//Debug.Log (waitTime);
+						Debug.Log (waitTime);
 							/*if (isAutoChapterSkip == 1) {
 							waitTime += 0.5;
 							}*/
