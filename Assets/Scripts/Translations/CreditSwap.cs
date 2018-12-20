@@ -22,11 +22,13 @@ public class CreditSwap : MonoBehaviour {
 	{
 		if(DataManager.currentLanguage == "French")
 		{
-			En_Credits.SetActive(true);
+			En_Credits.SetActive(false);
+			Fr_Credits.SetActive(true);
 		}
 		else
 		{
-			Fr_Credits.SetActive(true);
+			Fr_Credits.SetActive(false);
+			En_Credits.SetActive(true);
 		}
 	}
 }
