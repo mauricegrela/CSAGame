@@ -475,7 +475,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "This e-book is provided by the Canadian Space Agency\n\nPug Pharm: \nOriginal
+  m_Text: "This e-book was developed by the Canadian Space Agency.\n\nPug Pharm: \nOriginal
     Story: Steve Bocska\nArt Direction: Martin Bae\nStory Consultants: Craig Dixon,
     Kristina Dixon, Jodi Regts\n\nRival Schools:\nProducer: David Lam\nWriter: Terry
     Dee, Marilyn Thomas\nUX / Art Director: Terry Dee\nProgramer: Maurice Grela\nIllustrator:
@@ -5934,14 +5934,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ce livre \xE9lectronique est fourni offert par l'Agence spatiale canadienne\n\nCarlin
-    Pug Pharm\nHistoire originale: Steve Bocska\nDirection artistique: Martin Bae\nConsultants
-    d'histoire: Craig Dixon, Kristina Dixon, Jodi Regts\n\n\xC9coles rivales Rival
+  m_Text: "Ce livre num\xE9rique a \xE9t\xE9 d\xE9velopp\xE9 par l'Agence spatiale
+    canadienne.\n\nPug Pharm\nHistoire originale: Steve Bocska\nDirection artistique:
+    Martin Bae\nConsultants d'histoire: Craig Dixon, Kristina Dixon, Jodi Regts\n\nRival
     Schools\nProducteur: David Lam\n\xC9crivain: Terry Dee, Marilyn Thomas\nDirecteur
-    artistique / UX: Terry Dee\nProgrammeur: Maurice Grela\nIllustrateur: Audrey Kare\nCom\xE9dien
-    anglais Voix anglaise: Michelle Dyan Whitehead\nActeur de voix fran\xE7aise Voix
-    fran\xE7aise: Linda Laplante\nTraduction fran\xE7aise: Rome Lavrencic et + B\xE9atrice
-    Bigras"
+    artistique / UX: Terry Dee\nProgrammeur: Maurice Grela\nIllustrateur: Audrey Kare\nVoix
+    anglaise: Michelle Dyan Whitehead\nVoix fran\xE7aise: Linda Laplante\nTraduction
+    fran\xE7aise: Rome Lavrencic et B\xE9atrice Bigras"
 --- !u!222 &1264038966
 CanvasRenderer:
   m_ObjectHideFlags: 0

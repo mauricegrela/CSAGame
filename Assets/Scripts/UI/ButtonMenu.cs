@@ -18,7 +18,7 @@ public class ButtonMenu : MonoBehaviour {
         Debug.Log(DataManager.currentLanguage);
         if(DataManager.currentLanguage == "english")
         {
-            Application.OpenURL("http://asc-csa.gc.ca/eng/missions/expedition58-59");    
+            Application.OpenURL("http://asc-csa.gc.ca/eng/missions/expedition58/default.asp");    
         }
             else
             {
