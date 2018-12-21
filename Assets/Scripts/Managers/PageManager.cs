@@ -939,9 +939,10 @@ public class PageManager : Singleton<PageManager>
             //float waitTime = wordGroup.time;
             i++;
             //We calculate it like this because the times given are actually absolute times, not times per word
-            float waitTime = wordGroup.time;
+            float waitTime = 0.0f;
             if (prevWordGroup != null && i > 1)
             {
+				 waitTime = wordGroup.time;
 				//Debug.Log ("page:"+audioIndex);
 				if (i == obj.sentence.wordGroups.Count - 1) {
 					if (audioIndex == 38) {
@@ -952,13 +953,13 @@ public class PageManager : Singleton<PageManager>
 					}
 					else if (audioIndex == 9) {
 						waitTime = obj.clip.length-wordGroup.time;
-						waitTime += 0.5f;
+						//waitTime += 0.5f;
 					}
 					else if (audioIndex == 14) {
 						Debug.Log ("currentLanguage:"+DataManager.currentLanguage);
 						if (DataManager.currentLanguage == "english") {
 							waitTime = obj.clip.length - wordGroup.time;
-							waitTime += 1.5f;
+							//waitTime += 1.5f;
 						}
 					}
 					else if (audioIndex == 23) {
