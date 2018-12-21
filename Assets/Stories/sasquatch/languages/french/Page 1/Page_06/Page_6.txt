@@ -2,7 +2,7 @@
 0.96628	la
 1.127326	télévision
 1.96353	s’éteint
-2.589134	bbrusquement.
+2.589134	brusquement.
 3.988671	///
 3.988671	Hé!
 4.862369	Qu’est-ce

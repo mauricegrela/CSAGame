@@ -1,7 +1,7 @@
 3.656778	Tout
 4.072091	à coup,
 4.806485	le silence
-5.521033	tombe
+5.521033	tombe.
 6.857725	///
 6.857725	Les
 7.024863	enfants
