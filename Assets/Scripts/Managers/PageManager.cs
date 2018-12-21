@@ -942,25 +942,37 @@ public class PageManager : Singleton<PageManager>
             float waitTime = wordGroup.time;
             if (prevWordGroup != null && i > 1)
             {
+				//Debug.Log ("page:"+audioIndex);
 				if (i == obj.sentence.wordGroups.Count - 1) {
 					if (audioIndex == 38) {
 						waitTime = 3.5f;
 					} 
+					else if (audioIndex == 4) {
+						waitTime = obj.clip.length-wordGroup.time;
+					}
+					else if (audioIndex == 9) {
+						waitTime = obj.clip.length-wordGroup.time;
+						waitTime += 0.5f;
+					}
+					else if (audioIndex == 14) {
+						Debug.Log ("currentLanguage:"+DataManager.currentLanguage);
+						if (DataManager.currentLanguage == "english") {
+							waitTime = obj.clip.length - wordGroup.time;
+							waitTime += 1.5f;
+						}
+					}
 					else if (audioIndex == 23) {
 						if (DataManager.currentLanguage == "French") {
 							waitTime = obj.clip.length-wordGroup.time;
-							Debug.Log ("Working");
+							//Debug.Log ("Working");
 						} else {
-							waitTime = 0.5f;
+							waitTime = obj.clip.length-wordGroup.time;
 						}
-
-
-						//waitTime = obj.clip.length-wordGroup.time;
 					}
 						else
 						{
 						waitTime = obj.clip.length-wordGroup.time;
-						Debug.Log (waitTime);
+						//Debug.Log (waitTime);
 							/*if (isAutoChapterSkip == 1) {
 							waitTime += 0.5;
 							}*/
