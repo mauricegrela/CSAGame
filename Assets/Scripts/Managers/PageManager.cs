@@ -939,13 +939,18 @@ public class PageManager : Singleton<PageManager>
                     }     
                 }
 
+            float waitTime = wordGroup.time;
+
             if (audioIndex == 13 && i ==0)
             {
-            i++;
+
+                WordGroupObject wordGroupnext = obj.sentence.wordGroups[i+1];
+                waitTime =    wordGroupnext.time - wordGroup.time;
+               
             }
 
             //We calculate it like this because the times given are actually absolute times, not times per word
-                float waitTime = wordGroup.time;
+               
                 if (prevWordGroup != null && i > 1)
                 {
                     if (i == obj.sentence.wordGroups.Count - 1)
