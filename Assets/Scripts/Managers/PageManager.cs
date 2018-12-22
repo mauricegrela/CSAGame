@@ -938,9 +938,14 @@ public class PageManager : Singleton<PageManager>
                     Child.HighlightWordGroup(wordGroup);
                     }     
                 }
-            
+
+            if (audioIndex == 13 && i ==0)
+            {
+            i++;
+            }
+
             //We calculate it like this because the times given are actually absolute times, not times per word
-            float waitTime = wordGroup.time;
+                float waitTime = wordGroup.time;
                 if (prevWordGroup != null && i > 1)
                 {
                     if (i == obj.sentence.wordGroups.Count - 1)
