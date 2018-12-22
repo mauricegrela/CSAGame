@@ -24,4 +24,5 @@
 12.231109	ou
 12.874167	du moins,
 13.044537	de
-13.305784	son quartier.
+13.305784	son
+13.311111	quartier.
