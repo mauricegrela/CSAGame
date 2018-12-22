@@ -880,18 +880,18 @@ public class PageManager : Singleton<PageManager>
 
         //Scenetext.GetComponent<Text>().text = obj.clip.name;
 
-            /*else
-            {
-            Debug.LogErrorFormat("Unable to read the audio from folder {0}. " +
-            "Please ensure an audio file is in the folder, and it's set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
-            }
-
-        if (obj.sentence == null)
+        /*else
         {
-            Debug.LogErrorFormat("Unable to read the text from folder {0}. " +
-            "Please ensure a text file is in the folder, and it's  set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
-            yield break;
-        }*/
+        Debug.LogErrorFormat("Unable to read the audio from folder {0}. " +
+        "Please ensure an audio file is in the folder, and it's set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
+        }
+
+    if (obj.sentence == null)
+    {
+        Debug.LogErrorFormat("Unable to read the text from folder {0}. " +
+        "Please ensure a text file is in the folder, and it's  set to the assetbundle {1}.", obj.name, DataManager.currentStoryName);
+        yield break;
+    }*/
 
         //float PreviousWordTime =0;
         /*foreach (WordGroupObject wordGroup in obj.sentence.wordGroups)
@@ -919,97 +919,60 @@ public class PageManager : Singleton<PageManager>
                 }
         }*/
 
+        if (obj.clip != null)
+        {
+            audioSource.clip = obj.clip;
+            audioSource.Play();
+        }
+
         //highlight the proper wordgroups
         int i = 0;
-
         WordGroupObject prevWordGroup = null;
-
-		while (i < obj.sentence.wordGroups.Count)//(i < obj.sentence.wordGroups.Count)
+        while (i < obj.sentence.wordGroups.Count)
         {
-			
             WordGroupObject wordGroup = obj.sentence.wordGroups[i];
-            //sentenceContainer.HighlightWordGroup(wordGroup);
                 foreach (SentenceRowContainer Child in sentenceContainer)
                 {
                     if (Child != null)
+                    {
                     Child.HighlightWordGroup(wordGroup);
+                    }     
                 }
-
-            //We calculate it like this because the times given are actually absolute times, not times per word
-            //float waitTime = wordGroup.time;
             i++;
             //We calculate it like this because the times given are actually absolute times, not times per word
-            float waitTime = 0.0f;
-            if (prevWordGroup != null && i > 1)
-            {
-				 waitTime = wordGroup.time;
-				//Debug.Log ("page:"+audioIndex);
-				if (i == obj.sentence.wordGroups.Count - 1) {
-					if (audioIndex == 38) {
-						waitTime = 3.5f;
-					} 
-					else if (audioIndex == 4) {
-						waitTime = obj.clip.length-wordGroup.time;
-					}
-					else if (audioIndex == 9) {
-						waitTime = obj.clip.length-wordGroup.time;
-						//waitTime += 0.5f;
-					}
-					else if (audioIndex == 14) {
-						Debug.Log ("currentLanguage:"+DataManager.currentLanguage);
-						if (DataManager.currentLanguage == "english") {
-							waitTime = obj.clip.length - wordGroup.time;
-							//waitTime += 1.5f;
-						}
-					}
-					else if (audioIndex == 23) {
-						if (DataManager.currentLanguage == "French") {
-							waitTime = obj.clip.length-wordGroup.time;
-							//Debug.Log ("Working");
-						} else {
-							waitTime = obj.clip.length-wordGroup.time;
-						}
-					}
-						else
-						{
-						waitTime = obj.clip.length-wordGroup.time;
-						//Debug.Log (waitTime);
-							/*if (isAutoChapterSkip == 1) {
-							waitTime += 0.5;
-							}*/
-						}
-				} else {
-					
-					waitTime -= prevWordGroup.time;
-				}
-            }
-                if (i == 1)
+            float waitTime = wordGroup.time;
+                if (prevWordGroup != null && i > 1)
                 {
-                    if (obj.clip != null)
+                    if (i == obj.sentence.wordGroups.Count - 1)
                     {
-                        audioSource.clip = obj.clip;
-                        audioSource.Play();
+                        waitTime = obj.clip.length - wordGroup.time;
                     }
-
+                        else
+                        {
+                        waitTime -= prevWordGroup.time;
+                        }
+                    
                 }
 
-            if (audioIndex == 37 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 1)
-            {
-                waitTime = 4.0f;
-            }
+                if (audioIndex == 37 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 1)
+                {
+                    waitTime = 4.0f;
+                }
 
-            yield return new WaitForSecondsRealtime(waitTime);
-            if (audioIndex == 36 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 2)
-            {
+            yield return new WaitForSeconds(waitTime);
+                if (audioIndex == 36 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 2)
+                {
 
-                Debug.Log(audioIndex + "///" + StoryManager.GetComponent<StoryManager>().pagesPerScene);
-                NextButton.SetActive(true);
-                BackButton.SetActive(true);
-                isAutoChapterSkip = 0;
-            }
+                    Debug.Log(audioIndex + "///" + StoryManager.GetComponent<StoryManager>().pagesPerScene);
+                    NextButton.SetActive(true);
+                    BackButton.SetActive(true);
+                    isAutoChapterSkip = 0;
+                }
             prevWordGroup = wordGroup;
-
         }
+        //EffectedRow.HighlightWordGroup(null);
+    
+		
         //Debug.Log("PointReached");
         //sentenceContainer.HighlightWordGroup(null);
         foreach (SentenceRowContainer Child in sentenceContainer)
