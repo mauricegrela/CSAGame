@@ -938,7 +938,7 @@ public class PageManager : Singleton<PageManager>
                     Child.HighlightWordGroup(wordGroup);
                     }     
                 }
-            i++;
+            
             //We calculate it like this because the times given are actually absolute times, not times per word
             float waitTime = wordGroup.time;
                 if (prevWordGroup != null && i > 1)
@@ -958,7 +958,7 @@ public class PageManager : Singleton<PageManager>
                 {
                     waitTime = 4.0f;
                 }
-
+            i++;
             yield return new WaitForSeconds(waitTime);
                 if (audioIndex == 36 && StoryManager.GetComponent<StoryManager>().pagesPerScene == 2)
                 {
